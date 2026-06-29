@@ -1,0 +1,1479 @@
+[
+  {
+    "name": "亮出你的剑",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1134-08f73f42c331.webp",
+    "id": "1134",
+    "slug": "draw-your-sword"
+  },
+  {
+    "name": "暴击飞弹",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1356-3566e9bbfc74.webp",
+    "id": "1356",
+    "slug": "critical-missile"
+  },
+  {
+    "name": "钢化你心",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1152-f0afe9fbefbd.webp",
+    "id": "1152",
+    "slug": "steel-your-heart"
+  },
+  {
+    "name": "坦克引擎",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1353-96cd2b5f1a85.webp",
+    "id": "1353",
+    "slug": "tank-engine"
+  },
+  {
+    "name": "高压锅",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2102-3136e7ff4ae9.webp",
+    "id": "2102",
+    "slug": "pressure-cooker"
+  },
+  {
+    "name": "升级：无尽之刃",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1336-7d08546d92fe.webp",
+    "id": "1336",
+    "slug": "upgrade-infinity-edge"
+  },
+  {
+    "name": "双刀流",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1225-7c5854a917ac.webp",
+    "id": "1225",
+    "slug": "dual-wield"
+  },
+  {
+    "name": "重量级打击手",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1051-c923b145ea6c.webp",
+    "id": "1051",
+    "slug": "heavy-hitter"
+  },
+  {
+    "name": "超凡邪恶",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1390-263748d5970f.webp",
+    "id": "1390",
+    "slug": "phenomenal-evil"
+  },
+  {
+    "name": "艾卡西亚的陷落",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1361-febb476905dd.webp",
+    "id": "1361",
+    "slug": "icathia-s-fall"
+  },
+  {
+    "name": "歌利亚巨人",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1041-b2b91f0912c6.webp",
+    "id": "1041",
+    "slug": "goliath"
+  },
+  {
+    "name": "炼狱导管",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1045-40203c3fc476.webp",
+    "id": "1045",
+    "slug": "infernal-conduit"
+  },
+  {
+    "name": "双发快射",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2010-9bb40379ed60.webp",
+    "id": "2010",
+    "slug": "double-tap"
+  },
+  {
+    "name": "术士果汁盒",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2132-3fd8980d2044.webp",
+    "id": "2132",
+    "slug": "warlock-juicebox"
+  },
+  {
+    "name": "无限循环往复",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1388-560cdb27eeee.webp",
+    "id": "1388",
+    "slug": "infinite-recursion"
+  },
+  {
+    "name": "尤里卡",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1030-c03597a281e6.webp",
+    "id": "1030",
+    "slug": "eureka"
+  },
+  {
+    "name": "巨人杀手",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1195-72a258b9286f.webp",
+    "id": "1195",
+    "slug": "giant-slayer"
+  },
+  {
+    "name": "飞身踢",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2006-58fec06acaf5.webp",
+    "id": "2006",
+    "slug": "dropkick"
+  },
+  {
+    "name": "灵魂虹吸",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1077-33c024dd6549.webp",
+    "id": "1077",
+    "slug": "soul-siphon"
+  },
+  {
+    "name": "回归基本功",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1004-42403ef02d24.webp",
+    "id": "1004",
+    "slug": "back-to-basics"
+  },
+  {
+    "name": "升级：献祭",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1319-c51562575434.webp",
+    "id": "1319",
+    "slug": "upgrade-immolate"
+  },
+  {
+    "name": "灵巧",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1022-241c29405e6e.webp",
+    "id": "1022",
+    "slug": "deft"
+  },
+  {
+    "name": "魔法飞弹",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1133-0f0b9a53433a.webp",
+    "id": "1133",
+    "slug": "magic-missile"
+  },
+  {
+    "name": "叠角龙",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1204-ed4166e4c487.webp",
+    "id": "1204",
+    "slug": "stackosaurus-rex"
+  },
+  {
+    "name": "会心防御",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1080-223f1979a134.webp",
+    "id": "1080",
+    "slug": "tank-it-or-leave-it"
+  },
+  {
+    "name": "更万用的瞄准镜",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1071-8b9be6987fb5.webp",
+    "id": "1071",
+    "slug": "scopier-weapons"
+  },
+  {
+    "name": "风语者的祝福",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1095-3aee21f96bed.webp",
+    "id": "1095",
+    "slug": "windspeaker-s-blessing"
+  },
+  {
+    "name": "喂呜喂呜",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1005-684d4c611b40.webp",
+    "id": "1005",
+    "slug": "wee-woo-wee-woo"
+  },
+  {
+    "name": "连拨击锤",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1220-2d3e2b42d4a6.webp",
+    "id": "1220",
+    "slug": "fan-the-hammer"
+  },
+  {
+    "name": "咏叹奏鸣",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1420-24ace0bc3d47.webp",
+    "id": "1420",
+    "slug": "sonata"
+  },
+  {
+    "name": "星界躯体",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1013-b6b167943ae8.webp",
+    "id": "1013",
+    "slug": "celestial-body"
+  },
+  {
+    "name": "虚幻武器",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1029-85d35e582f0e.webp",
+    "id": "1029",
+    "slug": "ethereal-weapon"
+  },
+  {
+    "name": "大力",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1007-168768b7012a.webp",
+    "id": "1007",
+    "slug": "blunt-force"
+  },
+  {
+    "name": "踢踏舞",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1081-4af3a7858cc1.webp",
+    "id": "1081",
+    "slug": "tap-dancer"
+  },
+  {
+    "name": "质变：棱彩阶",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1238-6e78234be09b.webp",
+    "id": "1238",
+    "slug": "transmute-prismatic"
+  },
+  {
+    "name": "珠光护手",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1048-8d33db8c000c.webp",
+    "id": "1048",
+    "slug": "jeweled-gauntlet"
+  },
+  {
+    "name": "沃格勒特的巫师帽",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1154-447211ec4142.webp",
+    "id": "1154",
+    "slug": "wooglet-s-witchcap"
+  },
+  {
+    "name": "暴击律动",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1322-34dcab0287d4.webp",
+    "id": "1322",
+    "slug": "critical-rhythm"
+  },
+  {
+    "name": "急急小子",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1098-7839026fd879.webp",
+    "id": "1098",
+    "slug": "with-haste"
+  },
+  {
+    "name": "渴血",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1138-417d32eaac48.webp",
+    "id": "1138",
+    "slug": "goredrink"
+  },
+  {
+    "name": "掷骰狂人",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2095-480d2cf4f4a1.webp",
+    "id": "2095",
+    "slug": "high-roller"
+  },
+  {
+    "name": "冰寒",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1044-2f8c1c6de240.webp",
+    "id": "1044",
+    "slug": "ice-cold"
+  },
+  {
+    "name": "秘术冲拳",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1058-1feea45add44.webp",
+    "id": "1058",
+    "slug": "mystic-punch"
+  },
+  {
+    "name": "点亮他们！",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1051-c923b145ea6c.webp",
+    "id": "1051",
+    "slug": "light-em-up"
+  },
+  {
+    "name": "由心及物",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1056-6fb9bbb1a68e.webp",
+    "id": "1056",
+    "slug": "mind-to-matter"
+  },
+  {
+    "name": "双生火焰",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1415-c7127a8fece9.webp",
+    "id": "1415",
+    "slug": "twin-fire"
+  },
+  {
+    "name": "逃跑计划",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1333-9eff6bba93bd.webp",
+    "id": "1333",
+    "slug": "escape-plan"
+  },
+  {
+    "name": "地形专家",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1084-1abd522ed11d.webp",
+    "id": "1084",
+    "slug": "terrain-d"
+  },
+  {
+    "name": "大师铸就",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2127-522f02e641d8.webp",
+    "id": "2127",
+    "slug": "forged-by-the-master"
+  },
+  {
+    "name": "巫师式思考",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1097-005d768fc91f.webp",
+    "id": "1097",
+    "slug": "witchful-thinking"
+  },
+  {
+    "name": "最万用的瞄准镜",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1115-665ef52efb72.webp",
+    "id": "1115",
+    "slug": "scopiest-weapons"
+  },
+  {
+    "name": "超强大脑",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1180-46b896cec79e.webp",
+    "id": "1180",
+    "slug": "big-brain"
+  },
+  {
+    "name": "缩小引擎",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1373-16e62f369437.webp",
+    "id": "1373",
+    "slug": "shrink-engine"
+  },
+  {
+    "name": "灵魄炸弹",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2104-4db39d60a754.webp",
+    "id": "2104",
+    "slug": "spirit-bomb"
+  },
+  {
+    "name": "牙仙子",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2083-b7d80c5f4592.webp",
+    "id": "2083",
+    "slug": "tooth-fairy"
+  },
+  {
+    "name": "扇巴掌",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1136-bd2d1b5f5543.webp",
+    "id": "1136",
+    "slug": "slap-around"
+  },
+  {
+    "name": "科学狂人",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1053-c185b5f1c528.webp",
+    "id": "1053",
+    "slug": "mad-scientist"
+  },
+  {
+    "name": "魔法转物理",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1205-fe7d90854892.webp",
+    "id": "1205",
+    "slug": "escapade"
+  },
+  {
+    "name": "升级：中娅",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1318-bd7a21a15200.webp",
+    "id": "1318",
+    "slug": "upgrade-zhonya-s"
+  },
+  {
+    "name": "家园卫士",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1105-9a0f82e58cd7.webp",
+    "id": "1105",
+    "slug": "homeguard"
+  },
+  {
+    "name": "老练狙神",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1113-8910396a68ed.webp",
+    "id": "1113",
+    "slug": "skilled-sniper"
+  },
+  {
+    "name": "邦！",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1415-c7127a8fece9.webp",
+    "id": "1415",
+    "slug": "bonk"
+  },
+  {
+    "name": "狂徒豪气",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1063-27b73104bb3e.webp",
+    "id": "1063",
+    "slug": "outlaw-s-grit"
+  },
+  {
+    "name": "台风",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1087-1d3f63fd3f97.webp",
+    "id": "1087",
+    "slug": "typhoon"
+  },
+  {
+    "name": "万用瞄准镜",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1170-b4ea52687a3b.webp",
+    "id": "1170",
+    "slug": "scoped-weapons"
+  },
+  {
+    "name": "捐赠",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1384-792c2cf1a685.webp",
+    "id": "1384",
+    "slug": "donation"
+  },
+  {
+    "name": "升级：收集者",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1320-033701109847.webp",
+    "id": "1320",
+    "slug": "upgrade-collector"
+  },
+  {
+    "name": "神射法师",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1129-9d4d2e84cadf.webp",
+    "id": "1129",
+    "slug": "marksmage"
+  },
+  {
+    "name": "纯粹主义者 - 术师",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2018-4b9d22aa53d6.webp",
+    "id": "2018",
+    "slug": "purist-caster"
+  },
+  {
+    "name": "大法师",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1030-c03597a281e6.webp",
+    "id": "1030",
+    "slug": "archmage"
+  },
+  {
+    "name": "易损",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1092-93a3b5472bb5.webp",
+    "id": "1092",
+    "slug": "vulnerability"
+  },
+  {
+    "name": "海洋龙魂",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1060-5ed09133b26d.webp",
+    "id": "1060",
+    "slug": "ocean-soul"
+  },
+  {
+    "name": "狙神飞星",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2103-d58c53d9ccb5.webp",
+    "id": "2103",
+    "slug": "from-downtown"
+  },
+  {
+    "name": "质变：黄金阶",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1237-205bd656203c.webp",
+    "id": "1237",
+    "slug": "transmute-gold"
+  },
+  {
+    "name": "有始有终",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1038-0fc727999a84.webp",
+    "id": "1038",
+    "slug": "from-beginning-to-end"
+  },
+  {
+    "name": "侵蚀",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1028-e6207ae91527.webp",
+    "id": "1028",
+    "slug": "erosion"
+  },
+  {
+    "name": "最终形态",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1344-8a2bf73902ae.webp",
+    "id": "1344",
+    "slug": "final-form"
+  },
+  {
+    "name": "急救用具",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1037-02e68449bd4a.webp",
+    "id": "1037",
+    "slug": "first-aid-kit"
+  },
+  {
+    "name": "溢流",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1311-fcd74cd75b56.webp",
+    "id": "1311",
+    "slug": "overflow"
+  },
+  {
+    "name": "小小的额外帮助",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp",
+    "id": "1103",
+    "slug": "lil-extra-help"
+  },
+  {
+    "name": "升级：耀光",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1996-5c26fe8c7f61.webp",
+    "id": "1996",
+    "slug": "upgrade-sheen"
+  },
+  {
+    "name": "狂热者",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2009-4bc6a1f07837.webp",
+    "id": "2009",
+    "slug": "zealot"
+  },
+  {
+    "name": "属性叠属性！",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1403-b6c3340bdf80.webp",
+    "id": "1403",
+    "slug": "stats-on-stats"
+  },
+  {
+    "name": "循环往复",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1068-d7373ca18f10.webp",
+    "id": "1068",
+    "slug": "recursion"
+  },
+  {
+    "name": "练腿日",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1305-3b99d4ae496f.webp",
+    "id": "1305",
+    "slug": "leg-day"
+  },
+  {
+    "name": "天音爆",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1076-2c903dafb4ed.webp",
+    "id": "1076",
+    "slug": "sonic-boom"
+  },
+  {
+    "name": "关键暴击",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1047-fe6b5e08d5b1.webp",
+    "id": "1047",
+    "slug": "it-s-critical"
+  },
+  {
+    "name": "吞噬灵魂",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1375-22f1182561bb.webp",
+    "id": "1375",
+    "slug": "soul-eater"
+  },
+  {
+    "name": "黎明使者的坚决",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1020-dddf8306eb02.webp",
+    "id": "1020",
+    "slug": "dawnbringer-s-resolve"
+  },
+  {
+    "name": "炽燃利息",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2128-74dcb000561c.webp",
+    "id": "2128",
+    "slug": "combusting-interest"
+  },
+  {
+    "name": "旋转至胜",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1022-241c29405e6e.webp",
+    "id": "1022",
+    "slug": "spin-to-win"
+  },
+  {
+    "name": "全心为你",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1141-e0c758bd4036.webp",
+    "id": "1141",
+    "slug": "all-for-you"
+  },
+  {
+    "name": "急速之追求",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp",
+    "id": "1103",
+    "slug": "pursuit-of-haste"
+  },
+  {
+    "name": "罪恶快感",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1322-34dcab0287d4.webp",
+    "id": "1322",
+    "slug": "get-excited"
+  },
+  {
+    "name": "全能龙魂",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1062-3ea098967750.webp",
+    "id": "1062",
+    "slug": "omni-soul"
+  },
+  {
+    "name": "残忍",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1323-c27d039b8ccc.webp",
+    "id": "1323",
+    "slug": "cruelty"
+  },
+  {
+    "name": "物理转魔法",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1205-fe7d90854892.webp",
+    "id": "1205",
+    "slug": "adapt"
+  },
+  {
+    "name": "尊我为王",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1337-3f2e5bd0cc39.webp",
+    "id": "1337",
+    "slug": "king-me"
+  },
+  {
+    "name": "物法皆修",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1054-a48cab6f6581.webp",
+    "id": "1054",
+    "slug": "master-of-duality"
+  },
+  {
+    "name": "暗影疾奔",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1073-6e7c98bb3df9.webp",
+    "id": "1073",
+    "slug": "shadow-runner"
+  },
+  {
+    "name": "生机迸发",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1401-8ffe7ee3f109.webp",
+    "id": "1401",
+    "slug": "growth-spurt"
+  },
+  {
+    "name": "威能之追求",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1129-9d4d2e84cadf.webp",
+    "id": "1129",
+    "slug": "pursuit-of-power"
+  },
+  {
+    "name": "质变：混沌",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1243-c6104428a8f3.webp",
+    "id": "1243",
+    "slug": "transmute-chaos"
+  },
+  {
+    "name": "男爵之手",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1389-275e3904a51d.webp",
+    "id": "1389",
+    "slug": "hand-of-baron"
+  },
+  {
+    "name": "唯快不破",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1026-257f7e1f7e25.webp",
+    "id": "1026",
+    "slug": "don-t-blink"
+  },
+  {
+    "name": "空投熊",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2031-17400cb59f7f.webp",
+    "id": "2031",
+    "slug": "dropbear"
+  },
+  {
+    "name": "不祥契约",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1332-4c80ef893ad9.webp",
+    "id": "1332",
+    "slug": "ominous-pact"
+  },
+  {
+    "name": "吃过路兵",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1019-c5f4cf9a715a.webp",
+    "id": "1019",
+    "slug": "en-passant"
+  },
+  {
+    "name": "信念者的强化",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2004-a6fd0a2e3c1a.webp",
+    "id": "2004",
+    "slug": "empowered-by-the-faithful"
+  },
+  {
+    "name": "保持坚定",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp",
+    "id": "2073",
+    "slug": "stay-resolute"
+  },
+  {
+    "name": "火狐",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1308-16abc04fa3ef.webp",
+    "id": "1308",
+    "slug": "firefox"
+  },
+  {
+    "name": "贪欲束缚",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2077-f1ce15f36e3f.webp",
+    "id": "2077",
+    "slug": "ravenous-bind"
+  },
+  {
+    "name": "快中求稳",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1315-24c1cfebda13.webp",
+    "id": "1315",
+    "slug": "swift-and-safe"
+  },
+  {
+    "name": "终极唤醒",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1349-e008b9bbd38a.webp",
+    "id": "1349",
+    "slug": "ultimate-awakening"
+  },
+  {
+    "name": "巨像的勇气",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1018-0e2980268816.webp",
+    "id": "1018",
+    "slug": "courage-of-the-colossus"
+  },
+  {
+    "name": "尖端发明家",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1002-d142d16c0c92.webp",
+    "id": "1002",
+    "slug": "apex-inventor"
+  },
+  {
+    "name": "全凭身法",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1019-c5f4cf9a715a.webp",
+    "id": "1019",
+    "slug": "dashing"
+  },
+  {
+    "name": "海克斯科技龙魂",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1046-bded617e894d.webp",
+    "id": "1046",
+    "slug": "hextech-soul"
+  },
+  {
+    "name": "杀戮时间到了",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1211-596ca1eb581a.webp",
+    "id": "1211",
+    "slug": "it-s-killing-time"
+  },
+  {
+    "name": "由暴生急",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2024-93058094fbdf.webp",
+    "id": "2024",
+    "slug": "crit-n-cast"
+  },
+  {
+    "name": "无尽大杀四方",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1061-d4c0dbc5e79b.webp",
+    "id": "1061",
+    "slug": "endless-decimation"
+  },
+  {
+    "name": "闪现向前",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1116-fe256fb33af3.webp",
+    "id": "1116",
+    "slug": "flashy"
+  },
+  {
+    "name": "炼狱龙魂",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1046-bded617e894d.webp",
+    "id": "1046",
+    "slug": "infernal-soul"
+  },
+  {
+    "name": "哎哟，我的硬币！",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2089-4a0eabda77bf.webp",
+    "id": "2089",
+    "slug": "yowch-my-coins"
+  },
+  {
+    "name": "回力OK镖",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1061-d4c0dbc5e79b.webp",
+    "id": "1061",
+    "slug": "ok-boomerang"
+  },
+  {
+    "name": "防护面纱",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1034-9a95a7145819.webp",
+    "id": "1034",
+    "slug": "veil-of-warding"
+  },
+  {
+    "name": "炽烈黎明",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1072-ab80487c97b7.webp",
+    "id": "1072",
+    "slug": "searing-dawn"
+  },
+  {
+    "name": "面包和奶酪",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp",
+    "id": "1103",
+    "slug": "bread-and-cheese"
+  },
+  {
+    "name": "属性！",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1404-b251a43581e2.webp",
+    "id": "1404",
+    "slug": "stats"
+  },
+  {
+    "name": "回响施放",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp",
+    "id": "2054",
+    "slug": "echo-cast"
+  },
+  {
+    "name": "精怪魔法",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1194-a65278f9617c.webp",
+    "id": "1194",
+    "slug": "fey-magic"
+  },
+  {
+    "name": "过量延伸者",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2119-b1efaadccef7.webp",
+    "id": "2119",
+    "slug": "overextender"
+  },
+  {
+    "name": "至高天诺言",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1331-6dc4610f4cd6.webp",
+    "id": "1331",
+    "slug": "empyrean-promise"
+  },
+  {
+    "name": "别停止引导",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2131-74666f932154.webp",
+    "id": "2131",
+    "slug": "don-t-change-the-channel"
+  },
+  {
+    "name": "神圣干预",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1301-b1d9a494852d.webp",
+    "id": "1301",
+    "slug": "divine-intervention"
+  },
+  {
+    "name": "战争交响乐",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1079-575cd66550df.webp",
+    "id": "1079",
+    "slug": "symphony-of-war"
+  },
+  {
+    "name": "夺金",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1335-78a8a4f9b630.webp",
+    "id": "1335",
+    "slug": "goldrend"
+  },
+  {
+    "name": "面包和黄油",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp",
+    "id": "1103",
+    "slug": "bread-and-butter"
+  },
+  {
+    "name": "穿针引线",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1084-1abd522ed11d.webp",
+    "id": "1084",
+    "slug": "thread-the-needle"
+  },
+  {
+    "name": "终极刷新",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1088-ac32cc704f45.webp",
+    "id": "1088",
+    "slug": "ultimate-revolution"
+  },
+  {
+    "name": "面包和果酱",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp",
+    "id": "1103",
+    "slug": "bread-and-jam"
+  },
+  {
+    "name": "仁慈打击",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp",
+    "id": "1103",
+    "slug": "mercy-s-strike"
+  },
+  {
+    "name": "火上浇油",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1036-dadd1473f5a5.webp",
+    "id": "1036",
+    "slug": "firebrand"
+  },
+  {
+    "name": "属性叠属性叠属性！",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1402-8028816da7b3.webp",
+    "id": "1402",
+    "slug": "stats-on-stats-on-stats"
+  },
+  {
+    "name": "海牛阿福的勇士",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1154-447211ec4142.webp",
+    "id": "1154",
+    "slug": "urf-s-champion"
+  },
+  {
+    "name": "超负荷",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp",
+    "id": "2054",
+    "slug": "overloaded"
+  },
+  {
+    "name": "史上最大雪球",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1329-475807d641fc.webp",
+    "id": "1329",
+    "slug": "biggest-snowball-ever"
+  },
+  {
+    "name": "濒死悟道",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2107-6ba1340c49fc.webp",
+    "id": "2107",
+    "slug": "hellbent"
+  },
+  {
+    "name": "注魔",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2016-b77b8c690919.webp",
+    "id": "2016",
+    "slug": "juiced"
+  },
+  {
+    "name": "死亡之环",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1015-5f7172814874.webp",
+    "id": "1015",
+    "slug": "circle-of-death"
+  },
+  {
+    "name": "泰坦的坚决",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1001-9f6c64bc0134.webp",
+    "id": "1001",
+    "slug": "titan-s-resolve"
+  },
+  {
+    "name": "终极不可阻挡",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1112-1169a9461a73.webp",
+    "id": "1112",
+    "slug": "ultimate-unstoppable"
+  },
+  {
+    "name": "咒语裂变",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp",
+    "id": "2054",
+    "slug": "spell-split"
+  },
+  {
+    "name": "心灵净化",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1345-79a4029cb262.webp",
+    "id": "1345",
+    "slug": "spiritual-purification"
+  },
+  {
+    "name": "俯冲轰炸",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1025-2850fa816355.webp",
+    "id": "1025",
+    "slug": "dive-bomber"
+  },
+  {
+    "name": "不动如山",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1149-b8d70f056428.webp",
+    "id": "1149",
+    "slug": "impassable"
+  },
+  {
+    "name": "升级：花晓之剑",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1379-549fe9cb59e6.webp",
+    "id": "1379",
+    "slug": "upgrade-sword-of-blossoming-dawn"
+  },
+  {
+    "name": "轻拍背部",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2137-99520bef1e73.webp",
+    "id": "2137",
+    "slug": "pat-on-the-back"
+  },
+  {
+    "name": "豪猪",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2139-4cecf427f3cf.webp",
+    "id": "2139",
+    "slug": "porcupine"
+  },
+  {
+    "name": "自然即是治愈",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2043-578199c820de.webp",
+    "id": "2043",
+    "slug": "nature-is-healing"
+  },
+  {
+    "name": "可靠武器",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp",
+    "id": "2073",
+    "slug": "trusty-weapon"
+  },
+  {
+    "name": "飞升仪式",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1325-758ae90b900f.webp",
+    "id": "1325",
+    "slug": "rite-of-ascension"
+  },
+  {
+    "name": "多重射击",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp",
+    "id": "2054",
+    "slug": "multishot"
+  },
+  {
+    "name": "仆从大师",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1104-0d6a7f40259a.webp",
+    "id": "1104",
+    "slug": "minionmancer"
+  },
+  {
+    "name": "虹吸",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp",
+    "id": "2073",
+    "slug": "siphon"
+  },
+  {
+    "name": "我们的治疗",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2082-602906845f2a.webp",
+    "id": "2082",
+    "slug": "our-healing"
+  },
+  {
+    "name": "利刃华尔兹",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1006-d49cd62ca534.webp",
+    "id": "1006",
+    "slug": "blade-waltz"
+  },
+  {
+    "name": "加固护盾",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp",
+    "id": "2073",
+    "slug": "bolstered"
+  },
+  {
+    "name": "山脉龙魂",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1056-6fb9bbb1a68e.webp",
+    "id": "1056",
+    "slug": "mountain-soul"
+  },
+  {
+    "name": "三重射击",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp",
+    "id": "2054",
+    "slug": "tripleshot"
+  },
+  {
+    "name": "鲨鱼诱饵",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2032-170bdda7b8d3.webp",
+    "id": "2032",
+    "slug": "shark-bait"
+  },
+  {
+    "name": "蛋白粉奶昔",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1324-d55bb38a85eb.webp",
+    "id": "1324",
+    "slug": "protein-shake"
+  },
+  {
+    "name": "前进时间到",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp",
+    "id": "2073",
+    "slug": "it-s-go-time"
+  },
+  {
+    "name": "夜狩",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1326-ff4fd7f26122.webp",
+    "id": "1326",
+    "slug": "nightstalking"
+  },
+  {
+    "name": "活力焕发",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1067-319232b62244.webp",
+    "id": "1067",
+    "slug": "rejuvenation"
+  },
+  {
+    "name": "杀意翻涌",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2026-586de91a0e54.webp",
+    "id": "2026",
+    "slug": "kill-secured"
+  },
+  {
+    "name": "你摸不到",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1011-6952ba25c6b0.webp",
+    "id": "1011",
+    "slug": "can-t-touch-this"
+  },
+  {
+    "name": "和我一起困在这里",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1413-d92b3e7abb82.webp",
+    "id": "1413",
+    "slug": "stuck-in-here-with-me"
+  },
+  {
+    "name": "自适应防护",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp",
+    "id": "2073",
+    "slug": "adaptive-ward"
+  },
+  {
+    "name": "吵闹鬼",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1034-9a95a7145819.webp",
+    "id": "1034",
+    "slug": "poltergeist"
+  },
+  {
+    "name": "扳机炼狱",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1053-c185b5f1c528.webp",
+    "id": "1053",
+    "slug": "triggered-inferno"
+  },
+  {
+    "name": "缩小射线",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1074-497ecd551943.webp",
+    "id": "1074",
+    "slug": "shrink-ray"
+  },
+  {
+    "name": "藏身草丛",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2042-f4564fd1fbdc.webp",
+    "id": "2042",
+    "slug": "hide-on-bush"
+  },
+  {
+    "name": "鲨鱼暴风",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2034-b3c18bdaf885.webp",
+    "id": "2034",
+    "slug": "shark-tempest"
+  },
+  {
+    "name": "下雪天",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2088-2b97eacc223a.webp",
+    "id": "2088",
+    "slug": "snowday"
+  },
+  {
+    "name": "潘朵拉的盒子",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/12317-d9a4d9797033.webp",
+    "id": "12317",
+    "slug": "pandora-s-box"
+  },
+  {
+    "name": "电涌力场",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1344-8a2bf73902ae.webp",
+    "id": "1344",
+    "slug": "surge-field"
+  },
+  {
+    "name": "大地苏醒",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1027-621a77f25386.webp",
+    "id": "1027",
+    "slug": "earthwake"
+  },
+  {
+    "name": "强力护盾",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1314-6e710761227a.webp",
+    "id": "1314",
+    "slug": "mighty-shield"
+  },
+  {
+    "name": "弹球",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1358-fefca0a3e5d1.webp",
+    "id": "1358",
+    "slug": "pinball"
+  },
+  {
+    "name": "惊惧",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2065-71ad3a94ed46.webp",
+    "id": "2065",
+    "slug": "terror"
+  },
+  {
+    "name": "快步",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp",
+    "id": "1103",
+    "slug": "quickstep"
+  },
+  {
+    "name": "玻璃大炮",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1325-758ae90b900f.webp",
+    "id": "1325",
+    "slug": "glass-cannon"
+  },
+  {
+    "name": "针插垫",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1079-575cd66550df.webp",
+    "id": "1079",
+    "slug": "pin-cushion"
+  },
+  {
+    "name": "转得我眩晕了",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1386-24d3f026911d.webp",
+    "id": "1386",
+    "slug": "spin-me-right-round"
+  },
+  {
+    "name": "舞会女王",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1421-fa8619be4c09.webp",
+    "id": "1421",
+    "slug": "prom-queen"
+  },
+  {
+    "name": "软弹啪叽抓",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2115-934e8021778e.webp",
+    "id": "2115",
+    "slug": "squishy-slappy-grab"
+  },
+  {
+    "name": "冰雪爆裂",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2080-647e310eebab.webp",
+    "id": "2080",
+    "slug": "snowblast"
+  },
+  {
+    "name": "会心治疗",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1118-38b06647b518.webp",
+    "id": "1118",
+    "slug": "critical-healing"
+  },
+  {
+    "name": "神圣雪球",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1392-d1d239aeff7b.webp",
+    "id": "1392",
+    "slug": "holy-snowball"
+  },
+  {
+    "name": "大招工具人",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2118-639ffe07ad6a.webp",
+    "id": "2118",
+    "slug": "ult-bot"
+  },
+  {
+    "name": "连锁反应",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp",
+    "id": "2054",
+    "slug": "chain-reaction"
+  },
+  {
+    "name": "闪光弹",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1187-6bab65908850.webp",
+    "id": "1187",
+    "slug": "flashbang"
+  },
+  {
+    "name": "闪闪现现",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1348-d70b921a3763.webp",
+    "id": "1348",
+    "slug": "flash-2"
+  },
+  {
+    "name": "位面转移",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2063-c8168405dc3e.webp",
+    "id": "2063",
+    "slug": "dimension-shift"
+  },
+  {
+    "name": "魄罗蛮冲",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2046-3cf9d306f97b.webp",
+    "id": "2046",
+    "slug": "poro-stampede"
+  },
+  {
+    "name": "复位",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp",
+    "id": "1103",
+    "slug": "snap-back"
+  },
+  {
+    "name": "双重打击",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2148-b3f53d60baa4.webp",
+    "id": "2148",
+    "slug": "double-strike"
+  },
+  {
+    "name": "王中王，靴中靴",
+    "rarity": "prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1343-4e0acaa58293.webp",
+    "id": "1343",
+    "slug": "sneakerhead"
+  },
+  {
+    "name": "主玩辅助",
+    "rarity": "silver",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2108-167ed66e75a8.webp",
+    "id": "2108",
+    "slug": "support-main"
+  },
+  {
+    "name": "装填",
+    "rarity": "gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1084-1abd522ed11d.webp",
+    "id": "1084",
+    "slug": "reload"
+  }
+]

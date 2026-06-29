@@ -1,0 +1,50 @@
+:root {
+  --bg-primary: #18152b;
+  --bg-secondary: #1e1b33;
+  --bg-card: #24203d;
+  --bg-card-hover: #2c274a;
+  --border-color: #332e52;
+  --text-primary: #ebe9f5;
+  --text-secondary: #b0acc5;
+  --text-muted: #7a7599;
+  --accent: #409eff;
+  --accent-hover: #66b1ff;
+  --accent-light: rgba(64, 158, 255, 0.1);
+  --hero-gradient-start: #1a1730;
+  --hero-gradient-end: #25214a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}

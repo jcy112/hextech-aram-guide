@@ -1,0 +1,846 @@
+[
+  {
+    "slug": "draw-your-sword",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1134-08f73f42c331.webp"
+  },
+  {
+    "slug": "critical-missile",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1356-3566e9bbfc74.webp"
+  },
+  {
+    "slug": "steel-your-heart",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1152-f0afe9fbefbd.webp"
+  },
+  {
+    "slug": "tank-engine",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1353-96cd2b5f1a85.webp"
+  },
+  {
+    "slug": "pressure-cooker",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2102-3136e7ff4ae9.webp"
+  },
+  {
+    "slug": "upgrade-infinity-edge",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1336-7d08546d92fe.webp"
+  },
+  {
+    "slug": "dual-wield",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1225-7c5854a917ac.webp"
+  },
+  {
+    "slug": "heavy-hitter",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1051-c923b145ea6c.webp"
+  },
+  {
+    "slug": "phenomenal-evil",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1390-263748d5970f.webp"
+  },
+  {
+    "slug": "icathia-s-fall",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1361-febb476905dd.webp"
+  },
+  {
+    "slug": "goliath",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1041-b2b91f0912c6.webp"
+  },
+  {
+    "slug": "infernal-conduit",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1045-40203c3fc476.webp"
+  },
+  {
+    "slug": "double-tap",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2010-9bb40379ed60.webp"
+  },
+  {
+    "slug": "warlock-juicebox",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2132-3fd8980d2044.webp"
+  },
+  {
+    "slug": "infinite-recursion",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1388-560cdb27eeee.webp"
+  },
+  {
+    "slug": "eureka",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1030-c03597a281e6.webp"
+  },
+  {
+    "slug": "giant-slayer",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1195-72a258b9286f.webp"
+  },
+  {
+    "slug": "dropkick",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2006-58fec06acaf5.webp"
+  },
+  {
+    "slug": "soul-siphon",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1077-33c024dd6549.webp"
+  },
+  {
+    "slug": "back-to-basics",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1004-42403ef02d24.webp"
+  },
+  {
+    "slug": "upgrade-immolate",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1319-c51562575434.webp"
+  },
+  {
+    "slug": "deft",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1022-241c29405e6e.webp"
+  },
+  {
+    "slug": "magic-missile",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1133-0f0b9a53433a.webp"
+  },
+  {
+    "slug": "stackosaurus-rex",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1204-ed4166e4c487.webp"
+  },
+  {
+    "slug": "tank-it-or-leave-it",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1080-223f1979a134.webp"
+  },
+  {
+    "slug": "scopier-weapons",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1071-8b9be6987fb5.webp"
+  },
+  {
+    "slug": "windspeaker-s-blessing",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1095-3aee21f96bed.webp"
+  },
+  {
+    "slug": "wee-woo-wee-woo",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1005-684d4c611b40.webp"
+  },
+  {
+    "slug": "fan-the-hammer",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1220-2d3e2b42d4a6.webp"
+  },
+  {
+    "slug": "sonata",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1420-24ace0bc3d47.webp"
+  },
+  {
+    "slug": "celestial-body",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1013-b6b167943ae8.webp"
+  },
+  {
+    "slug": "ethereal-weapon",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1029-85d35e582f0e.webp"
+  },
+  {
+    "slug": "blunt-force",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1007-168768b7012a.webp"
+  },
+  {
+    "slug": "tap-dancer",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1081-4af3a7858cc1.webp"
+  },
+  {
+    "slug": "transmute-prismatic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1238-6e78234be09b.webp"
+  },
+  {
+    "slug": "jeweled-gauntlet",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1048-8d33db8c000c.webp"
+  },
+  {
+    "slug": "wooglet-s-witchcap",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1154-447211ec4142.webp"
+  },
+  {
+    "slug": "critical-rhythm",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1322-34dcab0287d4.webp"
+  },
+  {
+    "slug": "with-haste",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1098-7839026fd879.webp"
+  },
+  {
+    "slug": "goredrink",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1138-417d32eaac48.webp"
+  },
+  {
+    "slug": "high-roller",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2095-480d2cf4f4a1.webp"
+  },
+  {
+    "slug": "ice-cold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1044-2f8c1c6de240.webp"
+  },
+  {
+    "slug": "mystic-punch",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1058-1feea45add44.webp"
+  },
+  {
+    "slug": "light-em-up",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1051-c923b145ea6c.webp"
+  },
+  {
+    "slug": "mind-to-matter",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1056-6fb9bbb1a68e.webp"
+  },
+  {
+    "slug": "twin-fire",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1415-c7127a8fece9.webp"
+  },
+  {
+    "slug": "escape-plan",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1333-9eff6bba93bd.webp"
+  },
+  {
+    "slug": "terrain-d",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1084-1abd522ed11d.webp"
+  },
+  {
+    "slug": "forged-by-the-master",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2127-522f02e641d8.webp"
+  },
+  {
+    "slug": "witchful-thinking",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1097-005d768fc91f.webp"
+  },
+  {
+    "slug": "scopiest-weapons",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1115-665ef52efb72.webp"
+  },
+  {
+    "slug": "big-brain",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1180-46b896cec79e.webp"
+  },
+  {
+    "slug": "shrink-engine",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1373-16e62f369437.webp"
+  },
+  {
+    "slug": "spirit-bomb",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2104-4db39d60a754.webp"
+  },
+  {
+    "slug": "tooth-fairy",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2083-b7d80c5f4592.webp"
+  },
+  {
+    "slug": "slap-around",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1136-bd2d1b5f5543.webp"
+  },
+  {
+    "slug": "mad-scientist",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1053-c185b5f1c528.webp"
+  },
+  {
+    "slug": "escapade",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1205-fe7d90854892.webp"
+  },
+  {
+    "slug": "upgrade-zhonya-s",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1318-bd7a21a15200.webp"
+  },
+  {
+    "slug": "homeguard",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1105-9a0f82e58cd7.webp"
+  },
+  {
+    "slug": "skilled-sniper",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1113-8910396a68ed.webp"
+  },
+  {
+    "slug": "bonk",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1415-c7127a8fece9.webp"
+  },
+  {
+    "slug": "outlaw-s-grit",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1063-27b73104bb3e.webp"
+  },
+  {
+    "slug": "typhoon",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1087-1d3f63fd3f97.webp"
+  },
+  {
+    "slug": "scoped-weapons",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1170-b4ea52687a3b.webp"
+  },
+  {
+    "slug": "donation",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1384-792c2cf1a685.webp"
+  },
+  {
+    "slug": "upgrade-collector",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1320-033701109847.webp"
+  },
+  {
+    "slug": "marksmage",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1129-9d4d2e84cadf.webp"
+  },
+  {
+    "slug": "purist-caster",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2018-4b9d22aa53d6.webp"
+  },
+  {
+    "slug": "archmage",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1030-c03597a281e6.webp"
+  },
+  {
+    "slug": "vulnerability",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1092-93a3b5472bb5.webp"
+  },
+  {
+    "slug": "ocean-soul",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1060-5ed09133b26d.webp"
+  },
+  {
+    "slug": "from-downtown",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2103-d58c53d9ccb5.webp"
+  },
+  {
+    "slug": "transmute-gold",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1237-205bd656203c.webp"
+  },
+  {
+    "slug": "from-beginning-to-end",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1038-0fc727999a84.webp"
+  },
+  {
+    "slug": "erosion",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1028-e6207ae91527.webp"
+  },
+  {
+    "slug": "final-form",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1344-8a2bf73902ae.webp"
+  },
+  {
+    "slug": "first-aid-kit",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1037-02e68449bd4a.webp"
+  },
+  {
+    "slug": "overflow",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1311-fcd74cd75b56.webp"
+  },
+  {
+    "slug": "lil-extra-help",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp"
+  },
+  {
+    "slug": "upgrade-sheen",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1996-5c26fe8c7f61.webp"
+  },
+  {
+    "slug": "zealot",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2009-4bc6a1f07837.webp"
+  },
+  {
+    "slug": "stats-on-stats",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1403-b6c3340bdf80.webp"
+  },
+  {
+    "slug": "recursion",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1068-d7373ca18f10.webp"
+  },
+  {
+    "slug": "leg-day",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1305-3b99d4ae496f.webp"
+  },
+  {
+    "slug": "sonic-boom",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1076-2c903dafb4ed.webp"
+  },
+  {
+    "slug": "it-s-critical",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1047-fe6b5e08d5b1.webp"
+  },
+  {
+    "slug": "soul-eater",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1375-22f1182561bb.webp"
+  },
+  {
+    "slug": "dawnbringer-s-resolve",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1020-dddf8306eb02.webp"
+  },
+  {
+    "slug": "combusting-interest",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2128-74dcb000561c.webp"
+  },
+  {
+    "slug": "spin-to-win",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1022-241c29405e6e.webp"
+  },
+  {
+    "slug": "all-for-you",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1141-e0c758bd4036.webp"
+  },
+  {
+    "slug": "pursuit-of-haste",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp"
+  },
+  {
+    "slug": "get-excited",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1322-34dcab0287d4.webp"
+  },
+  {
+    "slug": "omni-soul",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1062-3ea098967750.webp"
+  },
+  {
+    "slug": "cruelty",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1323-c27d039b8ccc.webp"
+  },
+  {
+    "slug": "adapt",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1205-fe7d90854892.webp"
+  },
+  {
+    "slug": "king-me",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1337-3f2e5bd0cc39.webp"
+  },
+  {
+    "slug": "master-of-duality",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1054-a48cab6f6581.webp"
+  },
+  {
+    "slug": "shadow-runner",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1073-6e7c98bb3df9.webp"
+  },
+  {
+    "slug": "growth-spurt",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1401-8ffe7ee3f109.webp"
+  },
+  {
+    "slug": "pursuit-of-power",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1129-9d4d2e84cadf.webp"
+  },
+  {
+    "slug": "transmute-chaos",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1243-c6104428a8f3.webp"
+  },
+  {
+    "slug": "hand-of-baron",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1389-275e3904a51d.webp"
+  },
+  {
+    "slug": "don-t-blink",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1026-257f7e1f7e25.webp"
+  },
+  {
+    "slug": "dropbear",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2031-17400cb59f7f.webp"
+  },
+  {
+    "slug": "ominous-pact",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1332-4c80ef893ad9.webp"
+  },
+  {
+    "slug": "en-passant",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1019-c5f4cf9a715a.webp"
+  },
+  {
+    "slug": "empowered-by-the-faithful",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2004-a6fd0a2e3c1a.webp"
+  },
+  {
+    "slug": "stay-resolute",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp"
+  },
+  {
+    "slug": "firefox",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1308-16abc04fa3ef.webp"
+  },
+  {
+    "slug": "ravenous-bind",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2077-f1ce15f36e3f.webp"
+  },
+  {
+    "slug": "swift-and-safe",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1315-24c1cfebda13.webp"
+  },
+  {
+    "slug": "ultimate-awakening",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1349-e008b9bbd38a.webp"
+  },
+  {
+    "slug": "courage-of-the-colossus",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1018-0e2980268816.webp"
+  },
+  {
+    "slug": "apex-inventor",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1002-d142d16c0c92.webp"
+  },
+  {
+    "slug": "dashing",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1019-c5f4cf9a715a.webp"
+  },
+  {
+    "slug": "hextech-soul",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1046-bded617e894d.webp"
+  },
+  {
+    "slug": "it-s-killing-time",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1211-596ca1eb581a.webp"
+  },
+  {
+    "slug": "crit-n-cast",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2024-93058094fbdf.webp"
+  },
+  {
+    "slug": "endless-decimation",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1061-d4c0dbc5e79b.webp"
+  },
+  {
+    "slug": "flashy",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1116-fe256fb33af3.webp"
+  },
+  {
+    "slug": "infernal-soul",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1046-bded617e894d.webp"
+  },
+  {
+    "slug": "yowch-my-coins",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2089-4a0eabda77bf.webp"
+  },
+  {
+    "slug": "ok-boomerang",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1061-d4c0dbc5e79b.webp"
+  },
+  {
+    "slug": "veil-of-warding",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1034-9a95a7145819.webp"
+  },
+  {
+    "slug": "searing-dawn",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1072-ab80487c97b7.webp"
+  },
+  {
+    "slug": "bread-and-cheese",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp"
+  },
+  {
+    "slug": "stats",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1404-b251a43581e2.webp"
+  },
+  {
+    "slug": "echo-cast",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp"
+  },
+  {
+    "slug": "fey-magic",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1194-a65278f9617c.webp"
+  },
+  {
+    "slug": "overextender",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2119-b1efaadccef7.webp"
+  },
+  {
+    "slug": "empyrean-promise",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1331-6dc4610f4cd6.webp"
+  },
+  {
+    "slug": "don-t-change-the-channel",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2131-74666f932154.webp"
+  },
+  {
+    "slug": "divine-intervention",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1301-b1d9a494852d.webp"
+  },
+  {
+    "slug": "symphony-of-war",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1079-575cd66550df.webp"
+  },
+  {
+    "slug": "goldrend",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1335-78a8a4f9b630.webp"
+  },
+  {
+    "slug": "bread-and-butter",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp"
+  },
+  {
+    "slug": "thread-the-needle",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1084-1abd522ed11d.webp"
+  },
+  {
+    "slug": "ultimate-revolution",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1088-ac32cc704f45.webp"
+  },
+  {
+    "slug": "bread-and-jam",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp"
+  },
+  {
+    "slug": "mercy-s-strike",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp"
+  },
+  {
+    "slug": "firebrand",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1036-dadd1473f5a5.webp"
+  },
+  {
+    "slug": "stats-on-stats-on-stats",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1402-8028816da7b3.webp"
+  },
+  {
+    "slug": "urf-s-champion",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1154-447211ec4142.webp"
+  },
+  {
+    "slug": "overloaded",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp"
+  },
+  {
+    "slug": "biggest-snowball-ever",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1329-475807d641fc.webp"
+  },
+  {
+    "slug": "hellbent",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2107-6ba1340c49fc.webp"
+  },
+  {
+    "slug": "juiced",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2016-b77b8c690919.webp"
+  },
+  {
+    "slug": "circle-of-death",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1015-5f7172814874.webp"
+  },
+  {
+    "slug": "titan-s-resolve",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1001-9f6c64bc0134.webp"
+  },
+  {
+    "slug": "ultimate-unstoppable",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1112-1169a9461a73.webp"
+  },
+  {
+    "slug": "spell-split",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp"
+  },
+  {
+    "slug": "spiritual-purification",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1345-79a4029cb262.webp"
+  },
+  {
+    "slug": "dive-bomber",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1025-2850fa816355.webp"
+  },
+  {
+    "slug": "impassable",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1149-b8d70f056428.webp"
+  },
+  {
+    "slug": "upgrade-sword-of-blossoming-dawn",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1379-549fe9cb59e6.webp"
+  },
+  {
+    "slug": "pat-on-the-back",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2137-99520bef1e73.webp"
+  },
+  {
+    "slug": "porcupine",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2139-4cecf427f3cf.webp"
+  },
+  {
+    "slug": "nature-is-healing",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2043-578199c820de.webp"
+  },
+  {
+    "slug": "trusty-weapon",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp"
+  },
+  {
+    "slug": "rite-of-ascension",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1325-758ae90b900f.webp"
+  },
+  {
+    "slug": "multishot",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp"
+  },
+  {
+    "slug": "minionmancer",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1104-0d6a7f40259a.webp"
+  },
+  {
+    "slug": "siphon",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp"
+  },
+  {
+    "slug": "our-healing",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2082-602906845f2a.webp"
+  },
+  {
+    "slug": "blade-waltz",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1006-d49cd62ca534.webp"
+  },
+  {
+    "slug": "bolstered",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp"
+  },
+  {
+    "slug": "mountain-soul",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1056-6fb9bbb1a68e.webp"
+  },
+  {
+    "slug": "tripleshot",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp"
+  },
+  {
+    "slug": "shark-bait",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2032-170bdda7b8d3.webp"
+  },
+  {
+    "slug": "protein-shake",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1324-d55bb38a85eb.webp"
+  },
+  {
+    "slug": "it-s-go-time",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp"
+  },
+  {
+    "slug": "nightstalking",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1326-ff4fd7f26122.webp"
+  },
+  {
+    "slug": "rejuvenation",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1067-319232b62244.webp"
+  },
+  {
+    "slug": "kill-secured",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2026-586de91a0e54.webp"
+  },
+  {
+    "slug": "can-t-touch-this",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1011-6952ba25c6b0.webp"
+  },
+  {
+    "slug": "stuck-in-here-with-me",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1413-d92b3e7abb82.webp"
+  },
+  {
+    "slug": "adaptive-ward",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2073-dca121ce7436.webp"
+  },
+  {
+    "slug": "poltergeist",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1034-9a95a7145819.webp"
+  },
+  {
+    "slug": "triggered-inferno",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1053-c185b5f1c528.webp"
+  },
+  {
+    "slug": "shrink-ray",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1074-497ecd551943.webp"
+  },
+  {
+    "slug": "hide-on-bush",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2042-f4564fd1fbdc.webp"
+  },
+  {
+    "slug": "shark-tempest",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2034-b3c18bdaf885.webp"
+  },
+  {
+    "slug": "snowday",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2088-2b97eacc223a.webp"
+  },
+  {
+    "slug": "pandora-s-box",
+    "imageUrl": "https://data.aramkit.com/assets/augment/12317-d9a4d9797033.webp"
+  },
+  {
+    "slug": "surge-field",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1344-8a2bf73902ae.webp"
+  },
+  {
+    "slug": "earthwake",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1027-621a77f25386.webp"
+  },
+  {
+    "slug": "mighty-shield",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1314-6e710761227a.webp"
+  },
+  {
+    "slug": "pinball",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1358-fefca0a3e5d1.webp"
+  },
+  {
+    "slug": "terror",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2065-71ad3a94ed46.webp"
+  },
+  {
+    "slug": "quickstep",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp"
+  },
+  {
+    "slug": "glass-cannon",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1325-758ae90b900f.webp"
+  },
+  {
+    "slug": "pin-cushion",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1079-575cd66550df.webp"
+  },
+  {
+    "slug": "spin-me-right-round",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1386-24d3f026911d.webp"
+  },
+  {
+    "slug": "prom-queen",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1421-fa8619be4c09.webp"
+  },
+  {
+    "slug": "squishy-slappy-grab",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2115-934e8021778e.webp"
+  },
+  {
+    "slug": "snowblast",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2080-647e310eebab.webp"
+  },
+  {
+    "slug": "critical-healing",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1118-38b06647b518.webp"
+  },
+  {
+    "slug": "holy-snowball",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1392-d1d239aeff7b.webp"
+  },
+  {
+    "slug": "ult-bot",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2118-639ffe07ad6a.webp"
+  },
+  {
+    "slug": "chain-reaction",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2054-239a69bacec0.webp"
+  },
+  {
+    "slug": "flashbang",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1187-6bab65908850.webp"
+  },
+  {
+    "slug": "flash-2",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1348-d70b921a3763.webp"
+  },
+  {
+    "slug": "dimension-shift",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2063-c8168405dc3e.webp"
+  },
+  {
+    "slug": "poro-stampede",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2046-3cf9d306f97b.webp"
+  },
+  {
+    "slug": "snap-back",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1103-a27a348f283f.webp"
+  },
+  {
+    "slug": "double-strike",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2148-b3f53d60baa4.webp"
+  },
+  {
+    "slug": "sneakerhead",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1343-4e0acaa58293.webp"
+  },
+  {
+    "slug": "support-main",
+    "imageUrl": "https://data.aramkit.com/assets/augment/2108-167ed66e75a8.webp"
+  },
+  {
+    "slug": "reload",
+    "imageUrl": "https://data.aramkit.com/assets/augment/1084-1abd522ed11d.webp"
+  }
+]
