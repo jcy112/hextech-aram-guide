@@ -12,7 +12,6 @@
       "id": "malphite-primary",
       "name": "AP法师出装",
       "type": "AP",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,54 +54,60 @@
       ],
       "augments": [
         {
-          "n": "尤里卡",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "技能加速=30%AP",
-          "d": "500AP=150技能急速"
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "技能加速=30%AP",
+          "synergyDetail": "500AP=150技能急速"
         },
         {
-          "n": "珠光护手",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "技能可暴击+175%伤害"
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "技能可暴击+175%伤害",
+          "synergyDetail": ""
         },
         {
-          "n": "回响施放",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "复制一次技能=双倍伤害"
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "复制一次技能=双倍伤害",
+          "synergyDetail": ""
         },
         {
-          "n": "钢化你心",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "心之钢300层x3倍效果"
+          "name": "钢化你心",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "心之钢300层x3倍效果",
+          "synergyDetail": ""
         },
         {
-          "n": "歌利亚巨人",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "+35%生命+15%适应之力"
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "+35%生命+15%适应之力",
+          "synergyDetail": ""
         },
         {
-          "n": "叠角龙",
-          "t": "白银",
-          "pr": "优先",
-          "sl": "S",
-          "r": "永久层数获取量+100%"
+          "name": "叠角龙",
+          "tier": "白银",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "永久层数获取量+100%",
+          "synergyDetail": ""
         },
         {
-          "n": "循环往复",
-          "t": "黄金",
-          "pr": "可选",
-          "sl": "A",
-          "r": "+60技能急速"
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "远程消耗压制血线。AOE价值极高。注意站位。",
@@ -111,25 +116,40 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "坦克",
         "法师"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     },
     {
       "id": "malph-ap",
-      "n": "AP核弹流",
-      "ty": "AP",
-      "s": "全AP装。R一头撞=脆皮蒸发",
-      "c": [
+      "tips": [
+        "R等站位密集时撞",
+        "闪现R=无法躲避",
+        "R完QE确保秒杀",
+        "有去无回"
+      ],
+      "sw": [
+        "R毁天灭地",
+        "秒脆皮"
+      ],
+      "augs": [],
+      "whenToPick": {
+        "teamNeeds": "尝试特殊/邪修玩法时选择",
+        "enemyComposition": "根据出装类型选择敌方阵容",
+        "synergies": "配合对应伤害类型的队友",
+        "avoidWhen": "敌方针对性克制"
+      },
+      "coreItems": [
         "卢登的激荡",
         "影焰",
         "虚空之杖"
       ],
-      "f": [
+      "fullItems": [
         "卢登的激荡",
         "法师之靴",
         "影焰",
@@ -137,8 +157,8 @@
         "灭世者的死亡之帽",
         "视界专注"
       ],
-      "so": "主Q副E，有R点R",
-      "sd": [
+      "skillOrder": "主Q副E，有R点R",
+      "skillDetail": [
         "Q",
         "E",
         "W",
@@ -158,28 +178,14 @@
         "W",
         "W"
       ],
-      "p": "AP石头人最经典邪修。R100%AP加成--800AP时R=1500+伤害。撞3人=4500总伤害。配合终极唤醒=开大重置技能。",
-      "tips": [
-        "R等站位密集时撞",
-        "闪现R=无法躲避",
-        "R完QE确保秒杀",
-        "有去无回"
-      ],
-      "sw": [
-        "R毁天灭地",
-        "秒脆皮"
-      ],
-      "wk": [
+      "playstyle": "AP石头人最经典邪修。R100%AP加成--800AP时R=1500+伤害。撞3人=4500总伤害。配合终极唤醒=开大重置技能。",
+      "weaknesses": [
         "有去无回",
         "没R=废物"
       ],
-      "augs": [],
-      "whenToPick": {
-        "teamNeeds": "尝试特殊/邪修玩法时选择",
-        "enemyComposition": "根据出装类型选择敌方阵容",
-        "synergies": "配合对应伤害类型的队友",
-        "avoidWhen": "敌方针对性克制"
-      }
+      "name": "AP核弹流",
+      "type": "AP",
+      "summary": "全AP装。R一头撞=脆皮蒸发"
     }
   ],
   "matchup": {

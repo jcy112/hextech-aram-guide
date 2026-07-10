@@ -12,7 +12,6 @@
       "id": "diana-primary",
       "name": "刺客出装",
       "type": "Assassin",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,54 +54,60 @@
       ],
       "augments": [
         {
-          "n": "邦！",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "Q技能+100技能急速",
-          "d": "Q从主力技能变普攻频率。核心机制质变"
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "Q技能+100技能急速",
+          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
-          "n": "秘术冲拳",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "命中减基础技能20%剩余CD"
+          "name": "秘术冲拳",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "命中减基础技能20%剩余CD",
+          "synergyDetail": ""
         },
         {
-          "n": "全凭身法",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "位移技能+175技能急速"
+          "name": "全凭身法",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "位移技能+175技能急速",
+          "synergyDetail": ""
         },
         {
-          "n": "飞身踢",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "处决低血+爆炸治疗"
+          "name": "飞身踢",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "处决低血+爆炸治疗",
+          "synergyDetail": ""
         },
         {
-          "n": "灵魂虹吸",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "A",
-          "r": "12%技能吸血"
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "A",
+          "reason": "12%技能吸血",
+          "synergyDetail": ""
         },
         {
-          "n": "战争交响乐",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "致命节奏+征服者"
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "致命节奏+征服者",
+          "synergyDetail": ""
         },
         {
-          "n": "循环往复",
-          "t": "黄金",
-          "pr": "可选",
-          "sl": "A",
-          "r": "+60技能急速"
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "等机会秒脆皮撤退。不要先手。目标ADC>法师>辅助。",
@@ -111,13 +116,14 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "战士",
         "刺客"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     }
   ],
   "matchup": {

@@ -12,7 +12,6 @@
       "id": "nasus-primary",
       "name": "坦克出装",
       "type": "Tank",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,54 +54,60 @@
       ],
       "augments": [
         {
-          "n": "邦！",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "Q技能+100技能急速",
-          "d": "Q从主力技能变普攻频率。核心机制质变"
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "Q技能+100技能急速",
+          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
-          "n": "钢化你心",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "心之钢300层x3倍效果"
+          "name": "钢化你心",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "心之钢300层x3倍效果",
+          "synergyDetail": ""
         },
         {
-          "n": "歌利亚巨人",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "+35%生命+15%适应之力"
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "+35%生命+15%适应之力",
+          "synergyDetail": ""
         },
         {
-          "n": "叠角龙",
-          "t": "白银",
-          "pr": "优先",
-          "sl": "S",
-          "r": "永久层数获取量+100%"
+          "name": "叠角龙",
+          "tier": "白银",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "永久层数获取量+100%",
+          "synergyDetail": ""
         },
         {
-          "n": "灵魂虹吸",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "A",
-          "r": "12%技能吸血"
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "A",
+          "reason": "12%技能吸血",
+          "synergyDetail": ""
         },
         {
-          "n": "战争交响乐",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "致命节奏+征服者"
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "致命节奏+征服者",
+          "synergyDetail": ""
         },
         {
-          "n": "循环往复",
-          "t": "黄金",
-          "pr": "可选",
-          "sl": "A",
-          "r": "+60技能急速"
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
@@ -111,25 +116,39 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "战士",
         "坦克"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     },
     {
       "id": "nasus-ap",
-      "n": "AP法术流(邪修)",
-      "ty": "AP",
-      "s": "E灵魂烈焰远程消耗+后期Q有伤害",
-      "c": [
+      "tips": [
+        "E减护甲让AD队友输出更高",
+        "W99%减速=对面ADC废掉",
+        "不要完全放弃Q"
+      ],
+      "sw": [
+        "前期压制强",
+        "E大范围持续伤害"
+      ],
+      "augs": [],
+      "whenToPick": {
+        "teamNeeds": "尝试特殊/邪修玩法时选择",
+        "enemyComposition": "根据出装类型选择敌方阵容",
+        "synergies": "配合对应伤害类型的队友",
+        "avoidWhen": "敌方针对性克制"
+      },
+      "coreItems": [
         "卢登的激荡",
         "恶魔之拥",
         "瑞莱的冰晶节杖"
       ],
-      "f": [
+      "fullItems": [
         "卢登的激荡",
         "法师之靴",
         "恶魔之拥",
@@ -137,8 +156,8 @@
         "虚空之杖",
         "中娅沙漏"
       ],
-      "so": "主E副W，有R点R",
-      "sd": [
+      "skillOrder": "主E副W，有R点R",
+      "skillDetail": [
         "E",
         "W",
         "Q",
@@ -158,27 +177,14 @@
         "Q",
         "Q"
       ],
-      "p": "AP狗头经典邪修。放弃Q叠层专注E消耗。E灼烧+减护甲。兰德里+恶魔双重灼烧。后期Q仍有伤害。",
-      "tips": [
-        "E减护甲让AD队友输出更高",
-        "W99%减速=对面ADC废掉",
-        "不要完全放弃Q"
-      ],
-      "sw": [
-        "前期压制强",
-        "E大范围持续伤害"
-      ],
-      "wk": [
+      "playstyle": "AP狗头经典邪修。放弃Q叠层专注E消耗。E灼烧+减护甲。兰德里+恶魔双重灼烧。后期Q仍有伤害。",
+      "weaknesses": [
         "后期Q不足",
         "依赖蓝量"
       ],
-      "augs": [],
-      "whenToPick": {
-        "teamNeeds": "尝试特殊/邪修玩法时选择",
-        "enemyComposition": "根据出装类型选择敌方阵容",
-        "synergies": "配合对应伤害类型的队友",
-        "avoidWhen": "敌方针对性克制"
-      }
+      "name": "AP法术流(邪修)",
+      "type": "AP",
+      "summary": "E灵魂烈焰远程消耗+后期Q有伤害"
     }
   ],
   "matchup": {

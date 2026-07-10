@@ -12,7 +12,6 @@
       "id": "bard-primary",
       "name": "AP法师出装",
       "type": "AP",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,55 +54,60 @@
       ],
       "augments": [
         {
-          "n": "叠角龙",
-          "t": "白银",
-          "pr": "核心",
-          "sl": "S",
-          "r": "永久层数获取+100%",
-          "d": "核心无限成长机制翻倍"
+          "name": "叠角龙",
+          "tier": "白银",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "永久层数获取+100%",
+          "synergyDetail": "核心无限成长机制翻倍"
         },
         {
-          "n": "尤里卡",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "技能加速=30%AP",
-          "d": "500AP=150技能急速"
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "技能加速=30%AP",
+          "synergyDetail": "500AP=150技能急速"
         },
         {
-          "n": "珠光护手",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "技能可暴击+175%伤害"
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "技能可暴击+175%伤害",
+          "synergyDetail": ""
         },
         {
-          "n": "回响施放",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "复制一次技能=双倍伤害"
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "复制一次技能=双倍伤害",
+          "synergyDetail": ""
         },
         {
-          "n": "全心为你",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "治疗/护盾+30%"
+          "name": "全心为你",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "治疗/护盾+30%",
+          "synergyDetail": ""
         },
         {
-          "n": "会心治疗",
-          "t": "黄金",
-          "pr": "优先",
-          "sl": "S",
-          "r": "治疗/护盾可暴击+40%"
+          "name": "会心治疗",
+          "tier": "黄金",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "治疗/护盾可暴击+40%",
+          "synergyDetail": ""
         },
         {
-          "n": "循环往复",
-          "t": "黄金",
-          "pr": "可选",
-          "sl": "A",
-          "r": "+60技能急速"
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "远程消耗压制血线。AOE价值极高。注意站位。",
@@ -112,25 +116,38 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "辅助",
         "法师"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     },
     {
       "id": "bard-ad",
-      "n": "AD攻速流(邪修)",
-      "ty": "AD",
-      "s": "被动木灵+高攻速=每次普攻附带AOE",
-      "c": [
+      "tips": [
+        "叠角龙=木灵升级快",
+        "卢安娜+羊刀=木灵AOE"
+      ],
+      "sw": [
+        "木灵AOE",
+        "娱乐性强"
+      ],
+      "augs": [],
+      "whenToPick": {
+        "teamNeeds": "尝试特殊/邪修玩法时选择",
+        "enemyComposition": "根据出装类型选择敌方阵容",
+        "synergies": "配合对应伤害类型的队友",
+        "avoidWhen": "敌方针对性克制"
+      },
+      "coreItems": [
         "海妖杀手",
         "卢安娜的飓风",
         "鬼索的狂暴之刃"
       ],
-      "f": [
+      "fullItems": [
         "海妖杀手",
         "狂战士胫甲",
         "卢安娜的飓风",
@@ -138,8 +155,8 @@
         "破败王者之刃",
         "守护天使"
       ],
-      "so": "主Q副E，有R点R",
-      "sd": [
+      "skillOrder": "主Q副E，有R点R",
+      "skillDetail": [
         "Q",
         "E",
         "W",
@@ -159,26 +176,14 @@
         "W",
         "W"
       ],
-      "p": "AD巴德被动木灵+高攻速。卢安娜+羊刀=木灵AOE。叠角龙(调和之音翻倍)=木灵升级加速。",
-      "tips": [
-        "叠角龙=木灵升级快",
-        "卢安娜+羊刀=木灵AOE"
-      ],
-      "sw": [
-        "木灵AOE",
-        "娱乐性强"
-      ],
-      "wk": [
+      "playstyle": "AD巴德被动木灵+高攻速。卢安娜+羊刀=木灵AOE。叠角龙(调和之音翻倍)=木灵升级加速。",
+      "weaknesses": [
         "前期弱",
         "非主流"
       ],
-      "augs": [],
-      "whenToPick": {
-        "teamNeeds": "尝试特殊/邪修玩法时选择",
-        "enemyComposition": "根据出装类型选择敌方阵容",
-        "synergies": "配合对应伤害类型的队友",
-        "avoidWhen": "敌方针对性克制"
-      }
+      "name": "AD攻速流(邪修)",
+      "type": "AD",
+      "summary": "被动木灵+高攻速=每次普攻附带AOE"
     }
   ],
   "matchup": {

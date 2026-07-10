@@ -12,7 +12,6 @@
       "id": "renekton-primary",
       "name": "坦克出装",
       "type": "Tank",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,46 +54,52 @@
       ],
       "augments": [
         {
-          "n": "钢化你心",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "心之钢300层x3倍效果"
+          "name": "钢化你心",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "心之钢300层x3倍效果",
+          "synergyDetail": ""
         },
         {
-          "n": "歌利亚巨人",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "+35%生命+15%适应之力"
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "+35%生命+15%适应之力",
+          "synergyDetail": ""
         },
         {
-          "n": "叠角龙",
-          "t": "白银",
-          "pr": "优先",
-          "sl": "S",
-          "r": "永久层数获取量+100%"
+          "name": "叠角龙",
+          "tier": "白银",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "永久层数获取量+100%",
+          "synergyDetail": ""
         },
         {
-          "n": "灵魂虹吸",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "A",
-          "r": "12%技能吸血"
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "A",
+          "reason": "12%技能吸血",
+          "synergyDetail": ""
         },
         {
-          "n": "战争交响乐",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "致命节奏+征服者"
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "致命节奏+征服者",
+          "synergyDetail": ""
         },
         {
-          "n": "循环往复",
-          "t": "黄金",
-          "pr": "可选",
-          "sl": "A",
-          "r": "+60技能急速"
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
@@ -103,25 +108,38 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "战士",
         "坦克"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     },
     {
       "id": "renek-ap",
-      "n": "AP魔法鳄鱼(邪修)",
-      "ty": "AP",
-      "s": "R持续15秒AOE变身移动灼烧光环",
-      "c": [
+      "tips": [
+        "R持续15秒=移动灼烧",
+        "E有AP加成当伤害技能"
+      ],
+      "sw": [
+        "R持续AOE",
+        "娱乐拉满"
+      ],
+      "augs": [],
+      "whenToPick": {
+        "teamNeeds": "尝试特殊/邪修玩法时选择",
+        "enemyComposition": "根据出装类型选择敌方阵容",
+        "synergies": "配合对应伤害类型的队友",
+        "avoidWhen": "敌方针对性克制"
+      },
+      "coreItems": [
         "兰德里的苦楚",
         "恶魔之拥",
         "瑞莱的冰晶节杖"
       ],
-      "f": [
+      "fullItems": [
         "兰德里的苦楚",
         "法师之靴",
         "恶魔之拥",
@@ -129,8 +147,8 @@
         "虚空之杖",
         "中娅沙漏"
       ],
-      "so": "主Q副E，有R点R",
-      "sd": [
+      "skillOrder": "主Q副E，有R点R",
+      "skillDetail": [
         "Q",
         "E",
         "W",
@@ -150,25 +168,13 @@
         "W",
         "W"
       ],
-      "p": "AP鳄鱼R持续15秒AOE+兰德里灼烧+恶魔灼烧=走到哪烧到哪。Q有AP加成回血。娱乐性拉满。",
-      "tips": [
-        "R持续15秒=移动灼烧",
-        "E有AP加成当伤害技能"
-      ],
-      "sw": [
-        "R持续AOE",
-        "娱乐拉满"
-      ],
-      "wk": [
+      "playstyle": "AP鳄鱼R持续15秒AOE+兰德里灼烧+恶魔灼烧=走到哪烧到哪。Q有AP加成回血。娱乐性拉满。",
+      "weaknesses": [
         "AP加成不高"
       ],
-      "augs": [],
-      "whenToPick": {
-        "teamNeeds": "尝试特殊/邪修玩法时选择",
-        "enemyComposition": "根据出装类型选择敌方阵容",
-        "synergies": "配合对应伤害类型的队友",
-        "avoidWhen": "敌方针对性克制"
-      }
+      "name": "AP魔法鳄鱼(邪修)",
+      "type": "AP",
+      "summary": "R持续15秒AOE变身移动灼烧光环"
     }
   ],
   "matchup": {

@@ -12,7 +12,6 @@
       "id": "thresh-primary",
       "name": "坦克出装",
       "type": "Tank",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,47 +54,52 @@
       ],
       "augments": [
         {
-          "n": "叠角龙",
-          "t": "白银",
-          "pr": "核心",
-          "sl": "S",
-          "r": "永久层数获取+100%",
-          "d": "核心无限成长机制翻倍"
+          "name": "叠角龙",
+          "tier": "白银",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "永久层数获取+100%",
+          "synergyDetail": "核心无限成长机制翻倍"
         },
         {
-          "n": "钢化你心",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "心之钢300层x3倍效果"
+          "name": "钢化你心",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "心之钢300层x3倍效果",
+          "synergyDetail": ""
         },
         {
-          "n": "歌利亚巨人",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "+35%生命+15%适应之力"
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "+35%生命+15%适应之力",
+          "synergyDetail": ""
         },
         {
-          "n": "全心为你",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "治疗/护盾+30%"
+          "name": "全心为你",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "治疗/护盾+30%",
+          "synergyDetail": ""
         },
         {
-          "n": "会心治疗",
-          "t": "黄金",
-          "pr": "优先",
-          "sl": "S",
-          "r": "治疗/护盾可暴击+40%"
+          "name": "会心治疗",
+          "tier": "黄金",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "治疗/护盾可暴击+40%",
+          "synergyDetail": ""
         },
         {
-          "n": "循环往复",
-          "t": "黄金",
-          "pr": "可选",
-          "sl": "A",
-          "r": "+60技能急速"
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
@@ -104,25 +108,38 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "辅助",
         "坦克"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     },
     {
       "id": "thresh-ad",
-      "n": "AD暴击流(邪修)",
-      "ty": "AD",
-      "s": "E被动+灵魂=无限AD。暴击一鞭秒人",
-      "c": [
+      "tips": [
+        "叠角龙=灵魂x2=AD翻倍",
+        "E被动+暴击=伤害极高"
+      ],
+      "sw": [
+        "无限AD成长",
+        "暴击惊人"
+      ],
+      "augs": [],
+      "whenToPick": {
+        "teamNeeds": "尝试特殊/邪修玩法时选择",
+        "enemyComposition": "根据出装类型选择敌方阵容",
+        "synergies": "配合对应伤害类型的队友",
+        "avoidWhen": "敌方针对性克制"
+      },
+      "coreItems": [
         "海妖杀手",
         "无尽之刃",
         "卢安娜的飓风"
       ],
-      "f": [
+      "fullItems": [
         "海妖杀手",
         "狂战士胫甲",
         "无尽之刃",
@@ -130,8 +147,8 @@
         "多米尼克领主的致意",
         "饮血剑"
       ],
-      "so": "主E副Q，有R点R",
-      "sd": [
+      "skillOrder": "主E副Q，有R点R",
+      "skillDetail": [
         "E",
         "Q",
         "W",
@@ -151,26 +168,14 @@
         "W",
         "W"
       ],
-      "p": "AD锤石E被动(灵魂xAD)+暴击=一鞭半血。大乱斗灵魂获取快，200+灵魂=300+AD。叠角龙(灵魂翻倍)=AD成长翻倍。",
-      "tips": [
-        "叠角龙=灵魂x2=AD翻倍",
-        "E被动+暴击=伤害极高"
-      ],
-      "sw": [
-        "无限AD成长",
-        "暴击惊人"
-      ],
-      "wk": [
+      "playstyle": "AD锤石E被动(灵魂xAD)+暴击=一鞭半血。大乱斗灵魂获取快，200+灵魂=300+AD。叠角龙(灵魂翻倍)=AD成长翻倍。",
+      "weaknesses": [
         "非主流",
         "前期AD低"
       ],
-      "augs": [],
-      "whenToPick": {
-        "teamNeeds": "尝试特殊/邪修玩法时选择",
-        "enemyComposition": "根据出装类型选择敌方阵容",
-        "synergies": "配合对应伤害类型的队友",
-        "avoidWhen": "敌方针对性克制"
-      }
+      "name": "AD暴击流(邪修)",
+      "type": "AD",
+      "summary": "E被动+灵魂=无限AD。暴击一鞭秒人"
     }
   ],
   "matchup": {

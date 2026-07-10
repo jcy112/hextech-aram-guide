@@ -12,7 +12,6 @@
       "id": "ezreal-primary",
       "name": "ADC出装",
       "type": "AD",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,64 +54,68 @@
       ],
       "augments": [
         {
-          "n": "超负荷",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "其他技能重置指定技能CD",
-          "d": "无限技能链"
+          "name": "超负荷",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "其他技能重置指定技能CD",
+          "synergyDetail": "无限技能链"
         },
         {
-          "n": "邦！",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "Q技能+100技能急速",
-          "d": "Q从主力技能变普攻频率。核心机制质变"
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "Q技能+100技能急速",
+          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
-          "n": "连拨击锤",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "普攻额外5发飞弹=输出翻倍",
-          "d": "每次普攻=6次攻击触发"
+          "name": "连拨击锤",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "普攻额外5发飞弹=输出翻倍",
+          "synergyDetail": "每次普攻=6次攻击触发"
         },
         {
-          "n": "灵巧",
-          "t": "白银",
-          "pr": "优先",
-          "sl": "S",
-          "r": "+60%攻速质变"
+          "name": "灵巧",
+          "tier": "白银",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "+60%攻速质变",
+          "synergyDetail": ""
         },
         {
-          "n": "台风",
-          "t": "白银",
-          "pr": "优先",
-          "sl": "A",
-          "r": "普攻额外目标30%AD飞弹"
+          "name": "台风",
+          "tier": "白银",
+          "priority": "优先",
+          "synergyLevel": "A",
+          "reason": "普攻额外目标30%AD飞弹",
+          "synergyDetail": ""
         },
         {
-          "n": "尤里卡",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "技能加速=30%AP",
-          "d": "500AP=150技能急速"
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "技能加速=30%AP",
+          "synergyDetail": "500AP=150技能急速"
         },
         {
-          "n": "珠光护手",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "技能可暴击+175%伤害"
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "技能可暴击+175%伤害",
+          "synergyDetail": ""
         },
         {
-          "n": "回响施放",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "复制一次技能=双倍伤害"
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "复制一次技能=双倍伤害",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "保持安全距离持续输出。团战站最后排。",
@@ -121,25 +124,39 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "射手",
         "法师"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     },
     {
       "id": "ez-ap",
-      "n": "AP机关枪(邪修)",
-      "ty": "AP",
-      "s": "W+E+R全AP。卢登+巫妖=无限爆发",
-      "c": [
+      "tips": [
+        "WEA=巫妖+卢登三重秒杀",
+        "R全图+AP超高伤害",
+        "配合超负荷=无缝链"
+      ],
+      "sw": [
+        "技能爆发高",
+        "全图R"
+      ],
+      "augs": [],
+      "whenToPick": {
+        "teamNeeds": "尝试特殊/邪修玩法时选择",
+        "enemyComposition": "根据出装类型选择敌方阵容",
+        "synergies": "配合对应伤害类型的队友",
+        "avoidWhen": "敌方针对性克制"
+      },
+      "coreItems": [
         "卢登的激荡",
         "巫妖之祸",
         "虚空之杖"
       ],
-      "f": [
+      "fullItems": [
         "卢登的激荡",
         "法师之靴",
         "巫妖之祸",
@@ -147,8 +164,8 @@
         "灭世者的死亡之帽",
         "视界专注"
       ],
-      "so": "主W副E，有R点R",
-      "sd": [
+      "skillOrder": "主W副E，有R点R",
+      "skillDetail": [
         "Q",
         "W",
         "E",
@@ -168,26 +185,13 @@
         "Q",
         "Q"
       ],
-      "p": "AP伊泽W(80%AP)+E(75%AP)+R(90%AP)爆发。巫妖+卢登=WEA三连秒脆皮。配合超负荷=无限技能链。",
-      "tips": [
-        "WEA=巫妖+卢登三重秒杀",
-        "R全图+AP超高伤害",
-        "配合超负荷=无缝链"
-      ],
-      "sw": [
-        "技能爆发高",
-        "全图R"
-      ],
-      "wk": [
+      "playstyle": "AP伊泽W(80%AP)+E(75%AP)+R(90%AP)爆发。巫妖+卢登=WEA三连秒脆皮。配合超负荷=无限技能链。",
+      "weaknesses": [
         "普攻伤害低"
       ],
-      "augs": [],
-      "whenToPick": {
-        "teamNeeds": "尝试特殊/邪修玩法时选择",
-        "enemyComposition": "根据出装类型选择敌方阵容",
-        "synergies": "配合对应伤害类型的队友",
-        "avoidWhen": "敌方针对性克制"
-      }
+      "name": "AP机关枪(邪修)",
+      "type": "AP",
+      "summary": "W+E+R全AP。卢登+巫妖=无限爆发"
     }
   ],
   "matchup": {

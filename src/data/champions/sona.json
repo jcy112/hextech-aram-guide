@@ -12,7 +12,6 @@
       "id": "sona-primary",
       "name": "AP法师出装",
       "type": "AP",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,56 +54,60 @@
       ],
       "augments": [
         {
-          "n": "会心治疗",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "治疗可暴击+40%",
-          "d": "奶量双倍"
+          "name": "会心治疗",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "治疗可暴击+40%",
+          "synergyDetail": "奶量双倍"
         },
         {
-          "n": "面包和果酱",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "W技能+100技能急速",
-          "d": "W无限循环释放"
+          "name": "面包和果酱",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "W技能+100技能急速",
+          "synergyDetail": "W无限循环释放"
         },
         {
-          "n": "尤里卡",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "技能加速=30%AP",
-          "d": "500AP=150技能急速"
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "技能加速=30%AP",
+          "synergyDetail": "500AP=150技能急速"
         },
         {
-          "n": "珠光护手",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "技能可暴击+175%伤害"
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "技能可暴击+175%伤害",
+          "synergyDetail": ""
         },
         {
-          "n": "回响施放",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "复制一次技能=双倍伤害"
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "复制一次技能=双倍伤害",
+          "synergyDetail": ""
         },
         {
-          "n": "全心为你",
-          "t": "黄金",
-          "pr": "核心",
-          "sl": "S",
-          "r": "治疗/护盾+30%"
+          "name": "全心为你",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "治疗/护盾+30%",
+          "synergyDetail": ""
         },
         {
-          "n": "循环往复",
-          "t": "黄金",
-          "pr": "可选",
-          "sl": "A",
-          "r": "+60技能急速"
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "远程消耗压制血线。AOE价值极高。注意站位。",
@@ -113,13 +116,14 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "辅助",
         "法师"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     }
   ],
   "matchup": {

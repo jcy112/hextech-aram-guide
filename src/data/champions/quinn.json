@@ -12,7 +12,6 @@
       "id": "quinn-primary",
       "name": "ADC出装",
       "type": "AD",
-      "s": "标准玩法，适合大多数对局",
       "whenToPick": {
         "teamNeeds": "根据己方阵容选择",
         "enemyComposition": "常规阵容使用",
@@ -55,54 +54,60 @@
       ],
       "augments": [
         {
-          "n": "连拨击锤",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "普攻额外5发飞弹=输出翻倍",
-          "d": "每次普攻=6次攻击触发"
+          "name": "连拨击锤",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "普攻额外5发飞弹=输出翻倍",
+          "synergyDetail": "每次普攻=6次攻击触发"
         },
         {
-          "n": "灵巧",
-          "t": "白银",
-          "pr": "优先",
-          "sl": "S",
-          "r": "+60%攻速质变"
+          "name": "灵巧",
+          "tier": "白银",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "+60%攻速质变",
+          "synergyDetail": ""
         },
         {
-          "n": "台风",
-          "t": "白银",
-          "pr": "优先",
-          "sl": "A",
-          "r": "普攻额外目标30%AD飞弹"
+          "name": "台风",
+          "tier": "白银",
+          "priority": "优先",
+          "synergyLevel": "A",
+          "reason": "普攻额外目标30%AD飞弹",
+          "synergyDetail": ""
         },
         {
-          "n": "秘术冲拳",
-          "t": "棱彩",
-          "pr": "核心",
-          "sl": "S",
-          "r": "命中减基础技能20%剩余CD"
+          "name": "秘术冲拳",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "命中减基础技能20%剩余CD",
+          "synergyDetail": ""
         },
         {
-          "n": "全凭身法",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "位移技能+175技能急速"
+          "name": "全凭身法",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "位移技能+175技能急速",
+          "synergyDetail": ""
         },
         {
-          "n": "飞身踢",
-          "t": "棱彩",
-          "pr": "优先",
-          "sl": "S",
-          "r": "处决低血+爆炸治疗"
+          "name": "飞身踢",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "处决低血+爆炸治疗",
+          "synergyDetail": ""
         },
         {
-          "n": "循环往复",
-          "t": "黄金",
-          "pr": "可选",
-          "sl": "A",
-          "r": "+60技能急速"
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
         }
       ],
       "playstyle": "保持安全距离持续输出。团战站最后排。",
@@ -111,13 +116,14 @@
         "注意观察敌方关键技能CD",
         "配合队友的控制链"
       ],
-      "st": [
+      "strengths": [
         "射手",
         "刺客"
       ],
-      "wk": [
+      "weaknesses": [
         "根据敌方阵容变化"
-      ]
+      ],
+      "summary": "标准玩法，适合大多数对局"
     }
   ],
   "matchup": {
