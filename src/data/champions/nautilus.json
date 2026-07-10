@@ -58,7 +58,7 @@
           "tier": "白银",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "定身/击飞+10自适应之力",
+          "reason": "定身/击飞=+10自适应之力。nautilus的控制技能多=一场团战触发多次=无限叠层成长。被动+Q+R=三重控制",
           "synergyDetail": "无限叠层成长"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
+          "reason": "心之钢300层×3倍效果。。配合心之钢叠血=血量双重膨胀",
           "synergyDetail": ""
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
+          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "黄金",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "治疗/护盾可暴击+40%",
+          "reason": "治疗/护盾可暴击+40%。nautilus的治疗技能暴击=双倍奶量。被动+Q+R=三重控制",
           "synergyDetail": ""
         },
         {

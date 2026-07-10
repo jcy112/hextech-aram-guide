@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "召唤物+40%体/命/伤",
+          "reason": "召唤物+40%体型/生命/伤害。annie的召唤物(提伯斯之怒)全面质变=更大更强更肉。提伯斯是核心宠物",
           "synergyDetail": "召唤物全面质变"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。annie作为AP英雄，高AP带来高技能急速=技能循环加速。提伯斯是核心宠物",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。annie的技能爆发配合暴击=一发技能秒杀脆皮。提伯斯是核心宠物",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。annie的核心输出技能双倍释放=爆发翻倍。提伯斯是核心宠物",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "黄金",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "治疗/护盾可暴击+40%",
+          "reason": "治疗/护盾可暴击+40%。annie的治疗技能暴击=双倍奶量。提伯斯是核心宠物",
           "synergyDetail": ""
         },
         {

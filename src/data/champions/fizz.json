@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "E技能+100技能急速",
+          "reason": "E技能「古灵精怪」是核心。面包奶酪让E冷却减半=更多跳起无敌+范围伤害+减速，E是无敌技能",
           "synergyDetail": "E无限循环释放"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD",
+          "reason": "命中减基础技能20%剩余CD。fizz。每次命中缩短CD=技能频率加速",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗",
+          "reason": "处决低血+爆炸治疗。fizz作为刺客/战士，飞身踢提升斩杀线+击杀回血=收割链关键",
           "synergyDetail": ""
         },
         {
@@ -98,7 +98,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "A",
-          "reason": "12%技能吸血",
+          "reason": "12%技能吸血。fizz的技能伤害高=吸血量可观=团战持续续航。E是无敌技能",
           "synergyDetail": ""
         },
         {
@@ -106,7 +106,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
+          "reason": "致命节奏+征服者。fizz作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
           "synergyDetail": ""
         },
         {

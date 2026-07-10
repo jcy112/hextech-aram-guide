@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
+          "reason": "Q技能「神经毒素/剧毒之蛰」人形态=百分比当前生命值/蜘蛛形态=百分比已损失生命值。邦！让Q冷却减半，人形态=百分比当前生命值/蜘蛛形态=百分比已损失生命值频率翻倍，双形态Q=双重百分比伤害",
           "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。elise作为AP英雄，高AP带来高技能急速=技能循环加速。双形态Q=双重百分比伤害",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。elise的技能爆发配合暴击=一发技能秒杀脆皮。双形态Q=双重百分比伤害",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。elise的核心输出技能双倍释放=爆发翻倍。双形态Q=双重百分比伤害",
           "synergyDetail": ""
         },
         {

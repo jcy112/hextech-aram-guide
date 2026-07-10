@@ -58,7 +58,7 @@
           "tier": "白银",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "永久层数获取+100%",
+          "reason": "英雄拥有无限成长机制：收集灵魂=永久+护甲+AP。叠角龙让层数获取翻倍=成长速度×2",
           "synergyDetail": "核心无限成长机制翻倍"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
+          "reason": "心之钢300层×3倍效果。。配合心之钢叠血=血量双重膨胀",
           "synergyDetail": ""
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
+          "reason": "+35%生命+15%适应之力。配合英雄的高血量/高防御机制=数值翻倍",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "黄金",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "治疗/护盾可暴击+40%",
+          "reason": "治疗/护盾可暴击+40%。thresh的治疗技能暴击=双倍奶量。灵魂=AD+护甲+AP三成长",
           "synergyDetail": ""
         },
         {
@@ -190,7 +190,7 @@
           "tier": "白银",
           "priority": "优先",
           "synergyLevel": "A",
-          "reason": "普攻AOE=灵魂AD加成溅射多人",
+          "reason": "普攻额外目标30%AD飞弹。thresh的普攻AOE化=团战同时输出多个目标",
           "synergyDetail": ""
         }
       ]

@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "E技能+100技能急速",
+          "reason": "E技能「双生毒牙」是核心。面包奶酪让E冷却减半=更多对中毒目标=额外伤害+回血+CD仅0.75秒，E是0.75秒CD的核心输出",
           "synergyDetail": "E无限循环释放"
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。cassiopeia作为AP英雄，高AP带来高技能急速=技能循环加速。E是0.75秒CD的核心输出",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -81,7 +81,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。cassiopeia的技能爆发配合暴击=一发技能秒杀脆皮。E是0.75秒CD的核心输出",
           "synergyDetail": ""
         },
         {
@@ -89,7 +89,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。cassiopeia的核心输出技能双倍释放=爆发翻倍。E是0.75秒CD的核心输出",
           "synergyDetail": ""
         },
         {

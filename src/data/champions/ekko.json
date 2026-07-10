@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "E技能+100技能急速",
+          "reason": "E技能「相位俯冲」是核心。面包奶酪让E冷却减半=更多翻滚+强化下一发普攻(瞬移攻击)，E是核心位移+伤害",
           "synergyDetail": "E无限循环释放"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。ekko作为AP英雄，高AP带来高技能急速=技能循环加速。E是核心位移+伤害",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -82,7 +82,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。ekko的技能爆发配合暴击=一发技能秒杀脆皮。E是核心位移+伤害",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。ekko的核心输出技能双倍释放=爆发翻倍。E是核心位移+伤害",
           "synergyDetail": ""
         }
       ],

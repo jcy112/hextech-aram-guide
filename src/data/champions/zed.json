@@ -65,7 +65,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD",
+          "reason": "命中减基础技能20%剩余CD。zed。每次命中缩短CD=技能频率加速",
           "synergyDetail": ""
         },
         {
@@ -81,7 +81,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗",
+          "reason": "处决低血+爆炸治疗。zed作为刺客/战士，飞身踢提升斩杀线+击杀回血=收割链关键",
           "synergyDetail": ""
         },
         {

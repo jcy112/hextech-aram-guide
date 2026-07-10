@@ -58,7 +58,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "其他技能重置指定技能CD",
+          "reason": "其他技能重置指定技能=无限技能链。ezreal的技能连招被超负荷放大=技能无缝循环。Q命中减所有技能CD=无限循环的核心",
           "synergyDetail": "无限技能链"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
+          "reason": "Q技能「秘术射击」命中减少所有技能1.5秒冷却。邦！让Q冷却减半，命中减少所有技能1.5秒冷却频率翻倍，Q命中减所有技能CD=无限循环的核心",
           "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "普攻额外5发飞弹=输出翻倍",
+          "reason": "Q命中减所有技能CD=无限循环的核心。连拨击锤让每次普攻=6发攻击触发=攻击特效触发频率×6=输出质变",
           "synergyDetail": "每次普攻=6次攻击触发"
         },
         {
@@ -82,7 +82,7 @@
           "tier": "白银",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+60%攻速质变",
+          "reason": "+60%攻速质变。ezreal作为攻速流英雄，攻速是核心属性=直接输出提升",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "白银",
           "priority": "优先",
           "synergyLevel": "A",
-          "reason": "普攻额外目标30%AD飞弹",
+          "reason": "普攻额外目标30%AD飞弹。ezreal的普攻AOE化=团战同时输出多个目标",
           "synergyDetail": ""
         }
       ],

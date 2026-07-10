@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "W技能+100技能急速",
+          "reason": "W技能「斩草除根」射出飞刀+延迟返回(双段伤害)。面包果酱让W冷却减半=射出飞刀+延迟返回(双段伤害)频率翻倍",
           "synergyDetail": "W无限循环释放"
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD",
+          "reason": "命中减基础技能20%剩余CD。talon的技能连招被秘术冲拳放大=无限循环。每次命中缩短CD=技能频率加速",
           "synergyDetail": ""
         },
         {
@@ -89,7 +89,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗",
+          "reason": "处决低血+爆炸治疗。talon作为刺客/战士，飞身踢提升斩杀线+击杀回血=收割链关键",
           "synergyDetail": ""
         },
         {

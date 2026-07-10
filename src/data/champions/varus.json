@@ -58,7 +58,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "攻速x6倍攻击判定",
+          "reason": "攻速流靠W被动打百分比伤害。连拨击锤让每次普攻=6发攻击触发=攻击特效触发频率×6=输出质变",
           "synergyDetail": "攻击特效触发频率爆炸"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "白银",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+60%攻速质变",
+          "reason": "+60%攻速质变。varus作为攻速流英雄，攻速是核心属性=直接输出提升",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "白银",
           "priority": "优先",
           "synergyLevel": "A",
-          "reason": "普攻额外目标30%AD飞弹",
+          "reason": "普攻额外目标30%AD飞弹。varus的普攻AOE化=团战同时输出多个目标",
           "synergyDetail": ""
         },
         {

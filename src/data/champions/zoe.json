@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
+          "reason": "Q技能「飞星乱入」射程越长伤害越高(配合R=长距离)。邦！让Q冷却减半，射程越长伤害越高(配合R=长距离)频率翻倍，Q+R=超长射程=超高伤害",
           "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。zoe作为AP英雄，高AP带来高技能急速=技能循环加速。Q+R=超长射程=超高伤害",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。zoe的技能爆发配合暴击=一发技能秒杀脆皮。Q+R=超长射程=超高伤害",
           "synergyDetail": ""
         },
         {
@@ -81,7 +81,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。zoe的核心输出技能双倍释放=爆发翻倍。Q+R=超长射程=超高伤害",
           "synergyDetail": ""
         },
         {

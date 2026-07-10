@@ -66,7 +66,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
+          "reason": "心之钢300层×3倍效果。W被动无限叠血。配合心之钢叠血=血量双重膨胀",
           "synergyDetail": ""
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
+          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "A",
-          "reason": "12%技能吸血",
+          "reason": "12%技能吸血。sion的技能伤害高=吸血量可观=团战持续续航。W被动无限叠血",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
+          "reason": "致命节奏+征服者。sion作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
           "synergyDetail": ""
         },
         {

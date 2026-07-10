@@ -58,7 +58,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。chogath作为AP英雄，高AP带来高技能急速=技能循环加速。R是无限HP成长",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。chogath的技能爆发配合暴击=一发技能秒杀脆皮。R是无限HP成长",
           "synergyDetail": ""
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。chogath的核心输出技能双倍释放=爆发翻倍。R是无限HP成长",
           "synergyDetail": ""
         },
         {

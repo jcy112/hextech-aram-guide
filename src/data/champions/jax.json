@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "W技能+100技能急速",
+          "reason": "W技能「蓄力一击」强化普攻=额外魔法伤害。面包果酱让W冷却减半=强化普攻=额外魔法伤害频率翻倍",
           "synergyDetail": "W无限循环释放"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "A",
-          "reason": "12%技能吸血",
+          "reason": "12%技能吸血。jax的技能伤害高=吸血量可观=团战持续续航。W+大招被动=持续魔法伤害",
           "synergyDetail": ""
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
+          "reason": "致命节奏+征服者。jax作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
           "synergyDetail": ""
         },
         {

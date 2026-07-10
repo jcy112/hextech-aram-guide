@@ -57,7 +57,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "攻速x6倍攻击判定",
+          "reason": "攻速无上限+连拨击锤=每次普攻6发=破败%HP伤害x6x无限攻速=终极输出。连拨击锤让每次普攻=6发攻击触发=攻击特效触发频率×6=输出质变",
           "synergyDetail": "攻击特效触发频率爆炸"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "A",
-          "reason": "12%技能吸血",
+          "reason": "12%技能吸血。belveth的技能伤害高=吸血量可观=团战持续续航。攻速无上限+连拨击锤=每次普攻6发=破败%HP伤害x6x无限攻速=终极输出",
           "synergyDetail": ""
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
+          "reason": "致命节奏+征服者。belveth作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
           "synergyDetail": ""
         },
         {

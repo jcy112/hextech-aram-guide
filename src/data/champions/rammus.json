@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "移速转伤害",
+          "reason": "移速转伤害。rammus的移速机制转伤害=双重收益",
           "synergyDetail": "跑得快=打得痛"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
+          "reason": "心之钢300层×3倍效果。。配合心之钢叠血=血量双重膨胀",
           "synergyDetail": ""
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
+          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
           "synergyDetail": ""
         },
         {

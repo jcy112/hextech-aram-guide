@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "击退至墙壁/地形=额外伤害+眩晕",
+          "reason": "击退至地形=额外伤害+眩晕。anivia的技能创造地形(E柱子/冰墙等)=完美触发=走廊极限伤害",
           "synergyDetail": "走廊极限控制+伤害"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。anivia作为AP英雄，高AP带来高技能急速=技能循环加速。W冰墙=地形",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。anivia的技能爆发配合暴击=一发技能秒杀脆皮。W冰墙=地形",
           "synergyDetail": ""
         },
         {
@@ -81,7 +81,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。anivia的核心输出技能双倍释放=爆发翻倍。W冰墙=地形",
           "synergyDetail": ""
         },
         {

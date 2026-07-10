@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
+          "reason": "Q技能「标枪投掷/猛扑」人形态Q=远距离标枪+飞行越远伤害越高/豹形态Q=猛扑斩杀。邦！让Q冷却减半，人形态Q=远距离标枪+飞行越远伤害越高/豹形态Q=猛扑斩杀频率翻倍，双Q都高伤",
           "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。nidalee作为AP英雄，高AP带来高技能急速=技能循环加速。双Q都高伤",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。nidalee的技能爆发配合暴击=一发技能秒杀脆皮。双Q都高伤",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。nidalee的核心输出技能双倍释放=爆发翻倍。双Q都高伤",
           "synergyDetail": ""
         },
         {

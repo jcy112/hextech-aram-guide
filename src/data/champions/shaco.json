@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "E技能+100技能急速",
+          "reason": "E技能「双面毒刃」是核心。面包奶酪让E冷却减半=更多投掷飞刀=伤害+减速(背刺额外伤害)，E飞刀是AP流核心伤害",
           "synergyDetail": "E无限循环释放"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD",
+          "reason": "命中减基础技能20%剩余CD。shaco的技能连招被秘术冲拳放大=无限循环。每次命中缩短CD=技能频率加速",
           "synergyDetail": ""
         },
         {
@@ -81,7 +81,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗",
+          "reason": "处决低血+爆炸治疗。shaco作为刺客/战士，飞身踢提升斩杀线+击杀回血=收割链关键",
           "synergyDetail": ""
         },
         {

@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "W技能+100技能急速",
+          "reason": "W技能「血红之池」潜入血池=无敌+伤害+回血。面包果酱让W冷却减半=潜入血池=无敌+伤害+回血频率翻倍",
           "synergyDetail": "W无限循环释放"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。vladimir作为AP英雄，高AP带来高技能急速=技能循环加速。W是无敌+回血",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -82,7 +82,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。vladimir的技能爆发配合暴击=一发技能秒杀脆皮。W是无敌+回血",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。vladimir的核心输出技能双倍释放=爆发翻倍。W是无敌+回血",
           "synergyDetail": ""
         },
         {
@@ -98,7 +98,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "A",
-          "reason": "12%技能吸血",
+          "reason": "12%技能吸血。vladimir的技能伤害高=吸血量可观=团战持续续航。W是无敌+回血",
           "synergyDetail": ""
         },
         {
@@ -106,7 +106,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
+          "reason": "致命节奏+征服者。vladimir作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
           "synergyDetail": ""
         },
         {

@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "E技能+100技能急速",
+          "reason": "E技能「冷酷追击」是核心。面包奶酪让E冷却减半=更多短距离冲刺=重置普攻，E位移+双枪",
           "synergyDetail": "E无限循环释放"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "普攻额外5发飞弹=输出翻倍",
+          "reason": "E位移+双枪。连拨击锤让每次普攻=6发攻击触发=攻击特效触发频率×6=输出质变",
           "synergyDetail": "每次普攻=6次攻击触发"
         },
         {
@@ -82,7 +82,7 @@
           "tier": "白银",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+60%攻速质变",
+          "reason": "+60%攻速质变。lucian作为攻速流英雄，攻速是核心属性=直接输出提升",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "白银",
           "priority": "优先",
           "synergyLevel": "A",
-          "reason": "普攻额外目标30%AD飞弹",
+          "reason": "普攻额外目标30%AD飞弹。lucian的普攻AOE化=团战同时输出多个目标",
           "synergyDetail": ""
         }
       ],

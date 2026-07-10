@@ -57,7 +57,7 @@
           "tier": "白银",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "永久层数获取+100%",
+          "reason": "英雄拥有无限成长机制：Q无限叠AP。叠角龙=Q击杀+2AP(大兵+6)。15分钟600AP→1200AP。面包奶酪让E从16秒→8秒=更多控制。叠角龙让层数获取翻倍=成长速度×2",
           "synergyDetail": "核心无限成长机制翻倍"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。veigar作为AP英雄，高AP带来高技能急速=技能循环加速。Q无限叠AP",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。veigar的技能爆发配合暴击=一发技能秒杀脆皮。Q无限叠AP",
           "synergyDetail": ""
         },
         {
@@ -81,7 +81,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。veigar的核心输出技能双倍释放=爆发翻倍。Q无限叠AP",
           "synergyDetail": ""
         },
         {

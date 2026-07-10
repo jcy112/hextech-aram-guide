@@ -58,7 +58,7 @@
           "tier": "白银",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "永久层数获取+100%",
+          "reason": "英雄拥有无限成长机制：命中英雄收集魂屑=永久+5最大生命值。叠角龙让层数获取翻倍=成长速度×2",
           "synergyDetail": "核心无限成长机制翻倍"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。swain作为AP英雄，高AP带来高技能急速=技能循环加速。魂屑=无限HP",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。swain的技能爆发配合暴击=一发技能秒杀脆皮。魂屑=无限HP",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。swain的核心输出技能双倍释放=爆发翻倍。魂屑=无限HP",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "黄金",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "治疗/护盾可暴击+40%",
+          "reason": "治疗/护盾可暴击+40%。swain的治疗技能暴击=双倍奶量。魂屑=无限HP",
           "synergyDetail": ""
         },
         {

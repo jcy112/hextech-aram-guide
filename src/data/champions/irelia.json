@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
+          "reason": "Q技能「利刃冲击」冲刺攻击，击杀/标记目标=刷新CD。邦！让Q冷却减半，冲刺攻击，击杀/标记目标=刷新CD频率翻倍，Q击杀刷新=无限冲刺连杀",
           "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD",
+          "reason": "命中减基础技能20%剩余CD。irelia的技能连招被秘术冲拳放大=无限循环。每次命中缩短CD=技能频率加速",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗",
+          "reason": "处决低血+爆炸治疗。irelia作为刺客/战士，飞身踢提升斩杀线+击杀回血=收割链关键",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "A",
-          "reason": "12%技能吸血",
+          "reason": "12%技能吸血。irelia的技能伤害高=吸血量可观=团战持续续航。Q击杀刷新=无限冲刺连杀",
           "synergyDetail": ""
         },
         {
@@ -98,7 +98,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
+          "reason": "致命节奏+征服者。irelia作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
           "synergyDetail": ""
         },
         {

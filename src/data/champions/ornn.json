@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "击退至墙壁/地形=额外伤害+眩晕",
+          "reason": "击退至地形=额外伤害+眩晕。ornn的技能创造地形(E柱子/冰墙等)=完美触发=走廊极限伤害",
           "synergyDetail": "走廊极限控制+伤害"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
+          "reason": "心之钢300层×3倍效果。。配合心之钢叠血=血量双重膨胀",
           "synergyDetail": ""
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
+          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
           "synergyDetail": ""
         },
         {

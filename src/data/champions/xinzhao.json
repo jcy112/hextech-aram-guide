@@ -58,7 +58,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
+          "reason": "Q技能「三重爪击」三次攻击+第三次击飞。邦！让Q冷却减半，三次攻击+第三次击飞频率翻倍，Q三重爪击=击飞控制",
           "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
@@ -66,7 +66,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
+          "reason": "心之钢300层×3倍效果。。配合心之钢叠血=血量双重膨胀",
           "synergyDetail": ""
         },
         {
@@ -74,7 +74,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
+          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
           "synergyDetail": ""
         },
         {
@@ -82,7 +82,7 @@
           "tier": "白银",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "永久层数获取量+100%",
+          "reason": "英雄拥有无限成长机制：Q三重爪击=击飞控制。邦！让Q从7秒→3.5秒=击飞频率翻倍=控制链无限。叠角龙让层数获取翻倍=成长速度×2",
           "synergyDetail": ""
         },
         {
@@ -90,7 +90,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "A",
-          "reason": "12%技能吸血",
+          "reason": "12%技能吸血。xinzhao的技能伤害高=吸血量可观=团战持续续航。Q三重爪击=击飞控制",
           "synergyDetail": ""
         },
         {
@@ -98,7 +98,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
+          "reason": "致命节奏+征服者。xinzhao作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
           "synergyDetail": ""
         },
         {

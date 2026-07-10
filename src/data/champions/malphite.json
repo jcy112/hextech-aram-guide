@@ -153,7 +153,7 @@
           "tier": "棱彩",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
+          "reason": "技能加速=30%AP。malphite作为AP英雄，高AP带来高技能急速=技能循环加速。W被动护甲加成+心之钢血量=物理阵容克星",
           "synergyDetail": "500AP=150技能急速"
         },
         {
@@ -161,7 +161,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
+          "reason": "技能可暴击+175%伤害。malphite的技能爆发配合暴击=一发技能秒杀脆皮。W被动护甲加成+心之钢血量=物理阵容克星",
           "synergyDetail": ""
         },
         {
@@ -169,7 +169,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
+          "reason": "复制一次技能=双倍伤害。malphite的核心输出技能双倍释放=爆发翻倍。W被动护甲加成+心之钢血量=物理阵容克星",
           "synergyDetail": ""
         },
         {

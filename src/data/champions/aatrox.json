@@ -57,7 +57,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
+          "reason": "Q技能「暗裔之剑」三段斩击，剑锋爆击。邦！让Q冷却减半，三段斩击，剑锋爆击频率翻倍，Q三段是主要输出",
           "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
         },
         {
@@ -65,7 +65,7 @@
           "tier": "黄金",
           "priority": "核心",
           "synergyLevel": "A",
-          "reason": "12%技能吸血",
+          "reason": "12%技能吸血。aatrox的技能伤害高=吸血量可观=团战持续续航。Q三段是主要输出",
           "synergyDetail": ""
         },
         {
@@ -73,7 +73,7 @@
           "tier": "棱彩",
           "priority": "优先",
           "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
+          "reason": "致命节奏+征服者。aatrox作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
           "synergyDetail": ""
         },
         {
