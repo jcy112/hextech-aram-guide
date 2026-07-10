@@ -174,7 +174,25 @@
       ],
       "name": "AP魔法鳄鱼(邪修)",
       "type": "AP",
-      "summary": "R持续15秒AOE变身移动灼烧光环"
+      "summary": "R持续15秒AOE变身移动灼烧光环",
+      "augments": [
+        {
+          "name": "炼狱导管",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "R持续15秒AOE+燃烧叠加=走到哪烧到哪。燃烧还降低基础技能CD",
+          "synergyDetail": "R持续15秒+兰德里+恶魔+炼狱导管=四重灼烧。Q/E技能在燃烧中CD加速"
+        },
+        {
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "A",
+          "reason": "AP鳄鱼需要技能急速减少Q/E冷却",
+          "synergyDetail": ""
+        }
+      ]
     }
   ],
   "matchup": {

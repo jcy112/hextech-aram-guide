@@ -124,6 +124,93 @@
         "根据敌方阵容变化"
       ],
       "summary": "标准玩法，适合大多数对局"
+    },
+    {
+      "id": "trundle-ap",
+      "name": "地形专家AP流(特殊)",
+      "type": "AP",
+      "summary": "E柱子变致命陷阱。配合地形专家海克斯=走廊极限伤害",
+      "coreItems": [
+        "兰德里的苦楚",
+        "恶魔之拥",
+        "瑞莱的冰晶节杖"
+      ],
+      "fullItems": [
+        "兰德里的苦楚",
+        "法师之靴",
+        "恶魔之拥",
+        "瑞莱的冰晶节杖",
+        "虚空之杖",
+        "中娅沙漏"
+      ],
+      "skillOrder": "主E副Q，有R点R",
+      "skillDetail": [
+        "Q",
+        "E",
+        "W",
+        "E",
+        "E",
+        "R",
+        "E",
+        "Q",
+        "E",
+        "Q",
+        "R",
+        "Q",
+        "Q",
+        "W",
+        "W",
+        "R",
+        "W",
+        "W"
+      ],
+      "playstyle": "AP巨魔E柱子70%AP加成。走廊中E+墙壁=地形专家触发额外伤害+眩晕。兰德里+恶魔之拥双重灼烧。R偷双抗提供生存。对面完全无法理解的AP伤害。",
+      "tips": [
+        "E柱子放走廊中间=敌人弹到墙上=完美碰撞",
+        "R偷双抗让AP流也有生存",
+        "配合冰杖=E柱子减速+击飞后持续减速"
+      ],
+      "strengths": [
+        "E伤害意外高",
+        "地形控制",
+        "R偷双抗保命"
+      ],
+      "weaknesses": [
+        "E命中率靠操作",
+        "AP流坦度降低"
+      ],
+      "augments": [
+        {
+          "name": "地形专家",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "E柱子=玩家创造的地形。柱子+走廊墙壁=双重碰撞触发。AP巨魔的核心——E一次=脆皮30%血条",
+          "synergyDetail": "大乱斗走廊宽度恰好=柱子直径+墙壁距离。E放中间必然触发地形碰撞"
+        },
+        {
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "A",
+          "reason": "AP流需要技能急速。400AP时+120急速=E从10秒→4.5秒=更多柱子",
+          "synergyDetail": ""
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "可选",
+          "synergyLevel": "B",
+          "reason": "E技能可暴击+175%伤害=一发E暴击直接半血",
+          "synergyDetail": ""
+        }
+      ],
+      "whenToPick": {
+        "teamNeeds": "己方AP伤害不足或需要地形控制",
+        "enemyComposition": "敌方近战/战士多时E柱子卡位效果更好",
+        "synergies": "有AOE控制的队友配合E打出连环控制",
+        "avoidWhen": "E柱子命中率没信心时慎选"
+      }
     }
   ],
   "matchup": {

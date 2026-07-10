@@ -164,7 +164,33 @@
       ],
       "name": "穿甲狙击流",
       "type": "AD",
-      "summary": "放弃攻速专注穿甲+R狙击"
+      "summary": "放弃攻速专注穿甲+R狙击",
+      "augments": [
+        {
+          "name": "老练狙神",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "远程Q命中返还80%冷却。穿甲女警Q从6秒→1.2秒=无限Q狙击",
+          "synergyDetail": "大乱斗走廊直线距离长，Q最远射程命中返还80%CD=Q几乎无冷却"
+        },
+        {
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "优先",
+          "synergyLevel": "A",
+          "reason": "Q+100技能急速+老练狙神=Q CD几乎为零",
+          "synergyDetail": ""
+        },
+        {
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速=R更快就绪=更多狙击",
+          "synergyDetail": ""
+        }
+      ]
     }
   ],
   "matchup": {

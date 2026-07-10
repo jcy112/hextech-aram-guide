@@ -86,14 +86,6 @@
           "synergyDetail": ""
         },
         {
-          "name": "全心为你",
-          "tier": "黄金",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "治疗/护盾+30%",
-          "synergyDetail": ""
-        },
-        {
           "name": "会心治疗",
           "tier": "黄金",
           "priority": "优先",
@@ -183,7 +175,25 @@
       ],
       "name": "AD攻速流(邪修)",
       "type": "AD",
-      "summary": "被动木灵+高攻速=每次普攻附带AOE"
+      "summary": "被动木灵+高攻速=每次普攻附带AOE",
+      "augments": [
+        {
+          "name": "叠角龙",
+          "tier": "白银",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "调和之音x2=木灵升级加速=木灵AOE伤害翻倍",
+          "synergyDetail": "每5个调和之音升一级木灵。叠角龙让升级速度翻倍=木灵伤害质变更早"
+        },
+        {
+          "name": "连拨击锤",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "6倍木灵触发。每次普攻=6个木灵=6倍AOE",
+          "synergyDetail": "木灵跟随普攻造成AOE。连拨击锤让一次普攻=6次木灵=AOE覆盖全场"
+        }
+      ]
     }
   ],
   "matchup": {

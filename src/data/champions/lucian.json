@@ -92,30 +92,6 @@
           "synergyLevel": "A",
           "reason": "普攻额外目标30%AD飞弹",
           "synergyDetail": ""
-        },
-        {
-          "name": "秘术冲拳",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD",
-          "synergyDetail": ""
-        },
-        {
-          "name": "全凭身法",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "位移技能+175技能急速",
-          "synergyDetail": ""
-        },
-        {
-          "name": "飞身踢",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗",
-          "synergyDetail": ""
         }
       ],
       "playstyle": "保持安全距离持续输出。团战站最后排。",

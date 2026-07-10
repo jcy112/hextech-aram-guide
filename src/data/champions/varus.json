@@ -86,30 +86,6 @@
           "synergyDetail": ""
         },
         {
-          "name": "尤里卡",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
-          "synergyDetail": "500AP=150技能急速"
-        },
-        {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
-          "synergyDetail": ""
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
-          "synergyDetail": ""
-        },
-        {
           "name": "循环往复",
           "tier": "黄金",
           "priority": "可选",
@@ -132,6 +108,100 @@
         "根据敌方阵容变化"
       ],
       "summary": "标准玩法，适合大多数对局"
+    },
+    {
+      "id": "varus-ap",
+      "name": "AP穿透爆发流",
+      "type": "AP",
+      "summary": "远程poke，R定身+WQ秒人",
+      "coreItems": [
+        "卢登的激荡",
+        "影焰",
+        "虚空之杖"
+      ],
+      "fullItems": [
+        "卢登的激荡",
+        "法师之靴",
+        "影焰",
+        "虚空之杖",
+        "灭世者的死亡之帽",
+        "视界专注"
+      ],
+      "skillOrder": "主Q副W，有R点R",
+      "skillDetail": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "W",
+        "Q",
+        "W",
+        "R",
+        "W",
+        "W",
+        "E",
+        "E",
+        "R",
+        "E",
+        "E"
+      ],
+      "playstyle": "AP韦鲁斯远程满蓄力Q消耗。6级R先手定身+WQ引爆枯萎秒人。R自动叠满3层枯萎+WQ引爆=21%最大生命值+AP加成。站位在最后排。",
+      "tips": [
+        "R命中自动叠满3层枯萎",
+        "W主动：下一次Q附带已损失生命值的斩杀伤害",
+        "面对魔抗尽早出虚空之杖"
+      ],
+      "strengths": [
+        "超远射程poke",
+        "R+WQ秒杀脆皮"
+      ],
+      "weaknesses": [
+        "身板极脆",
+        "无位移"
+      ],
+      "augments": [
+        {
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "AP韦鲁斯核心。500AP时+150技能急速=Q蓄力箭从8秒→3秒。配合回响施放=无限远程狙击",
+          "synergyDetail": "高AP带来高技能急速=Q技能CD质变=无限poke"
+        },
+        {
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "AP韦鲁斯秒人核心。Q蓄力箭复制一次=双倍伤害。配合W枯萎引爆=一发双Q引爆=秒杀满血脆皮",
+          "synergyDetail": "Q先命中叠W层数+回响Q第二发引爆枯萎=四段伤害一次爆发"
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "技能暴击175%伤害。500AP时一Q暴击=1500+伤害。配合回响施放双Q=暴击判定x2",
+          "synergyDetail": "Q技能基础伤害高，暴击翻倍后一发Q=脆皮血条消失"
+        },
+        {
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速，AP流需要技能急速缩减Q/E/R冷却",
+          "synergyDetail": ""
+        }
+      ],
+      "whenToPick": {
+        "teamNeeds": "己方需要AP伤害补充",
+        "enemyComposition": "敌方脆皮多时poke优势大",
+        "synergies": "有队友提供控制方便接R",
+        "avoidWhen": "敌方多个坦克且己方缺百分比伤害"
+      }
     }
   ],
   "matchup": {

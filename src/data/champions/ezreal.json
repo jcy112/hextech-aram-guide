@@ -92,30 +92,6 @@
           "synergyLevel": "A",
           "reason": "普攻额外目标30%AD飞弹",
           "synergyDetail": ""
-        },
-        {
-          "name": "尤里卡",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
-          "synergyDetail": "500AP=150技能急速"
-        },
-        {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
-          "synergyDetail": ""
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
-          "synergyDetail": ""
         }
       ],
       "playstyle": "保持安全距离持续输出。团战站最后排。",
@@ -191,7 +167,41 @@
       ],
       "name": "AP机关枪(邪修)",
       "type": "AP",
-      "summary": "W+E+R全AP。卢登+巫妖=无限爆发"
+      "summary": "W+E+R全AP。卢登+巫妖=无限爆发",
+      "augments": [
+        {
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "AP伊泽核心。500AP+150技能急速=W/E/R无限循环",
+          "synergyDetail": "W(80%AP)+E(75%AP)+R(90%AP)高AP加成。尤里卡让CD缩短=爆发频率翻倍"
+        },
+        {
+          "name": "超负荷",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "其他技能重置Q=无限技能链。Q命中减CD+W/E重置Q=无缝循环",
+          "synergyDetail": "QWEWQE经典机关枪被超负荷放大=无限释放"
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "WEA三连暴击=巫妖+卢登+暴击=四重爆发",
+          "synergyDetail": ""
+        },
+        {
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速=更多技能=更多爆发",
+          "synergyDetail": ""
+        }
+      ]
     }
   ],
   "matchup": {

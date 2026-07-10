@@ -78,14 +78,6 @@
           "synergyDetail": ""
         },
         {
-          "name": "全心为你",
-          "tier": "黄金",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "治疗/护盾+30%",
-          "synergyDetail": ""
-        },
-        {
           "name": "会心治疗",
           "tier": "黄金",
           "priority": "优先",
@@ -175,7 +167,33 @@
       ],
       "name": "AD暴击流(邪修)",
       "type": "AD",
-      "summary": "E被动+灵魂=无限AD。暴击一鞭秒人"
+      "summary": "E被动+灵魂=无限AD。暴击一鞭秒人",
+      "augments": [
+        {
+          "name": "叠角龙",
+          "tier": "白银",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "灵魂层数x2。每灵魂+1.5AD→+3AD。200灵魂=600AD",
+          "synergyDetail": "大乱斗灵魂获取极快。叠角龙让AD锤石AD成长翻倍=后期一鞭2000+暴击"
+        },
+        {
+          "name": "连拨击锤",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "普攻6倍触发。每次普攻=6次E被动触发=6倍灵魂AD加成",
+          "synergyDetail": "E被动灵魂AD加成可以被连拨击锤6倍放大=一发普攻=6x灵魂AD"
+        },
+        {
+          "name": "台风",
+          "tier": "白银",
+          "priority": "优先",
+          "synergyLevel": "A",
+          "reason": "普攻AOE=灵魂AD加成溅射多人",
+          "synergyDetail": ""
+        }
+      ]
     }
   ],
   "matchup": {

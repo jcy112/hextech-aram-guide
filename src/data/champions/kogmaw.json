@@ -86,30 +86,6 @@
           "synergyDetail": ""
         },
         {
-          "name": "尤里卡",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "技能加速=30%AP",
-          "synergyDetail": "500AP=150技能急速"
-        },
-        {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害",
-          "synergyDetail": ""
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害",
-          "synergyDetail": ""
-        },
-        {
           "name": "循环往复",
           "tier": "黄金",
           "priority": "可选",

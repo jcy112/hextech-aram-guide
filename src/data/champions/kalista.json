@@ -53,14 +53,6 @@
       ],
       "augments": [
         {
-          "name": "全凭身法",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "位移技能+175技能急速",
-          "synergyDetail": "位移CD缩至极致"
-        },
-        {
           "name": "连拨击锤",
           "tier": "棱彩",
           "priority": "核心",

@@ -9,6 +9,101 @@
   "hotHero": false,
   "builds": [
     {
+      "id": "malph-tank",
+      "name": "坦克出装",
+      "type": "Tank",
+      "summary": "前排坦克吸收伤害。R开团+E减攻速克制AD阵容",
+      "coreItems": [
+        "心之钢",
+        "璀璨回响",
+        "千变者贾修"
+      ],
+      "fullItems": [
+        "心之钢",
+        "水银之靴",
+        "璀璨回响",
+        "千变者贾修",
+        "荆棘之甲",
+        "振奋盔甲"
+      ],
+      "skillOrder": "主W副E，有R点R",
+      "skillDetail": [
+        "W",
+        "Q",
+        "E",
+        "W",
+        "W",
+        "R",
+        "W",
+        "E",
+        "W",
+        "E",
+        "R",
+        "E",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "Q"
+      ],
+      "playstyle": "坦克石头人站最前排吸收伤害。R团战先手击飞多人。E减攻速完美克制ADC和物理阵容。W被动+35%护甲让后期轻松500+护甲。心之钢30秒CD有节奏摸人叠层。",
+      "tips": [
+        "R不要急躁——等对面站位密集再撞",
+        "E减攻速是克制ADC的神技",
+        "W被动护甲加成让后期500+护甲"
+      ],
+      "strengths": [
+        "最强开团",
+        "高护甲克制AD",
+        "被动护盾"
+      ],
+      "weaknesses": [
+        "被AP阵容克制",
+        "笨重"
+      ],
+      "augments": [
+        {
+          "name": "钢化你心",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "心之钢层数x3。石头人W被动+35%护甲=血量越高护甲收益越大。配合心之钢叠血=血量+护甲双重膨胀",
+          "synergyDetail": "万血+500护甲的石头人=物理阵容永远打不死的存在"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "+35%生命值。石头人W被动护甲+血量双高=护甲收益翻倍。体型变大也让R命中范围变大",
+          "synergyDetail": "10000血+35%=13500血。配合W被动=护甲也受益于更高血量"
+        },
+        {
+          "name": "巨像的勇气",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "R击飞触发巨量护盾(基于最大生命)。R撞飞3人=触发一次=5000+血的护盾值",
+          "synergyDetail": "万血石头人R进场+巨像勇气=3000+护盾。R完接E=对面全队减攻速+你有护盾=无敌"
+        },
+        {
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速。R从130秒→80秒。更多R=更多开团机会",
+          "synergyDetail": ""
+        }
+      ],
+      "whenToPick": {
+        "teamNeeds": "己方需要前排和开团",
+        "enemyComposition": "敌方AD阵容为主时效果最佳",
+        "synergies": "有AOE输出的队友配合R开团",
+        "avoidWhen": "敌方全AP阵容时护甲价值低"
+      }
+    },
+    {
       "id": "malphite-primary",
       "name": "AP法师出装",
       "type": "AP",
@@ -75,22 +170,6 @@
           "priority": "优先",
           "synergyLevel": "S",
           "reason": "复制一次技能=双倍伤害",
-          "synergyDetail": ""
-        },
-        {
-          "name": "钢化你心",
-          "tier": "黄金",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
-          "synergyDetail": ""
-        },
-        {
-          "name": "歌利亚巨人",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
           "synergyDetail": ""
         },
         {
@@ -185,7 +264,33 @@
       ],
       "name": "AP核弹流",
       "type": "AP",
-      "summary": "全AP装。R一头撞=脆皮蒸发"
+      "summary": "全AP装。R一头撞=脆皮蒸发",
+      "augments": [
+        {
+          "name": "尤里卡",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "AP石头人核心。600AP时R=1600+伤害。尤里卡让R从130秒→80秒",
+          "synergyDetail": "R100%AP加成=1AP=1伤害。600AP的R=600基础+600AP=1200aoe伤害"
+        },
+        {
+          "name": "终极唤醒",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "开大后重置基础技能。R撞+QEW打完+重置+QEW再打=双倍爆发",
+          "synergyDetail": "R进场+QEW交完→重置→QEW再一轮=脆皮无法存活"
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "A",
+          "reason": "R可暴击+175%伤害。一发R暴击=3000+AOE伤害",
+          "synergyDetail": ""
+        }
+      ]
     }
   ],
   "matchup": {
