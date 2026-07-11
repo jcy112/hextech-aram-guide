@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "soraka-primary",
-      "name": "AP法师出装",
-      "type": "AP",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "辅助奶流",
+      "buildType": "support",
       "coreItems": [
-        "卢登的激荡",
-        "影焰",
-        "虚空之杖"
+        "月石再生器",
+        "救赎",
+        "炽热香炉"
       ],
       "fullItems": [
-        "卢登的激荡",
-        "法师之靴",
-        "影焰",
-        "虚空之杖",
-        "灭世者的死亡之帽",
-        "视界专注"
+        "月石再生器",
+        "明朗之靴",
+        "救赎",
+        "炽热香炉",
+        "米凯尔的祝福",
+        "警觉眼石"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主W副Q",
       "skillDetail": [
         "Q",
         "W",
@@ -54,68 +47,140 @@
       ],
       "augments": [
         {
+          "name": "风语者的祝福",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "57.67%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的风语者的祝福。"
+        },
+        {
+          "name": "喂呜喂呜",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "55.33%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的喂呜喂呜。"
+        },
+        {
+          "name": "咏叹奏鸣",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "53.19%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的咏叹奏鸣。"
+        },
+        {
+          "name": "灵魄炸弹",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.35%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的灵魄炸弹。"
+        },
+        {
+          "name": "急救用具",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "51.28%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的急救用具。"
+        },
+        {
+          "name": "天音爆",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "51.78%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的天音爆。"
+        },
+        {
+          "name": "全心为你",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "50.83%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的全心为你。"
+        },
+        {
+          "name": "信念者的强化",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.25%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的信念者的强化。"
+        },
+        {
+          "name": "至高天诺言",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.20%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的至高天诺言。"
+        },
+        {
+          "name": "蛋白粉奶昔",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "48.00%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的蛋白粉奶昔。"
+        },
+        {
           "name": "会心治疗",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "治疗/护盾可暴击+40%。soraka的治疗技能暴击=双倍奶量。W治疗量极高但消耗自身生命值",
-          "synergyDetail": "奶量双倍"
+          "winRate": "46.56%",
+          "reason": "契合治疗+护盾+辅助，适合辅助出装的会心治疗。"
         },
         {
-          "name": "面包和果酱",
+          "name": "生机迸发",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "W技能「星之灌注」给友军治疗，消耗自身生命值。面包果酱让W冷却减半=给友军治疗，消耗自身生命值频率翻倍",
-          "synergyDetail": "W无限循环释放"
+          "winRate": "49.08%",
+          "reason": "契合治疗+功能+healing，适合辅助出装的生机迸发。"
         },
         {
-          "name": "尤里卡",
+          "name": "主玩辅助",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "",
+          "reason": "契合治疗+辅助+support，适合辅助出装的主玩辅助。"
+        },
+        {
+          "name": "回归基本功",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "技能加速=30%AP。soraka作为AP英雄，高AP带来高技能急速=技能循环加速。W治疗量极高但消耗自身生命值",
-          "synergyDetail": "500AP=150技能急速"
+          "winRate": "52.54%",
+          "reason": "契合治疗+护盾+healing，适合辅助出装的回归基本功。"
         },
         {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害。soraka的技能爆发配合暴击=一发技能秒杀脆皮。W治疗量极高但消耗自身生命值",
-          "synergyDetail": ""
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害。soraka的核心输出技能双倍释放=爆发翻倍。W治疗量极高但消耗自身生命值",
-          "synergyDetail": ""
-        },
-        {
-          "name": "循环往复",
+          "name": "轻拍背部",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "46.04%",
+          "reason": "契合护盾+功能+utility，适合辅助出装的轻拍背部。"
+        },
+        {
+          "name": "飞身踢",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合治疗+healing，适合辅助出装的飞身踢。"
+        },
+        {
+          "name": "海洋龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.22%",
+          "reason": "契合治疗+healing，适合辅助出装的海洋龙魂。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.12%",
+          "reason": "契合治疗+healing，适合辅助出装的升级：耀光。"
         }
       ],
-      "playstyle": "远程消耗压制血线。AOE价值极高。注意站位。",
+      "playstyle": "紧跟核心输出位提供治疗/护盾/控制保护。注意站位不要太靠前，活着才能持续为团队提供增益。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "辅助",
-        "法师"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "紧跟核心输出位",
+        "注意站位不要太靠前",
+        "活着才能持续为团队提供增益",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

@@ -1,0 +1,80 @@
+[
+  [
+    "ShallowReactive",
+    1
+  ],
+  {
+    "prerenderedAt": 2,
+    "data": 3,
+    "state": 23,
+    "once": 25,
+    "_errors": 26,
+    "serverRendered": 28,
+    "path": 29
+  },
+  1783647809432,
+  [
+    "ShallowReactive",
+    4
+  ],
+  {
+    "aramkit-data-versions": 5
+  },
+  {
+    "latest": 6,
+    "versions": 7
+  },
+  "16.13",
+  [
+    8,
+    15
+  ],
+  {
+    "version": 6,
+    "dataPath": 9,
+    "resourcePath": 10,
+    "allMatches": 11,
+    "highMatches": 12,
+    "dataStartTimeUnixMs": 13,
+    "dataEndTimeUnixMs": 14
+  },
+  "data/16.13-20260708-3bf5b43e0dd8",
+  "resources/16.13-01de73db85d1",
+  57678797,
+  18157705,
+  1782341023508,
+  1783491842184,
+  {
+    "version": 16,
+    "dataPath": 17,
+    "resourcePath": 18,
+    "allMatches": 19,
+    "highMatches": 20,
+    "dataStartTimeUnixMs": 21,
+    "dataEndTimeUnixMs": 22
+  },
+  "16.12",
+  "data/16.12-20260622-43e8a233ec71",
+  "resources/16.12-2ec3e5d90010",
+  20546304,
+  5001034,
+  1781740991565,
+  1782152628530,
+  [
+    "Reactive",
+    24
+  ],
+  {},
+  [
+    "Set"
+  ],
+  [
+    "ShallowReactive",
+    27
+  ],
+  {
+    "aramkit-data-versions": -1
+  },
+  true,
+  "/zh-CN/champions"
+]

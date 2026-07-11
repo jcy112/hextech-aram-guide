@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "taric-primary",
-      "name": "坦克出装",
-      "type": "Tank",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "坦克辅助流",
+      "buildType": "tank",
       "coreItems": [
-        "心之钢",
-        "璀璨回响",
-        "千变者贾修"
+        "钢铁烈阳之匣",
+        "骑士之誓",
+        "警觉眼石"
       ],
       "fullItems": [
-        "心之钢",
-        "水银之靴",
-        "璀璨回响",
-        "千变者贾修",
-        "荆棘之甲",
-        "振奋盔甲"
+        "钢铁烈阳之匣",
+        "明朗之靴",
+        "骑士之誓",
+        "警觉眼石",
+        "振奋盔甲",
+        "荆棘之甲"
       ],
-      "skillOrder": "主W副E，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,68 +47,140 @@
       ],
       "augments": [
         {
-          "name": "面包和果酱",
+          "name": "吞噬灵魂",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "W技能+100技能急速",
-          "synergyDetail": "W无限循环释放"
+          "winRate": "47.50%",
+          "reason": "契合坦克+生命成长+cc，适合坦克出装的吞噬灵魂。"
+        },
+        {
+          "name": "巨像的勇气",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.30%",
+          "reason": "契合坦克+shield+cc，适合坦克出装的巨像的勇气。"
+        },
+        {
+          "name": "不动如山",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.62%",
+          "reason": "契合坦克+防御+cc，适合坦克出装的不动如山。"
+        },
+        {
+          "name": "坦克引擎",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "52.01%",
+          "reason": "契合坦克+生命成长，适合坦克出装的坦克引擎。"
+        },
+        {
+          "name": "黎明使者的坚决",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.57%",
+          "reason": "契合生存+防御+healing，适合坦克出装的黎明使者的坚决。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.17%",
+          "reason": "契合坦克+防御，适合坦克出装的泰坦的坚决。"
+        },
+        {
+          "name": "高压锅",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "51.74%",
+          "reason": "契合坦克+最大生命值伤害，适合坦克出装的高压锅。"
+        },
+        {
+          "name": "重量级打击手",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "51.81%",
+          "reason": "契合坦克+最大生命值伤害，适合坦克出装的重量级打击手。"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合坦克+生存，适合坦克出装的歌利亚巨人。"
+        },
+        {
+          "name": "会心防御",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "53.45%",
+          "reason": "契合坦克+防御，适合坦克出装的会心防御。"
+        },
+        {
+          "name": "星界躯体",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "50.05%",
+          "reason": "契合坦克+生存，适合坦克出装的星界躯体。"
         },
         {
           "name": "钢化你心",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
-          "synergyDetail": ""
+          "winRate": "53.69%",
+          "reason": "契合坦克，适合坦克出装的钢化你心。"
         },
         {
-          "name": "歌利亚巨人",
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "52.82%",
+          "reason": "契合生存+healing，适合坦克出装的灵魂虹吸。"
+        },
+        {
+          "name": "回归基本功",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "52.54%",
+          "reason": "契合healing+shield，适合坦克出装的回归基本功。"
         },
         {
-          "name": "叠角龙",
+          "name": "升级：献祭",
           "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "永久层数获取量+100%",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "52.12%",
+          "reason": "契合坦克，适合坦克出装的升级：献祭。"
         },
         {
-          "name": "会心治疗",
+          "name": "魔法飞弹",
           "tier": "黄金",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "治疗/护盾可暴击+40%",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "50.06%",
+          "reason": "契合最大生命值伤害+spell_weaving，适合坦克出装的魔法飞弹。"
         },
         {
-          "name": "循环往复",
+          "name": "风语者的祝福",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "57.67%",
+          "reason": "契合healing+shield，适合坦克出装的风语者的祝福。"
+        },
+        {
+          "name": "喂呜喂呜",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "55.33%",
+          "reason": "契合healing+shield，适合坦克出装的喂呜喂呜。"
         }
       ],
-      "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
+      "playstyle": "作为前排吸收伤害，抓住时机开团。利用控制技能保护后排或打断敌方关键技能。存活越久团队收益越大。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "辅助",
-        "坦克"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "不要单独追残血，脱离团队容易被风筝",
+        "开团前确保队友能跟上",
+        "心之钢层数叠起来后正面作战极强",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

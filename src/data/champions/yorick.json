@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "yorick-primary",
-      "name": "坦克出装",
-      "type": "Tank",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "半肉掘墓流",
+      "buildType": "bruiser",
       "coreItems": [
-        "心之钢",
-        "璀璨回响",
-        "千变者贾修"
+        "三相之力",
+        "破败王者之刃",
+        "死亡之舞"
       ],
       "fullItems": [
-        "心之钢",
+        "三相之力",
         "水银之靴",
-        "璀璨回响",
-        "千变者贾修",
-        "荆棘之甲",
+        "破败王者之刃",
+        "死亡之舞",
+        "斯特拉克的挑战护手",
         "振奋盔甲"
       ],
-      "skillOrder": "主W副E，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,76 +47,140 @@
       ],
       "augments": [
         {
-          "name": "邦！",
+          "name": "升级：耀光",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
-          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
-        },
-        {
-          "name": "钢化你心",
-          "tier": "黄金",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "心之钢300层x3倍效果",
-          "synergyDetail": ""
+          "winRate": "49.12%",
+          "reason": "契合AD输出+回血+spell_weaving，适合半肉战士出装的升级：耀光。"
         },
         {
           "name": "歌利亚巨人",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
         },
         {
-          "name": "叠角龙",
-          "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "永久层数获取量+100%",
-          "synergyDetail": ""
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合AD输出+attack_speed，适合半肉战士出装的战争交响乐。"
+        },
+        {
+          "name": "亮出你的剑",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "59.45%",
+          "reason": "契合AD输出+生存，适合半肉战士出装的亮出你的剑。"
+        },
+        {
+          "name": "双刀流",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.65%",
+          "reason": "契合attack_speed+onhit，适合半肉战士出装的双刀流。"
+        },
+        {
+          "name": "飞身踢",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合AD输出+回血，适合半肉战士出装的飞身踢。"
         },
         {
           "name": "灵魂虹吸",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "A",
-          "reason": "12%技能吸血",
-          "synergyDetail": ""
+          "winRate": "52.82%",
+          "reason": "契合生存+回血，适合半肉战士出装的灵魂虹吸。"
         },
         {
-          "name": "战争交响乐",
+          "name": "连拨击锤",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "51.54%",
+          "reason": "契合attack_speed+onhit，适合半肉战士出装的连拨击锤。"
         },
         {
-          "name": "循环往复",
+          "name": "虚幻武器",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "49.29%",
+          "reason": "契合onhit+spell_weaving，适合半肉战士出装的虚幻武器。"
+        },
+        {
+          "name": "踢踏舞",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.67%",
+          "reason": "契合attack_speed+onhit，适合半肉战士出装的踢踏舞。"
+        },
+        {
+          "name": "秘术冲拳",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.07%",
+          "reason": "契合onhit+spell_weaving，适合半肉战士出装的秘术冲拳。"
+        },
+        {
+          "name": "点亮他们！",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "52.13%",
+          "reason": "契合attack_speed+onhit，适合半肉战士出装的点亮他们！。"
+        },
+        {
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "51.03%",
+          "reason": "契合AD输出+spell_weaving，适合半肉战士出装的邦！。"
+        },
+        {
+          "name": "台风",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.75%",
+          "reason": "契合attack_speed+onhit，适合半肉战士出装的台风。"
+        },
+        {
+          "name": "海洋龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.22%",
+          "reason": "契合生存+回血，适合半肉战士出装的海洋龙魂。"
+        },
+        {
+          "name": "黎明使者的坚决",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.57%",
+          "reason": "契合生存+回血，适合半肉战士出装的黎明使者的坚决。"
+        },
+        {
+          "name": "旋转至胜",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.99%",
+          "reason": "契合AD输出+spell_weaving，适合半肉战士出装的旋转至胜。"
+        },
+        {
+          "name": "物法皆修",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.67%",
+          "reason": "契合AD输出+attack_speed，适合半肉战士出装的物法皆修。"
         }
       ],
-      "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
+      "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "战士",
-        "坦克"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "不要第一个进场等控制交了再切入",
+        "找准时机切后排脆皮",
+        "活下来利用吸血/回复再战",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

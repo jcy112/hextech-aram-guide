@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "kayle-primary",
-      "name": "ADC出装",
-      "type": "AD",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "AP天使流",
+      "buildType": "ap",
       "coreItems": [
-        "海妖杀手",
-        "卢安娜的飓风",
-        "无尽之刃"
+        "纳什之牙",
+        "灭世者的死亡之帽",
+        "虚空之杖"
       ],
       "fullItems": [
-        "海妖杀手",
+        "纳什之牙",
         "狂战士胫甲",
-        "卢安娜的飓风",
-        "无尽之刃",
-        "多米尼克领主的致意",
-        "饮血剑"
+        "灭世者的死亡之帽",
+        "虚空之杖",
+        "中娅沙漏",
+        "瑞莱的冰晶节杖"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,52 +47,140 @@
       ],
       "augments": [
         {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.14%",
+          "reason": "契合AP爆发+法穿+scaling，适合AP出装的牙仙子。"
+        },
+        {
+          "name": "神射法师",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.60%",
+          "reason": "契合onhit+ap_scaling+hybrid_damage，适合AP出装的神射法师。"
+        },
+        {
+          "name": "物法皆修",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.67%",
+          "reason": "契合attack_speed+ap_scaling+hybrid_damage，适合AP出装的物法皆修。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.17%",
+          "reason": "契合AP爆发+scaling，适合AP出装的泰坦的坚决。"
+        },
+        {
+          "name": "超凡邪恶",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "51.98%",
+          "reason": "契合技能法师+scaling，适合AP出装的超凡邪恶。"
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.66%",
+          "reason": "契合AP爆发+技能法师，适合AP出装的珠光护手。"
+        },
+        {
+          "name": "沃格勒特的巫师帽",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.37%",
+          "reason": "契合AP爆发+技能法师，适合AP出装的沃格勒特的巫师帽。"
+        },
+        {
+          "name": "巫师式思考",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.44%",
+          "reason": "契合AP爆发+技能法师，适合AP出装的巫师式思考。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.12%",
+          "reason": "契合AP爆发+healing，适合AP出装的升级：耀光。"
+        },
+        {
+          "name": "物理转魔法",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.94%",
+          "reason": "契合AP爆发+hybrid_damage，适合AP出装的物理转魔法。"
+        },
+        {
+          "name": "不祥契约",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.16%",
+          "reason": "契合AP爆发+技能法师，适合AP出装的不祥契约。"
+        },
+        {
+          "name": "贪欲束缚",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "47.06%",
+          "reason": "契合AP爆发+healing，适合AP出装的贪欲束缚。"
+        },
+        {
+          "name": "炼狱龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.40%",
+          "reason": "契合AP爆发+onhit，适合AP出装的炼狱龙魂。"
+        },
+        {
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合attack_speed+scaling，适合AP出装的战争交响乐。"
+        },
+        {
+          "name": "双刀流",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.65%",
+          "reason": "契合attack_speed+onhit，适合AP出装的双刀流。"
+        },
+        {
+          "name": "炼狱导管",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.78%",
+          "reason": "契合技能法师+持续伤害，适合AP出装的炼狱导管。"
+        },
+        {
+          "name": "回归基本功",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.54%",
+          "reason": "契合技能法师+healing，适合AP出装的回归基本功。"
+        },
+        {
           "name": "连拨击锤",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "普攻额外5发飞弹=输出翻倍",
-          "synergyDetail": "每次普攻=6次攻击触发"
-        },
-        {
-          "name": "灵巧",
-          "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+60%攻速质变",
-          "synergyDetail": ""
-        },
-        {
-          "name": "台风",
-          "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "A",
-          "reason": "普攻额外目标30%AD飞弹",
-          "synergyDetail": ""
-        },
-        {
-          "name": "循环往复",
-          "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "winRate": "51.54%",
+          "reason": "契合attack_speed+onhit，适合AP出装的连拨击锤。"
         }
       ],
-      "playstyle": "保持安全距离持续输出。团战站最后排。",
+      "playstyle": "利用技能射程在后排消耗压制敌方血线，寻找合适的开团时机使用大招。注意蓝量管理。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "法师",
-        "射手"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "技能不要全用来清兵，留技能打敌方英雄",
+        "注意蓝量管理",
+        "利用草丛卡视野出其不意放技能",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

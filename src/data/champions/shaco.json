@@ -8,29 +8,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "shaco-primary",
-      "name": "刺客出装",
-      "type": "Assassin",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "AD小丑流",
+      "buildType": "assassin",
       "coreItems": [
         "幽梦之灵",
         "收集者",
-        "夜之锋刃"
+        "无尽之刃"
       ],
       "fullItems": [
         "幽梦之灵",
-        "明朗之靴",
+        "狂战士胫甲",
         "收集者",
-        "夜之锋刃",
-        "赛瑞尔达的怨恨",
+        "无尽之刃",
+        "多米尼克领主的致意",
         "守护天使"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -53,59 +46,140 @@
       ],
       "augments": [
         {
-          "name": "面包和奶酪",
+          "name": "牙仙子",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "E技能「双面毒刃」是核心。面包奶酪让E冷却减半=更多投掷飞刀=伤害+减速(背刺额外伤害)，E飞刀是AP流核心伤害",
-          "synergyDetail": "E无限循环释放"
+          "winRate": "49.14%",
+          "reason": "契合AD爆发+穿甲+burst_ad，适合assassin出装的牙仙子。"
         },
         {
-          "name": "秘术冲拳",
-          "tier": "棱彩",
+          "name": "升级：收集者",
+          "tier": "白银",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD。shaco的技能连招被秘术冲拳放大=无限循环。每次命中缩短CD=技能频率加速",
-          "synergyDetail": ""
+          "winRate": "47.90%",
+          "reason": "契合AD爆发+斩杀+burst_ad，适合assassin出装的升级：收集者。"
         },
         {
-          "name": "全凭身法",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "位移技能+175技能急速",
-          "synergyDetail": ""
+          "name": "暴击飞弹",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "54.62%",
+          "reason": "契合AD爆发+暴击+burst_ad，适合assassin出装的暴击飞弹。"
+        },
+        {
+          "name": "升级：无尽之刃",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "52.37%",
+          "reason": "契合AD爆发+暴击+burst_ad，适合assassin出装的升级：无尽之刃。"
         },
         {
           "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗。shaco作为刺客/战士，飞身踢提升斩杀线+击杀回血=收割链关键",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合AD爆发+斩杀+burst_ad，适合assassin出装的飞身踢。"
         },
         {
-          "name": "循环往复",
+          "name": "贪欲束缚",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "47.06%",
+          "reason": "契合AD爆发+burst_ad+cc，适合assassin出装的贪欲束缚。"
+        },
+        {
+          "name": "杀戮时间到了",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.15%",
+          "reason": "契合AD爆发+斩杀+burst_ad，适合assassin出装的杀戮时间到了。"
+        },
+        {
+          "name": "炼狱龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.40%",
+          "reason": "契合AD爆发+burst_ad+onhit，适合assassin出装的炼狱龙魂。"
+        },
+        {
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合AD爆发+攻速+burst_ad，适合assassin出装的战争交响乐。"
+        },
+        {
+          "name": "连锁反应",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "40.83%",
+          "reason": "契合AD爆发+burst_ad+cc，适合assassin出装的连锁反应。"
+        },
+        {
+          "name": "大师铸就",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.78%",
+          "reason": "契合AD爆发+burst_ad，适合assassin出装的大师铸就。"
+        },
+        {
+          "name": "物法皆修",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.67%",
+          "reason": "契合AD爆发+攻速+burst_ad，适合assassin出装的物法皆修。"
+        },
+        {
+          "name": "男爵之手",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.02%",
+          "reason": "契合AD爆发+burst_ad，适合assassin出装的男爵之手。"
+        },
+        {
+          "name": "过量延伸者",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.67%",
+          "reason": "契合AD爆发+burst_ad，适合assassin出装的过量延伸者。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.17%",
+          "reason": "契合AD爆发+burst_ad，适合assassin出装的泰坦的坚决。"
+        },
+        {
+          "name": "亮出你的剑",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "59.45%",
+          "reason": "契合AD爆发+burst_ad，适合assassin出装的亮出你的剑。"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合AD爆发+burst_ad，适合assassin出装的歌利亚巨人。"
+        },
+        {
+          "name": "巨人杀手",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.37%",
+          "reason": "契合AD爆发+burst_ad，适合assassin出装的巨人杀手。"
         }
       ],
-      "playstyle": "等机会秒脆皮撤退。不要先手。目标ADC>法师>辅助。",
+      "playstyle": "等待敌方交完关键控制和保命技能后再进场，优先切后排脆皮。打完一套后利用位移退场等待下一波。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "刺客"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "等敌方关键技能交了再进场",
+        "优先切后排脆皮和法师",
+        "打完一套就撤，不要贪输出",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

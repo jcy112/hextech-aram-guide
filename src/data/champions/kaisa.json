@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "kaisa-primary",
-      "name": "ADC出装",
-      "type": "AD",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "混伤进化流",
+      "buildType": "hybrid",
       "coreItems": [
-        "海妖杀手",
-        "卢安娜的飓风",
-        "无尽之刃"
+        "鬼索的狂暴之刃",
+        "纳什之牙",
+        "界弓"
       ],
       "fullItems": [
-        "海妖杀手",
+        "鬼索的狂暴之刃",
         "狂战士胫甲",
-        "卢安娜的飓风",
-        "无尽之刃",
-        "多米尼克领主的致意",
-        "饮血剑"
+        "纳什之牙",
+        "界弓",
+        "中娅沙漏",
+        "守护天使"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,60 +47,140 @@
       ],
       "augments": [
         {
-          "name": "邦！",
-          "tier": "黄金",
+          "name": "踢踏舞",
+          "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "Q技能「艾卡西亚暴雨」多发导弹齐射(单体叠加)。邦！让Q冷却减半，多发导弹齐射(单体叠加)频率翻倍，Q多发导弹=单体爆发",
-          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
+          "winRate": "51.67%",
+          "reason": "契合attack_speed+onhit+mobility，适合hybrid出装的踢踏舞。"
+        },
+        {
+          "name": "双刀流",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.65%",
+          "reason": "契合attack_speed+onhit，适合hybrid出装的双刀流。"
         },
         {
           "name": "连拨击锤",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "Q多发导弹=单体爆发。连拨击锤让每次普攻=6发攻击触发=攻击特效触发频率×6=输出质变",
-          "synergyDetail": "每次普攻=6次攻击触发"
+          "winRate": "51.54%",
+          "reason": "契合attack_speed+onhit，适合hybrid出装的连拨击锤。"
         },
         {
-          "name": "灵巧",
+          "name": "点亮他们！",
           "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+60%攻速质变。kaisa作为攻速流英雄，攻速是核心属性=直接输出提升",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "52.13%",
+          "reason": "契合attack_speed+onhit，适合hybrid出装的点亮他们！。"
         },
         {
           "name": "台风",
           "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "A",
-          "reason": "普攻额外目标30%AD飞弹。kaisa的普攻AOE化=团战同时输出多个目标",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "49.75%",
+          "reason": "契合attack_speed+onhit，适合hybrid出装的台风。"
         },
         {
-          "name": "循环往复",
+          "name": "神射法师",
           "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.60%",
+          "reason": "契合onhit+hybrid_damage，适合hybrid出装的神射法师。"
+        },
+        {
+          "name": "罪恶快感",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.92%",
+          "reason": "契合attack_speed+mobility，适合hybrid出装的罪恶快感。"
+        },
+        {
+          "name": "物法皆修",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.67%",
+          "reason": "契合attack_speed+hybrid_damage，适合hybrid出装的物法皆修。"
+        },
+        {
+          "name": "家园卫士",
+          "tier": "白银",
+          "priority": "优先",
+          "winRate": "52.49%",
+          "reason": "契合mobility，适合hybrid出装的家园卫士。"
+        },
+        {
+          "name": "闪现向前",
+          "tier": "黄金",
+          "priority": "优先",
+          "winRate": "48.64%",
+          "reason": "契合mobility，适合hybrid出装的闪现向前。"
+        },
+        {
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "优先",
+          "winRate": "47.99%",
+          "reason": "契合attack_speed，适合hybrid出装的战争交响乐。"
+        },
+        {
+          "name": "夺金",
+          "tier": "棱彩",
+          "priority": "优先",
+          "winRate": "48.04%",
+          "reason": "契合mobility，适合hybrid出装的夺金。"
+        },
+        {
+          "name": "轻拍背部",
+          "tier": "黄金",
+          "priority": "优先",
+          "winRate": "46.04%",
+          "reason": "契合mobility，适合hybrid出装的轻拍背部。"
+        },
+        {
+          "name": "缩小射线",
+          "tier": "黄金",
+          "priority": "优先",
+          "winRate": "45.53%",
+          "reason": "契合onhit，适合hybrid出装的缩小射线。"
+        },
+        {
+          "name": "快步",
+          "tier": "黄金",
+          "priority": "优先",
+          "winRate": "44.44%",
+          "reason": "契合mobility，适合hybrid出装的快步。"
+        },
+        {
+          "name": "闪闪现现",
+          "tier": "白银",
+          "priority": "优先",
+          "winRate": "54.44%",
+          "reason": "契合mobility，适合hybrid出装的闪闪现现。"
+        },
+        {
+          "name": "王中王，靴中靴",
+          "tier": "棱彩",
+          "priority": "优先",
+          "winRate": "",
+          "reason": "契合mobility，适合hybrid出装的王中王，靴中靴。"
+        },
+        {
+          "name": "重量级打击手",
+          "tier": "白银",
           "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "winRate": "51.81%",
+          "reason": "契合onhit，适合hybrid出装的重量级打击手。"
         }
       ],
-      "playstyle": "保持安全距离持续输出。团战站最后排。",
+      "playstyle": "根据对局情况灵活调整出装和打法。海克斯优先选择与自身技能机制契合的符文。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "射手",
-        "法师"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "注意走位不要站太靠前",
+        "优先打能打到的目标而非越塔追残血",
+        "暴击装备成型后伤害质变",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

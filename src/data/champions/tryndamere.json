@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "tryndamere-primary",
-      "name": "刺客出装",
-      "type": "Assassin",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "暴击蛮王流",
+      "buildType": "ad",
       "coreItems": [
-        "幽梦之灵",
-        "收集者",
-        "夜之锋刃"
+        "无尽之刃",
+        "纳沃利迅刃",
+        "破败王者之刃"
       ],
       "fullItems": [
-        "幽梦之灵",
-        "明朗之靴",
-        "收集者",
-        "夜之锋刃",
-        "赛瑞尔达的怨恨",
+        "无尽之刃",
+        "狂战士胫甲",
+        "纳沃利迅刃",
+        "破败王者之刃",
+        "多米尼克领主的致意",
         "守护天使"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,76 +47,140 @@
       ],
       "augments": [
         {
-          "name": "面包和奶酪",
+          "name": "暴击飞弹",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "E技能「旋风斩」是核心。面包奶酪让E冷却减半=更多旋转冲刺+暴击减CD，E旋转=暴击减CD",
-          "synergyDetail": "E无限循环释放"
+          "winRate": "54.62%",
+          "reason": "契合AD爆发+暴击+crit，适合AD出装的暴击飞弹。"
         },
         {
-          "name": "秘术冲拳",
-          "tier": "棱彩",
+          "name": "升级：无尽之刃",
+          "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD。tryndamere的技能连招被秘术冲拳放大=无限循环。每次命中缩短CD=技能频率加速",
-          "synergyDetail": ""
-        },
-        {
-          "name": "全凭身法",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "E技能「旋风斩」是位移核心。全凭身法+175位移急速=旋转冲刺+暴击减CDCD缩至极致=无限机动",
-          "synergyDetail": ""
+          "winRate": "52.37%",
+          "reason": "契合AD爆发+暴击+crit，适合AD出装的升级：无尽之刃。"
         },
         {
           "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗。tryndamere作为刺客/战士，飞身踢提升斩杀线+击杀回血=收割链关键",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合AD爆发+斩杀+healing，适合AD出装的飞身踢。"
+        },
+        {
+          "name": "暴击律动",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "50.65%",
+          "reason": "契合暴击+攻速+crit，适合AD出装的暴击律动。"
+        },
+        {
+          "name": "狂热者",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.92%",
+          "reason": "契合暴击+攻速+crit，适合AD出装的狂热者。"
+        },
+        {
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合AD爆发+攻速+attack_speed，适合AD出装的战争交响乐。"
         },
         {
           "name": "灵魂虹吸",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "A",
-          "reason": "12%技能吸血。tryndamere的技能伤害高=吸血量可观=团战持续续航。E旋转=暴击减CD",
-          "synergyDetail": ""
+          "winRate": "52.82%",
+          "reason": "契合暴击+crit+healing，适合AD出装的灵魂虹吸。"
         },
         {
-          "name": "战争交响乐",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "致命节奏+征服者。tryndamere作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
-          "synergyDetail": ""
-        },
-        {
-          "name": "循环往复",
+          "name": "牙仙子",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "49.14%",
+          "reason": "契合AD爆发+穿甲，适合AD出装的牙仙子。"
+        },
+        {
+          "name": "升级：收集者",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "47.90%",
+          "reason": "契合AD爆发+斩杀，适合AD出装的升级：收集者。"
+        },
+        {
+          "name": "物法皆修",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.67%",
+          "reason": "契合AD爆发+攻速+attack_speed，适合AD出装的物法皆修。"
+        },
+        {
+          "name": "会心治疗",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.56%",
+          "reason": "契合暴击+crit+healing，适合AD出装的会心治疗。"
+        },
+        {
+          "name": "踢踏舞",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.67%",
+          "reason": "契合攻速+attack_speed+mobility，适合AD出装的踢踏舞。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.12%",
+          "reason": "契合AD爆发+healing，适合AD出装的升级：耀光。"
+        },
+        {
+          "name": "罪恶快感",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.92%",
+          "reason": "契合攻速+attack_speed+mobility，适合AD出装的罪恶快感。"
+        },
+        {
+          "name": "贪欲束缚",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "47.06%",
+          "reason": "契合AD爆发+healing，适合AD出装的贪欲束缚。"
+        },
+        {
+          "name": "杀戮时间到了",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.15%",
+          "reason": "契合AD爆发+斩杀，适合AD出装的杀戮时间到了。"
+        },
+        {
+          "name": "利刃华尔兹",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.77%",
+          "reason": "契合AD爆发+mobility，适合AD出装的利刃华尔兹。"
+        },
+        {
+          "name": "双发快射",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "52.72%",
+          "reason": "契合暴击+crit，适合AD出装的双发快射。"
         }
       ],
-      "playstyle": "等机会秒脆皮撤退。不要先手。目标ADC>法师>辅助。",
+      "playstyle": "利用射程优势在后排持续输出，注意走位避开控制技能，优先攻击最近目标。活着才有输出。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "战士",
-        "刺客"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "注意走位不要站太靠前",
+        "优先打能打到的目标而非越塔追残血",
+        "暴击装备成型后伤害质变",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

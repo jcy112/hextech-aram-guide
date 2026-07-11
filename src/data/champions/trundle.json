@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "trundle-primary",
-      "name": "坦克出装",
-      "type": "Tank",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "半肉巨魔流",
+      "buildType": "bruiser",
       "coreItems": [
-        "心之钢",
-        "璀璨回响",
-        "千变者贾修"
+        "三相之力",
+        "破败王者之刃",
+        "死亡之舞"
       ],
       "fullItems": [
-        "心之钢",
+        "三相之力",
         "水银之靴",
-        "璀璨回响",
-        "千变者贾修",
-        "荆棘之甲",
+        "破败王者之刃",
+        "死亡之舞",
+        "斯特拉克的挑战护手",
         "振奋盔甲"
       ],
-      "skillOrder": "主W副E，有R点R",
+      "skillOrder": "主Q副W",
       "skillDetail": [
         "Q",
         "W",
@@ -54,163 +47,140 @@
       ],
       "augments": [
         {
-          "name": "地形专家",
+          "name": "贪欲束缚",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "击退至地形=额外伤害+眩晕。trundle的技能创造地形(E柱子/冰墙等)=完美触发=走廊极限伤害",
-          "synergyDetail": "走廊极限控制+伤害"
+          "winRate": "47.06%",
+          "reason": "契合AD输出+回血+healing，适合半肉战士出装的贪欲束缚。"
         },
         {
-          "name": "钢化你心",
-          "tier": "黄金",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "心之钢300层×3倍效果。。配合心之钢叠血=血量双重膨胀",
-          "synergyDetail": ""
-        },
-        {
-          "name": "歌利亚巨人",
+          "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
-          "synergyDetail": ""
-        },
-        {
-          "name": "叠角龙",
-          "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "永久层数获取量+100%",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合AD输出+回血+healing，适合半肉战士出装的飞身踢。"
         },
         {
           "name": "灵魂虹吸",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "A",
-          "reason": "12%技能吸血。trundle的技能伤害高=吸血量可观=团战持续续航。E柱子=创造地形",
-          "synergyDetail": ""
+          "winRate": "52.82%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的灵魂虹吸。"
+        },
+        {
+          "name": "海洋龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.22%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的海洋龙魂。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.12%",
+          "reason": "契合AD输出+回血+healing，适合半肉战士出装的升级：耀光。"
+        },
+        {
+          "name": "黎明使者的坚决",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.57%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的黎明使者的坚决。"
+        },
+        {
+          "name": "自然即是治愈",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.71%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的自然即是治愈。"
+        },
+        {
+          "name": "我们的治疗",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "45.88%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的我们的治疗。"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
+        },
+        {
+          "name": "生机迸发",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.08%",
+          "reason": "契合回血+healing，适合半肉战士出装的生机迸发。"
         },
         {
           "name": "战争交响乐",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "致命节奏+征服者。trundle作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合AD输出+attack_speed，适合半肉战士出装的战争交响乐。"
         },
         {
-          "name": "循环往复",
-          "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
-        }
-      ],
-      "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
-      "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "战士",
-        "坦克"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
-    },
-    {
-      "id": "trundle-ap",
-      "name": "地形专家AP流(特殊)",
-      "type": "AP",
-      "summary": "E柱子变致命陷阱。配合地形专家海克斯=走廊极限伤害",
-      "coreItems": [
-        "兰德里的苦楚",
-        "恶魔之拥",
-        "瑞莱的冰晶节杖"
-      ],
-      "fullItems": [
-        "兰德里的苦楚",
-        "法师之靴",
-        "恶魔之拥",
-        "瑞莱的冰晶节杖",
-        "虚空之杖",
-        "中娅沙漏"
-      ],
-      "skillOrder": "主E副Q，有R点R",
-      "skillDetail": [
-        "Q",
-        "E",
-        "W",
-        "E",
-        "E",
-        "R",
-        "E",
-        "Q",
-        "E",
-        "Q",
-        "R",
-        "Q",
-        "Q",
-        "W",
-        "W",
-        "R",
-        "W",
-        "W"
-      ],
-      "playstyle": "AP巨魔E柱子70%AP加成。走廊中E+墙壁=地形专家触发额外伤害+眩晕。兰德里+恶魔之拥双重灼烧。R偷双抗提供生存。对面完全无法理解的AP伤害。",
-      "tips": [
-        "E柱子放走廊中间=敌人弹到墙上=完美碰撞",
-        "R偷双抗让AP流也有生存",
-        "配合冰杖=E柱子减速+击飞后持续减速"
-      ],
-      "strengths": [
-        "E伤害意外高",
-        "地形控制",
-        "R偷双抗保命"
-      ],
-      "weaknesses": [
-        "E命中率靠操作",
-        "AP流坦度降低"
-      ],
-      "augments": [
+          "name": "亮出你的剑",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "59.45%",
+          "reason": "契合AD输出+生存，适合半肉战士出装的亮出你的剑。"
+        },
         {
-          "name": "地形专家",
+          "name": "双刀流",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.65%",
+          "reason": "契合attack_speed+onhit，适合半肉战士出装的双刀流。"
+        },
+        {
+          "name": "回归基本功",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.54%",
+          "reason": "契合回血+healing，适合半肉战士出装的回归基本功。"
+        },
+        {
+          "name": "风语者的祝福",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "57.67%",
+          "reason": "契合回血+healing，适合半肉战士出装的风语者的祝福。"
+        },
+        {
+          "name": "喂呜喂呜",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "E柱子=玩家创造的地形。柱子+走廊墙壁=双重碰撞触发。AP巨魔的核心——E一次=脆皮30%血条",
-          "synergyDetail": "大乱斗走廊宽度恰好=柱子直径+墙壁距离。E放中间必然触发地形碰撞"
+          "winRate": "55.33%",
+          "reason": "契合回血+healing，适合半肉战士出装的喂呜喂呜。"
         },
         {
-          "name": "尤里卡",
+          "name": "连拨击锤",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "A",
-          "reason": "AP流需要技能急速。400AP时+120急速=E从10秒→4.5秒=更多柱子",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "51.54%",
+          "reason": "契合attack_speed+onhit，适合半肉战士出装的连拨击锤。"
         },
         {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "可选",
-          "synergyLevel": "B",
-          "reason": "E技能可暴击+175%伤害=一发E暴击直接半血",
-          "synergyDetail": ""
+          "name": "咏叹奏鸣",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "53.19%",
+          "reason": "契合回血+healing，适合半肉战士出装的咏叹奏鸣。"
         }
       ],
-      "whenToPick": {
-        "teamNeeds": "己方AP伤害不足或需要地形控制",
-        "enemyComposition": "敌方近战/战士多时E柱子卡位效果更好",
-        "synergies": "有AOE控制的队友配合E打出连环控制",
-        "avoidWhen": "E柱子命中率没信心时慎选"
-      }
+      "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
+      "tips": [
+        "不要第一个进场等控制交了再切入",
+        "找准时机切后排脆皮",
+        "活下来利用吸血/回复再战",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

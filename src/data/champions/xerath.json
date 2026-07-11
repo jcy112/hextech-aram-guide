@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "xerath-primary",
-      "name": "AP法师出装",
-      "type": "AP",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "AP远程炮台流",
+      "buildType": "ap",
       "coreItems": [
-        "卢登的激荡",
-        "影焰",
+        "卢登的伙伴",
+        "灭世者的死亡之帽",
         "虚空之杖"
       ],
       "fullItems": [
-        "卢登的激荡",
+        "卢登的伙伴",
         "法师之靴",
-        "影焰",
-        "虚空之杖",
         "灭世者的死亡之帽",
+        "虚空之杖",
+        "中娅沙漏",
         "视界专注"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副W",
       "skillDetail": [
         "Q",
         "W",
@@ -54,68 +47,140 @@
       ],
       "augments": [
         {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.66%",
+          "reason": "契合AP爆发+技能法师+ap_caster，适合AP出装的珠光护手。"
+        },
+        {
+          "name": "沃格勒特的巫师帽",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.37%",
+          "reason": "契合AP爆发+技能法师+ap_caster，适合AP出装的沃格勒特的巫师帽。"
+        },
+        {
+          "name": "巫师式思考",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.44%",
+          "reason": "契合AP爆发+技能法师+ap_caster，适合AP出装的巫师式思考。"
+        },
+        {
+          "name": "不祥契约",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.16%",
+          "reason": "契合AP爆发+技能法师+ap_caster，适合AP出装的不祥契约。"
+        },
+        {
+          "name": "炼狱导管",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.78%",
+          "reason": "契合技能法师+持续伤害+ap_caster，适合AP出装的炼狱导管。"
+        },
+        {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.14%",
+          "reason": "契合AP爆发+法穿+burst_ap，适合AP出装的牙仙子。"
+        },
+        {
+          "name": "炽烈黎明",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "47.87%",
+          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的炽烈黎明。"
+        },
+        {
           "name": "邦！",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "Q技能「奥术脉冲」蓄力超远射程炮。邦！让Q冷却减半，蓄力超远射程炮频率翻倍，Q超远射程=安全poke",
-          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
+          "winRate": "51.03%",
+          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的邦！。"
+        },
+        {
+          "name": "狙神飞星",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.68%",
+          "reason": "契合AP爆发+burst_ap+long_range_skillshot，适合AP出装的狙神飞星。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.12%",
+          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的升级：耀光。"
+        },
+        {
+          "name": "旋转至胜",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.99%",
+          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的旋转至胜。"
+        },
+        {
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.47%",
+          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的回响施放。"
+        },
+        {
+          "name": "咒语裂变",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.73%",
+          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的咒语裂变。"
+        },
+        {
+          "name": "三重射击",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.89%",
+          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的三重射击。"
         },
         {
           "name": "尤里卡",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "技能加速=30%AP。xerath作为AP英雄，高AP带来高技能急速=技能循环加速。Q超远射程=安全poke",
-          "synergyDetail": "500AP=150技能急速"
+          "winRate": "51.83%",
+          "reason": "契合技能法师+ap_caster+spell_weaving，适合AP出装的尤里卡。"
         },
         {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害。xerath的技能爆发配合暴击=一发技能秒杀脆皮。Q超远射程=安全poke",
-          "synergyDetail": ""
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害。xerath的核心输出技能双倍释放=爆发翻倍。Q超远射程=安全poke",
-          "synergyDetail": ""
-        },
-        {
-          "name": "会心治疗",
+          "name": "魔法飞弹",
           "tier": "黄金",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "治疗/护盾可暴击+40%。xerath的治疗技能暴击=双倍奶量。Q超远射程=安全poke",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "50.06%",
+          "reason": "契合技能法师+ap_caster+spell_weaving，适合AP出装的魔法飞弹。"
         },
         {
-          "name": "循环往复",
-          "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "name": "双生火焰",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.98%",
+          "reason": "契合技能法师+ap_caster+spell_weaving，适合AP出装的双生火焰。"
+        },
+        {
+          "name": "大师铸就",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.78%",
+          "reason": "契合AP爆发+burst_ap，适合AP出装的大师铸就。"
         }
       ],
-      "playstyle": "远程消耗压制血线。AOE价值极高。注意站位。",
+      "playstyle": "利用技能射程在后排消耗压制敌方血线，寻找合适的开团时机使用大招。注意蓝量管理。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "法师",
-        "辅助"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "技能不要全用来清兵，留技能打敌方英雄",
+        "注意蓝量管理",
+        "利用草丛卡视野出其不意放技能",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

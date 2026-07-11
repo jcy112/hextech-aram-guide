@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "vayne-primary",
-      "name": "ADC出装",
-      "type": "AD",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "攻速特效流",
+      "buildType": "onhit",
       "coreItems": [
-        "海妖杀手",
-        "卢安娜的飓风",
-        "无尽之刃"
+        "鬼索的狂暴之刃",
+        "破败王者之刃",
+        "界弓"
       ],
       "fullItems": [
-        "海妖杀手",
+        "鬼索的狂暴之刃",
         "狂战士胫甲",
-        "卢安娜的飓风",
-        "无尽之刃",
-        "多米尼克领主的致意",
-        "饮血剑"
+        "破败王者之刃",
+        "界弓",
+        "智慧末刃",
+        "守护天使"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主W副Q",
       "skillDetail": [
         "Q",
         "W",
@@ -54,60 +47,140 @@
       ],
       "augments": [
         {
+          "name": "踢踏舞",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.67%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的踢踏舞。"
+        },
+        {
+          "name": "双刀流",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.65%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的双刀流。"
+        },
+        {
           "name": "连拨击锤",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "W真伤是三发一次。连拨击锤让每次普攻=6发攻击触发=攻击特效触发频率×6=输出质变",
-          "synergyDetail": "攻击特效触发频率爆炸"
+          "winRate": "51.54%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的连拨击锤。"
         },
         {
-          "name": "邦！",
-          "tier": "黄金",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
-          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
-        },
-        {
-          "name": "灵巧",
+          "name": "点亮他们！",
           "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+60%攻速质变。vayne作为攻速流英雄，攻速是核心属性=直接输出提升",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "52.13%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的点亮他们！。"
         },
         {
           "name": "台风",
           "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "A",
-          "reason": "普攻额外目标30%AD飞弹。vayne的普攻AOE化=团战同时输出多个目标",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "49.75%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的台风。"
         },
         {
-          "name": "循环往复",
+          "name": "重量级打击手",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "51.81%",
+          "reason": "契合攻击特效+onhit+maxhp_damage，适合onhit出装的重量级打击手。"
+        },
+        {
+          "name": "罪恶快感",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "46.92%",
+          "reason": "契合攻速+attack_speed+mobility，适合onhit出装的罪恶快感。"
+        },
+        {
+          "name": "炼狱龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.40%",
+          "reason": "契合攻击特效+混合伤害+onhit，适合onhit出装的炼狱龙魂。"
+        },
+        {
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合攻速+混合伤害+attack_speed，适合onhit出装的战争交响乐。"
+        },
+        {
+          "name": "仁慈打击",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.82%",
+          "reason": "契合攻速+attack_speed+maxhp_damage，适合onhit出装的仁慈打击。"
+        },
+        {
+          "name": "缩小射线",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "45.53%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的缩小射线。"
+        },
+        {
+          "name": "双发快射",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "52.72%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的双发快射。"
+        },
+        {
+          "name": "虚幻武器",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.29%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的虚幻武器。"
+        },
+        {
+          "name": "秘术冲拳",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.07%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的秘术冲拳。"
+        },
+        {
+          "name": "神射法师",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.60%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的神射法师。"
+        },
+        {
+          "name": "物法皆修",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.67%",
+          "reason": "契合攻速+混合伤害+attack_speed，适合onhit出装的物法皆修。"
+        },
+        {
+          "name": "海克斯科技龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.28%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的海克斯科技龙魂。"
+        },
+        {
+          "name": "火上浇油",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "47.48%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的火上浇油。"
         }
       ],
-      "playstyle": "保持安全距离持续输出。团战站最后排。",
+      "playstyle": "利用高攻速和攻击特效快速叠满被动/装备效果，持续输出前排和高血量目标。注意走A保持安全距离。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "射手",
-        "刺客"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "攻速装备是核心不要替换",
+        "利用走A保持安全距离输出",
+        "对面前排多时攻击特效收益最高",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

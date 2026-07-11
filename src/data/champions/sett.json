@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "sett-primary",
-      "name": "坦克出装",
-      "type": "Tank",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "半肉腕豪流",
+      "buildType": "bruiser",
       "coreItems": [
-        "心之钢",
-        "璀璨回响",
-        "千变者贾修"
+        "渴血战斧",
+        "斯特拉克的挑战护手",
+        "死亡之舞"
       ],
       "fullItems": [
-        "心之钢",
+        "渴血战斧",
         "水银之靴",
-        "璀璨回响",
-        "千变者贾修",
-        "荆棘之甲",
+        "斯特拉克的挑战护手",
+        "死亡之舞",
+        "黑色切割者",
         "振奋盔甲"
       ],
-      "skillOrder": "主W副E，有R点R",
+      "skillOrder": "主Q副W",
       "skillDetail": [
         "Q",
         "W",
@@ -54,76 +47,140 @@
       ],
       "augments": [
         {
-          "name": "面包和果酱",
+          "name": "升级：耀光",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "W技能「蓄意轰拳」积累豪气=释放真伤炮击(中线真伤)。面包果酱让W冷却减半=积累豪气=释放真伤炮击(中线真伤)频率翻倍",
-          "synergyDetail": "W无限循环释放"
+          "winRate": "49.12%",
+          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的升级：耀光。"
         },
         {
-          "name": "钢化你心",
+          "name": "贪欲束缚",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "心之钢300层×3倍效果。。配合心之钢叠血=血量双重膨胀",
-          "synergyDetail": ""
+          "winRate": "47.06%",
+          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的贪欲束缚。"
         },
         {
           "name": "歌利亚巨人",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
         },
         {
-          "name": "叠角龙",
-          "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "永久层数获取量+100%",
-          "synergyDetail": ""
+          "name": "亮出你的剑",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "59.45%",
+          "reason": "契合AD输出+生存+burst_ad，适合半肉战士出装的亮出你的剑。"
         },
         {
-          "name": "灵魂虹吸",
+          "name": "飞身踢",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的飞身踢。"
+        },
+        {
+          "name": "邦！",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "A",
-          "reason": "12%技能吸血。sett的技能伤害高=吸血量可观=团战持续续航。W真伤是核心",
-          "synergyDetail": ""
+          "winRate": "51.03%",
+          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的邦！。"
         },
         {
-          "name": "战争交响乐",
+          "name": "旋转至胜",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.99%",
+          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的旋转至胜。"
+        },
+        {
+          "name": "回响施放",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "致命节奏+征服者。sett作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "49.47%",
+          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的回响施放。"
         },
         {
-          "name": "循环往复",
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.17%",
+          "reason": "契合AD输出+坦度+burst_ad，适合半肉战士出装的泰坦的坚决。"
+        },
+        {
+          "name": "三重射击",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.89%",
+          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的三重射击。"
+        },
+        {
+          "name": "强力护盾",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "46.09%",
+          "reason": "契合AD输出+burst_ad+shield，适合半肉战士出装的强力护盾。"
+        },
+        {
+          "name": "连锁反应",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "40.83%",
+          "reason": "契合AD输出+burst_ad+cc，适合半肉战士出装的连锁反应。"
+        },
+        {
+          "name": "大师铸就",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.78%",
+          "reason": "契合AD输出+burst_ad，适合半肉战士出装的大师铸就。"
+        },
+        {
+          "name": "牙仙子",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "49.14%",
+          "reason": "契合AD输出+burst_ad，适合半肉战士出装的牙仙子。"
+        },
+        {
+          "name": "升级：收集者",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "47.90%",
+          "reason": "契合AD输出+burst_ad，适合半肉战士出装的升级：收集者。"
+        },
+        {
+          "name": "男爵之手",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.02%",
+          "reason": "契合AD输出+burst_ad，适合半肉战士出装的男爵之手。"
+        },
+        {
+          "name": "巨像的勇气",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.30%",
+          "reason": "契合坦度+cc+shield，适合半肉战士出装的巨像的勇气。"
+        },
+        {
+          "name": "过量延伸者",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.67%",
+          "reason": "契合AD输出+burst_ad，适合半肉战士出装的过量延伸者。"
         }
       ],
-      "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
+      "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "战士",
-        "坦克"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "不要第一个进场等控制交了再切入",
+        "找准时机切后排脆皮",
+        "活下来利用吸血/回复再战",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

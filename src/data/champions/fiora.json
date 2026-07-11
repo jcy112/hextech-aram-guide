@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "fiora-primary",
-      "name": "刺客出装",
-      "type": "Assassin",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "半肉剑姬流",
+      "buildType": "bruiser",
       "coreItems": [
-        "幽梦之灵",
-        "收集者",
-        "夜之锋刃"
+        "三相之力",
+        "死亡之舞",
+        "斯特拉克的挑战护手"
       ],
       "fullItems": [
-        "幽梦之灵",
-        "明朗之靴",
-        "收集者",
-        "夜之锋刃",
-        "赛瑞尔达的怨恨",
-        "守护天使"
+        "三相之力",
+        "水银之靴",
+        "死亡之舞",
+        "斯特拉克的挑战护手",
+        "黑色切割者",
+        "振奋盔甲"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,76 +47,140 @@
       ],
       "augments": [
         {
-          "name": "全凭身法",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "位移技能+175技能急速",
-          "synergyDetail": "位移CD缩至极致"
-        },
-        {
-          "name": "邦！",
+          "name": "升级：耀光",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "Q技能「破空斩」突进攻击破绽+返还60%CD。邦！让Q冷却减半，突进攻击破绽+返还60%CD频率翻倍，Q攻击破绽返还60%CD",
-          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
-        },
-        {
-          "name": "秘术冲拳",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD。fiora的技能连招被秘术冲拳放大=无限循环。每次命中缩短CD=技能频率加速",
-          "synergyDetail": ""
+          "winRate": "49.12%",
+          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的升级：耀光。"
         },
         {
           "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗。fiora作为刺客/战士，飞身踢提升斩杀线+击杀回血=收割链关键",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的飞身踢。"
+        },
+        {
+          "name": "吃过路兵",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "48.36%",
+          "reason": "契合回血+mobility+true_damage，适合半肉战士出装的吃过路兵。"
+        },
+        {
+          "name": "贪欲束缚",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "47.06%",
+          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的贪欲束缚。"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
+        },
+        {
+          "name": "亮出你的剑",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "59.45%",
+          "reason": "契合AD输出+生存+burst_ad，适合半肉战士出装的亮出你的剑。"
         },
         {
           "name": "灵魂虹吸",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "A",
-          "reason": "12%技能吸血。fiora的技能伤害高=吸血量可观=团战持续续航。Q攻击破绽返还60%CD",
-          "synergyDetail": ""
+          "winRate": "52.82%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的灵魂虹吸。"
         },
         {
-          "name": "战争交响乐",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "致命节奏+征服者。fiora作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
-          "synergyDetail": ""
-        },
-        {
-          "name": "循环往复",
+          "name": "邦！",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "51.03%",
+          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的邦！。"
+        },
+        {
+          "name": "海洋龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.22%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的海洋龙魂。"
+        },
+        {
+          "name": "黎明使者的坚决",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.57%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的黎明使者的坚决。"
+        },
+        {
+          "name": "旋转至胜",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.99%",
+          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的旋转至胜。"
+        },
+        {
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.47%",
+          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的回响施放。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.17%",
+          "reason": "契合AD输出+坦度+burst_ad，适合半肉战士出装的泰坦的坚决。"
+        },
+        {
+          "name": "自然即是治愈",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.71%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的自然即是治愈。"
+        },
+        {
+          "name": "虹吸",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "46.71%",
+          "reason": "契合回血+healing+spell_weaving，适合半肉战士出装的虹吸。"
+        },
+        {
+          "name": "我们的治疗",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "45.88%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的我们的治疗。"
+        },
+        {
+          "name": "利刃华尔兹",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.77%",
+          "reason": "契合AD输出+burst_ad+mobility，适合半肉战士出装的利刃华尔兹。"
+        },
+        {
+          "name": "三重射击",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.89%",
+          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的三重射击。"
         }
       ],
-      "playstyle": "等机会秒脆皮撤退。不要先手。目标ADC>法师>辅助。",
+      "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "战士",
-        "刺客"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "不要第一个进场等控制交了再切入",
+        "找准时机切后排脆皮",
+        "活下来利用吸血/回复再战",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

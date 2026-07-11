@@ -9,10 +9,8 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "malph-tank",
-      "name": "坦克出装",
-      "type": "Tank",
-      "summary": "前排坦克吸收伤害。R开团+E减攻速克制AD阵容",
+      "name": "纯肉坦克流",
+      "buildType": "tank",
       "coreItems": [
         "心之钢",
         "璀璨回响",
@@ -26,7 +24,7 @@
         "荆棘之甲",
         "振奋盔甲"
       ],
-      "skillOrder": "主W副E，有R点R",
+      "skillOrder": "主E副W",
       "skillDetail": [
         "W",
         "Q",
@@ -47,86 +45,160 @@
         "Q",
         "Q"
       ],
-      "playstyle": "坦克石头人站最前排吸收伤害。R团战先手击飞多人。E减攻速完美克制ADC和物理阵容。W被动+35%护甲让后期轻松500+护甲。心之钢30秒CD有节奏摸人叠层。",
-      "tips": [
-        "R不要急躁——等对面站位密集再撞",
-        "E减攻速是克制ADC的神技",
-        "W被动护甲加成让后期500+护甲"
-      ],
-      "strengths": [
-        "最强开团",
-        "高护甲克制AD",
-        "被动护盾"
-      ],
-      "weaknesses": [
-        "被AP阵容克制",
-        "笨重"
-      ],
       "augments": [
         {
-          "name": "钢化你心",
+          "name": "高压锅",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "心之钢层数x3。石头人W被动+35%护甲=血量越高护甲收益越大。配合心之钢叠血=血量+护甲双重膨胀",
-          "synergyDetail": "万血+500护甲的石头人=物理阵容永远打不死的存在"
+          "winRate": "51.74%",
+          "reason": "契合坦克+最大生命值伤害+tank，适合坦克出装的高压锅。"
+        },
+        {
+          "name": "坦克引擎",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "52.01%",
+          "reason": "契合坦克+生命成长+tank，适合坦克出装的坦克引擎。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.17%",
+          "reason": "契合坦克+防御+tank，适合坦克出装的泰坦的坚决。"
+        },
+        {
+          "name": "重量级打击手",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "51.81%",
+          "reason": "契合坦克+最大生命值伤害+tank，适合坦克出装的重量级打击手。"
+        },
+        {
+          "name": "艾卡西亚的陷落",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "54.31%",
+          "reason": "契合坦克+tank+aoe，适合坦克出装的艾卡西亚的陷落。"
         },
         {
           "name": "歌利亚巨人",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "+35%生命值。石头人W被动护甲+血量双高=护甲收益翻倍。体型变大也让R命中范围变大",
-          "synergyDetail": "10000血+35%=13500血。配合W被动=护甲也受益于更高血量"
+          "winRate": "52.51%",
+          "reason": "契合坦克+生存+tank，适合坦克出装的歌利亚巨人。"
+        },
+        {
+          "name": "会心防御",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "53.45%",
+          "reason": "契合坦克+防御+tank，适合坦克出装的会心防御。"
+        },
+        {
+          "name": "星界躯体",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "50.05%",
+          "reason": "契合坦克+生存+tank，适合坦克出装的星界躯体。"
+        },
+        {
+          "name": "吞噬灵魂",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "47.50%",
+          "reason": "契合坦克+生命成长+tank，适合坦克出装的吞噬灵魂。"
+        },
+        {
+          "name": "不动如山",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.62%",
+          "reason": "契合坦克+防御+tank，适合坦克出装的不动如山。"
+        },
+        {
+          "name": "豪猪",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.92%",
+          "reason": "契合坦克+tank+aoe，适合坦克出装的豪猪。"
+        },
+        {
+          "name": "和我一起困在这里",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.98%",
+          "reason": "契合坦克+tank+engage，适合坦克出装的和我一起困在这里。"
+        },
+        {
+          "name": "钢化你心",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "53.69%",
+          "reason": "契合坦克+tank，适合坦克出装的钢化你心。"
+        },
+        {
+          "name": "升级：献祭",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "52.12%",
+          "reason": "契合坦克+tank，适合坦克出装的升级：献祭。"
+        },
+        {
+          "name": "由心及物",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "51.31%",
+          "reason": "契合坦克+tank，适合坦克出装的由心及物。"
         },
         {
           "name": "巨像的勇气",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "R击飞触发巨量护盾(基于最大生命)。R撞飞3人=触发一次=5000+血的护盾值",
-          "synergyDetail": "万血石头人R进场+巨像勇气=3000+护盾。R完接E=对面全队减攻速+你有护盾=无敌"
+          "priority": "核心",
+          "winRate": "47.30%",
+          "reason": "契合坦克+tank，适合坦克出装的巨像的勇气。"
         },
         {
-          "name": "循环往复",
-          "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速。R从130秒→80秒。更多R=更多开团机会",
-          "synergyDetail": ""
+          "name": "史上最大雪球",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "46.94%",
+          "reason": "契合engage+aoe，适合坦克出装的史上最大雪球。"
+        },
+        {
+          "name": "逃跑计划",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "52.23%",
+          "reason": "契合生存+防御，适合坦克出装的逃跑计划。"
         }
       ],
-      "whenToPick": {
-        "teamNeeds": "己方需要前排和开团",
-        "enemyComposition": "敌方AD阵容为主时效果最佳",
-        "synergies": "有AOE输出的队友配合R开团",
-        "avoidWhen": "敌方全AP阵容时护甲价值低"
-      }
+      "playstyle": "作为前排吸收伤害，抓住时机开团。利用控制技能保护后排或打断敌方关键技能。存活越久团队收益越大。",
+      "tips": [
+        "不要单独追残血，脱离团队容易被风筝",
+        "开团前确保队友能跟上",
+        "心之钢层数叠起来后正面作战极强",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     },
     {
-      "id": "malphite-primary",
-      "name": "AP法师出装",
-      "type": "AP",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "AP核弹流",
+      "buildType": "ap",
       "coreItems": [
-        "卢登的激荡",
-        "影焰",
+        "卢登的伙伴",
+        "灭世者的死亡之帽",
         "虚空之杖"
       ],
       "fullItems": [
-        "卢登的激荡",
+        "卢登的伙伴",
         "法师之靴",
-        "影焰",
-        "虚空之杖",
         "灭世者的死亡之帽",
-        "视界专注"
+        "虚空之杖",
+        "中娅沙漏",
+        "影焰"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -149,147 +221,139 @@
       ],
       "augments": [
         {
-          "name": "尤里卡",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "技能加速=30%AP。malphite作为AP英雄，高AP带来高技能急速=技能循环加速。W被动护甲加成+心之钢血量=物理阵容克星",
-          "synergyDetail": "500AP=150技能急速"
-        },
-        {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害。malphite的技能爆发配合暴击=一发技能秒杀脆皮。W被动护甲加成+心之钢血量=物理阵容克星",
-          "synergyDetail": ""
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害。malphite的核心输出技能双倍释放=爆发翻倍。W被动护甲加成+心之钢血量=物理阵容克星",
-          "synergyDetail": ""
-        },
-        {
-          "name": "叠角龙",
-          "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "永久层数获取量+100%",
-          "synergyDetail": ""
-        },
-        {
-          "name": "循环往复",
+          "name": "高压锅",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
-        }
-      ],
-      "playstyle": "远程消耗压制血线。AOE价值极高。注意站位。",
-      "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "坦克",
-        "法师"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
-    },
-    {
-      "id": "malph-ap",
-      "tips": [
-        "R等站位密集时撞",
-        "闪现R=无法躲避",
-        "R完QE确保秒杀",
-        "有去无回"
-      ],
-      "sw": [
-        "R毁天灭地",
-        "秒脆皮"
-      ],
-      "augs": [],
-      "whenToPick": {
-        "teamNeeds": "尝试特殊/邪修玩法时选择",
-        "enemyComposition": "根据出装类型选择敌方阵容",
-        "synergies": "配合对应伤害类型的队友",
-        "avoidWhen": "敌方针对性克制"
-      },
-      "coreItems": [
-        "卢登的激荡",
-        "影焰",
-        "虚空之杖"
-      ],
-      "fullItems": [
-        "卢登的激荡",
-        "法师之靴",
-        "影焰",
-        "虚空之杖",
-        "灭世者的死亡之帽",
-        "视界专注"
-      ],
-      "skillOrder": "主Q副E，有R点R",
-      "skillDetail": [
-        "Q",
-        "E",
-        "W",
-        "Q",
-        "Q",
-        "R",
-        "Q",
-        "E",
-        "Q",
-        "E",
-        "R",
-        "E",
-        "E",
-        "W",
-        "W",
-        "R",
-        "W",
-        "W"
-      ],
-      "playstyle": "AP石头人最经典邪修。R100%AP加成--800AP时R=1500+伤害。撞3人=4500总伤害。配合终极唤醒=开大重置技能。",
-      "weaknesses": [
-        "有去无回",
-        "没R=废物"
-      ],
-      "name": "AP核弹流",
-      "type": "AP",
-      "summary": "全AP装。R一头撞=脆皮蒸发",
-      "augments": [
-        {
-          "name": "尤里卡",
-          "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "AP石头人核心。600AP时R=1600+伤害。尤里卡让R从130秒→80秒",
-          "synergyDetail": "R100%AP加成=1AP=1伤害。600AP的R=600基础+600AP=1200aoe伤害"
+          "winRate": "51.74%",
+          "reason": "契合持续伤害+tank+aoe，适合AP出装的高压锅。"
         },
         {
-          "name": "终极唤醒",
+          "name": "艾卡西亚的陷落",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "开大后重置基础技能。R撞+QEW打完+重置+QEW再打=双倍爆发",
-          "synergyDetail": "R进场+QEW交完→重置→QEW再一轮=脆皮无法存活"
+          "winRate": "54.31%",
+          "reason": "契合持续伤害+tank+aoe，适合AP出装的艾卡西亚的陷落。"
+        },
+        {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.14%",
+          "reason": "契合AP爆发+法穿，适合AP出装的牙仙子。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.17%",
+          "reason": "契合AP爆发+tank，适合AP出装的泰坦的坚决。"
+        },
+        {
+          "name": "暴击飞弹",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "54.62%",
+          "reason": "契合AP爆发+aoe，适合AP出装的暴击飞弹。"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合AP爆发+tank，适合AP出装的歌利亚巨人。"
         },
         {
           "name": "珠光护手",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "A",
-          "reason": "R可暴击+175%伤害。一发R暴击=3000+AOE伤害",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "50.66%",
+          "reason": "契合AP爆发+技能法师，适合AP出装的珠光护手。"
+        },
+        {
+          "name": "沃格勒特的巫师帽",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.37%",
+          "reason": "契合AP爆发+技能法师，适合AP出装的沃格勒特的巫师帽。"
+        },
+        {
+          "name": "巫师式思考",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.44%",
+          "reason": "契合AP爆发+技能法师，适合AP出装的巫师式思考。"
+        },
+        {
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "51.03%",
+          "reason": "契合AP爆发+aoe，适合AP出装的邦！。"
+        },
+        {
+          "name": "狙神飞星",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.68%",
+          "reason": "契合AP爆发+aoe，适合AP出装的狙神飞星。"
+        },
+        {
+          "name": "残忍",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "48.26%",
+          "reason": "契合AP爆发+aoe，适合AP出装的残忍。"
+        },
+        {
+          "name": "不祥契约",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.16%",
+          "reason": "契合AP爆发+技能法师，适合AP出装的不祥契约。"
+        },
+        {
+          "name": "史上最大雪球",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "46.94%",
+          "reason": "契合engage+aoe，适合AP出装的史上最大雪球。"
+        },
+        {
+          "name": "咒语裂变",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "47.73%",
+          "reason": "契合AP爆发+aoe，适合AP出装的咒语裂变。"
+        },
+        {
+          "name": "三重射击",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.89%",
+          "reason": "契合AP爆发+aoe，适合AP出装的三重射击。"
+        },
+        {
+          "name": "连锁反应",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "40.83%",
+          "reason": "契合AP爆发+aoe，适合AP出装的连锁反应。"
+        },
+        {
+          "name": "炼狱导管",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.78%",
+          "reason": "契合技能法师+持续伤害，适合AP出装的炼狱导管。"
         }
+      ],
+      "playstyle": "利用技能射程在后排消耗压制敌方血线，寻找合适的开团时机使用大招。注意蓝量管理。",
+      "tips": [
+        "技能不要全用来清兵，留技能打敌方英雄",
+        "注意蓝量管理",
+        "利用草丛卡视野出其不意放技能",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
       ]
     }
   ],

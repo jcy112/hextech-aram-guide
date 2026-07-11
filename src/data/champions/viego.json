@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "viego-primary",
-      "name": "刺客出装",
-      "type": "Assassin",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "暴击破败王流",
+      "buildType": "ad",
       "coreItems": [
-        "幽梦之灵",
-        "收集者",
-        "夜之锋刃"
+        "破败王者之刃",
+        "无尽之刃",
+        "死亡之舞"
       ],
       "fullItems": [
-        "幽梦之灵",
-        "明朗之靴",
-        "收集者",
-        "夜之锋刃",
-        "赛瑞尔达的怨恨",
+        "破败王者之刃",
+        "狂战士胫甲",
+        "无尽之刃",
+        "死亡之舞",
+        "多米尼克领主的致意",
         "守护天使"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,68 +47,140 @@
       ],
       "augments": [
         {
-          "name": "秘术冲拳",
-          "tier": "棱彩",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "命中减基础技能20%剩余CD",
-          "synergyDetail": ""
-        },
-        {
-          "name": "全凭身法",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "位移技能+175技能急速",
-          "synergyDetail": ""
-        },
-        {
-          "name": "飞身踢",
-          "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "处决低血+爆炸治疗",
-          "synergyDetail": ""
-        },
-        {
-          "name": "灵魂虹吸",
+          "name": "暴击飞弹",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "A",
-          "reason": "12%技能吸血",
-          "synergyDetail": ""
+          "winRate": "54.62%",
+          "reason": "契合AD爆发+暴击+crit，适合AD出装的暴击飞弹。"
+        },
+        {
+          "name": "升级：无尽之刃",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "52.37%",
+          "reason": "契合AD爆发+暴击+crit，适合AD出装的升级：无尽之刃。"
+        },
+        {
+          "name": "踢踏舞",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.67%",
+          "reason": "契合攻速+attack_speed+onhit，适合AD出装的踢踏舞。"
+        },
+        {
+          "name": "暴击律动",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "50.65%",
+          "reason": "契合暴击+攻速+crit，适合AD出装的暴击律动。"
+        },
+        {
+          "name": "狂热者",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.92%",
+          "reason": "契合暴击+攻速+crit，适合AD出装的狂热者。"
+        },
+        {
+          "name": "罪恶快感",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.92%",
+          "reason": "契合攻速+attack_speed+mobility，适合AD出装的罪恶快感。"
         },
         {
           "name": "战争交响乐",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "致命节奏+征服者",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合AD爆发+攻速+attack_speed，适合AD出装的战争交响乐。"
         },
         {
-          "name": "循环往复",
+          "name": "双发快射",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "52.72%",
+          "reason": "契合暴击+crit+onhit，适合AD出装的双发快射。"
+        },
+        {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.14%",
+          "reason": "契合AD爆发+穿甲，适合AD出装的牙仙子。"
+        },
+        {
+          "name": "升级：收集者",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "47.90%",
+          "reason": "契合AD爆发+斩杀，适合AD出装的升级：收集者。"
+        },
+        {
+          "name": "物法皆修",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.67%",
+          "reason": "契合AD爆发+攻速+attack_speed，适合AD出装的物法皆修。"
+        },
+        {
+          "name": "飞升仪式",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.11%",
+          "reason": "契合mobility+reset+spell_weaving，适合AD出装的飞升仪式。"
+        },
+        {
+          "name": "双刀流",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.65%",
+          "reason": "契合攻速+attack_speed+onhit，适合AD出装的双刀流。"
+        },
+        {
+          "name": "飞身踢",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合AD爆发+斩杀，适合AD出装的飞身踢。"
+        },
+        {
+          "name": "连拨击锤",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.54%",
+          "reason": "契合攻速+attack_speed+onhit，适合AD出装的连拨击锤。"
+        },
+        {
+          "name": "点亮他们！",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "52.13%",
+          "reason": "契合攻速+attack_speed+onhit，适合AD出装的点亮他们！。"
+        },
+        {
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "51.03%",
+          "reason": "契合AD爆发+spell_weaving，适合AD出装的邦！。"
+        },
+        {
+          "name": "台风",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.75%",
+          "reason": "契合攻速+attack_speed+onhit，适合AD出装的台风。"
         }
       ],
-      "playstyle": "等机会秒脆皮撤退。不要先手。目标ADC>法师>辅助。",
+      "playstyle": "利用射程优势在后排持续输出，注意走位避开控制技能，优先攻击最近目标。活着才有输出。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "战士",
-        "刺客"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "注意走位不要站太靠前",
+        "优先打能打到的目标而非越塔追残血",
+        "暴击装备成型后伤害质变",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

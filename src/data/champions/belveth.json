@@ -8,29 +8,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "belveth-primary",
-      "name": "半肉战士出装",
-      "type": "AD",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "攻速女皇流",
+      "buildType": "onhit",
       "coreItems": [
-        "渴血战斧",
-        "黑色切割者",
-        "死亡之舞"
+        "鬼索的狂暴之刃",
+        "破败王者之刃",
+        "界弓"
       ],
       "fullItems": [
-        "渴血战斧",
-        "水银之靴",
-        "黑色切割者",
-        "死亡之舞",
-        "斯特拉克的挑战护手",
-        "守护天使"
+        "鬼索的狂暴之刃",
+        "狂战士胫甲",
+        "破败王者之刃",
+        "界弓",
+        "智慧末刃",
+        "死亡之舞"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -53,51 +46,140 @@
       ],
       "augments": [
         {
+          "name": "踢踏舞",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.67%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的踢踏舞。"
+        },
+        {
+          "name": "双刀流",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.65%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的双刀流。"
+        },
+        {
           "name": "连拨击锤",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "攻速无上限+连拨击锤=每次普攻6发=破败%HP伤害x6x无限攻速=终极输出。连拨击锤让每次普攻=6发攻击触发=攻击特效触发频率×6=输出质变",
-          "synergyDetail": "攻击特效触发频率爆炸"
+          "winRate": "51.54%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的连拨击锤。"
         },
         {
-          "name": "灵魂虹吸",
+          "name": "点亮他们！",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "52.13%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的点亮他们！。"
+        },
+        {
+          "name": "台风",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "49.75%",
+          "reason": "契合攻击特效+攻速+attack_speed，适合onhit出装的台风。"
+        },
+        {
+          "name": "罪恶快感",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "A",
-          "reason": "12%技能吸血。belveth的技能伤害高=吸血量可观=团战持续续航。攻速无上限+连拨击锤=每次普攻6发=破败%HP伤害x6x无限攻速=终极输出",
-          "synergyDetail": ""
+          "winRate": "46.92%",
+          "reason": "契合攻速+attack_speed+mobility，适合onhit出装的罪恶快感。"
+        },
+        {
+          "name": "炼狱龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.40%",
+          "reason": "契合攻击特效+混合伤害+onhit，适合onhit出装的炼狱龙魂。"
         },
         {
           "name": "战争交响乐",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "致命节奏+征服者。belveth作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合攻速+混合伤害+attack_speed，适合onhit出装的战争交响乐。"
         },
         {
-          "name": "循环往复",
+          "name": "缩小射线",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "45.53%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的缩小射线。"
+        },
+        {
+          "name": "重量级打击手",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "51.81%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的重量级打击手。"
+        },
+        {
+          "name": "双发快射",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "52.72%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的双发快射。"
+        },
+        {
+          "name": "虚幻武器",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.29%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的虚幻武器。"
+        },
+        {
+          "name": "秘术冲拳",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.07%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的秘术冲拳。"
+        },
+        {
+          "name": "神射法师",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.60%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的神射法师。"
+        },
+        {
+          "name": "物法皆修",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "49.67%",
+          "reason": "契合攻速+混合伤害+attack_speed，适合onhit出装的物法皆修。"
+        },
+        {
+          "name": "海克斯科技龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "48.28%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的海克斯科技龙魂。"
+        },
+        {
+          "name": "火上浇油",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "47.48%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的火上浇油。"
+        },
+        {
+          "name": "注魔",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "47.35%",
+          "reason": "契合攻击特效+onhit，适合onhit出装的注魔。"
         }
       ],
-      "playstyle": "进场开团+吸收伤害+持续输出。",
+      "playstyle": "利用高攻速和攻击特效快速叠满被动/装备效果，持续输出前排和高血量目标。注意走A保持安全距离。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "战士"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "攻速装备是核心不要替换",
+        "利用走A保持安全距离输出",
+        "对面前排多时攻击特效收益最高",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

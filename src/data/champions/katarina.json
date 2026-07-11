@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "katarina-primary",
-      "name": "AP法师出装",
-      "type": "AP",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "AP收割流",
+      "buildType": "ap",
       "coreItems": [
-        "卢登的激荡",
-        "影焰",
+        "纳什之牙",
+        "灭世者的死亡之帽",
         "虚空之杖"
       ],
       "fullItems": [
-        "卢登的激荡",
+        "纳什之牙",
         "法师之靴",
-        "影焰",
-        "虚空之杖",
         "灭世者的死亡之帽",
-        "视界专注"
+        "虚空之杖",
+        "中娅沙漏",
+        "巫妖之祸"
       ],
-      "skillOrder": "主Q副W，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,60 +47,140 @@
       ],
       "augments": [
         {
-          "name": "旋转至胜",
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.14%",
+          "reason": "契合AP爆发+法穿+burst_ap，适合AP出装的牙仙子。"
+        },
+        {
+          "name": "暴击飞弹",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "54.62%",
+          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的暴击飞弹。"
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "50.66%",
+          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的珠光护手。"
+        },
+        {
+          "name": "沃格勒特的巫师帽",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.37%",
+          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的沃格勒特的巫师帽。"
+        },
+        {
+          "name": "巫师式思考",
           "tier": "白银",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "旋转技能+30AP+30%伤害。katarina的旋转技能(E或R)直接受益=伤害质变。R是旋转技能",
-          "synergyDetail": "专属强化"
+          "winRate": "49.44%",
+          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的巫师式思考。"
         },
         {
           "name": "邦！",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "Q技能+100技能急速",
-          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
+          "winRate": "51.03%",
+          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的邦！。"
         },
         {
-          "name": "尤里卡",
+          "name": "狙神飞星",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.68%",
+          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的狙神飞星。"
+        },
+        {
+          "name": "残忍",
           "tier": "棱彩",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "技能加速=30%AP。katarina作为AP英雄，高AP带来高技能急速=技能循环加速。R是旋转技能",
-          "synergyDetail": "500AP=150技能急速"
+          "winRate": "48.26%",
+          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的残忍。"
         },
         {
-          "name": "珠光护手",
+          "name": "不祥契约",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "技能可暴击+175%伤害。katarina的技能爆发配合暴击=一发技能秒杀脆皮。R是旋转技能",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "49.16%",
+          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的不祥契约。"
         },
         {
-          "name": "回响施放",
+          "name": "咒语裂变",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "复制一次技能=双倍伤害。katarina的核心输出技能双倍释放=爆发翻倍。R是旋转技能",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "47.73%",
+          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的咒语裂变。"
+        },
+        {
+          "name": "三重射击",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.89%",
+          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的三重射击。"
+        },
+        {
+          "name": "连锁反应",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "40.83%",
+          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的连锁反应。"
+        },
+        {
+          "name": "大师铸就",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.78%",
+          "reason": "契合AP爆发+burst_ap，适合AP出装的大师铸就。"
+        },
+        {
+          "name": "男爵之手",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.02%",
+          "reason": "契合AP爆发+burst_ap，适合AP出装的男爵之手。"
+        },
+        {
+          "name": "炽烈黎明",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "47.87%",
+          "reason": "契合AP爆发+burst_ap，适合AP出装的炽烈黎明。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "45.17%",
+          "reason": "契合AP爆发+burst_ap，适合AP出装的泰坦的坚决。"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合AP爆发+burst_ap，适合AP出装的歌利亚巨人。"
+        },
+        {
+          "name": "巨人杀手",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.37%",
+          "reason": "契合AP爆发+burst_ap，适合AP出装的巨人杀手。"
         }
       ],
-      "playstyle": "远程消耗压制血线。AOE价值极高。注意站位。",
+      "playstyle": "利用技能射程在后排消耗压制敌方血线，寻找合适的开团时机使用大招。注意蓝量管理。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "刺客",
-        "法师"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "技能不要全用来清兵，留技能打敌方英雄",
+        "注意蓝量管理",
+        "利用草丛卡视野出其不意放技能",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {

@@ -9,29 +9,22 @@
   "hotHero": false,
   "builds": [
     {
-      "id": "xinzhao-primary",
-      "name": "坦克出装",
-      "type": "Tank",
-      "whenToPick": {
-        "teamNeeds": "根据己方阵容选择",
-        "enemyComposition": "常规阵容使用",
-        "synergies": "与大多数队友兼容",
-        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
-      },
+      "name": "半肉赵信流",
+      "buildType": "bruiser",
       "coreItems": [
-        "心之钢",
-        "璀璨回响",
-        "千变者贾修"
+        "三相之力",
+        "破败王者之刃",
+        "死亡之舞"
       ],
       "fullItems": [
-        "心之钢",
+        "三相之力",
         "水银之靴",
-        "璀璨回响",
-        "千变者贾修",
-        "荆棘之甲",
+        "破败王者之刃",
+        "死亡之舞",
+        "斯特拉克的挑战护手",
         "振奋盔甲"
       ],
-      "skillOrder": "主W副E，有R点R",
+      "skillOrder": "主Q副E",
       "skillDetail": [
         "Q",
         "W",
@@ -54,76 +47,140 @@
       ],
       "augments": [
         {
-          "name": "邦！",
+          "name": "贪欲束缚",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "Q技能「三重爪击」三次攻击+第三次击飞。邦！让Q冷却减半，三次攻击+第三次击飞频率翻倍，Q三重爪击=击飞控制",
-          "synergyDetail": "Q从主力技能变普攻频率。核心机制质变"
+          "winRate": "47.06%",
+          "reason": "契合AD输出+回血+cc，适合半肉战士出装的贪欲束缚。"
         },
         {
-          "name": "钢化你心",
-          "tier": "黄金",
-          "priority": "核心",
-          "synergyLevel": "S",
-          "reason": "心之钢300层×3倍效果。。配合心之钢叠血=血量双重膨胀",
-          "synergyDetail": ""
-        },
-        {
-          "name": "歌利亚巨人",
+          "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
-          "synergyDetail": ""
-        },
-        {
-          "name": "叠角龙",
-          "tier": "白银",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "英雄拥有无限成长机制：Q三重爪击=击飞控制。邦！让Q从7秒→3.5秒=击飞频率翻倍=控制链无限。叠角龙让层数获取翻倍=成长速度×2",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "50.75%",
+          "reason": "契合AD输出+回血+healing，适合半肉战士出装的飞身踢。"
         },
         {
           "name": "灵魂虹吸",
           "tier": "黄金",
           "priority": "核心",
-          "synergyLevel": "A",
-          "reason": "12%技能吸血。xinzhao的技能伤害高=吸血量可观=团战持续续航。Q三重爪击=击飞控制",
-          "synergyDetail": ""
+          "winRate": "52.82%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的灵魂虹吸。"
+        },
+        {
+          "name": "踢踏舞",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "51.67%",
+          "reason": "契合attack_speed+onhit+mobility，适合半肉战士出装的踢踏舞。"
+        },
+        {
+          "name": "海洋龙魂",
+          "tier": "白银",
+          "priority": "核心",
+          "winRate": "50.22%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的海洋龙魂。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.12%",
+          "reason": "契合AD输出+回血+healing，适合半肉战士出装的升级：耀光。"
+        },
+        {
+          "name": "黎明使者的坚决",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "48.57%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的黎明使者的坚决。"
+        },
+        {
+          "name": "吃过路兵",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "48.36%",
+          "reason": "契合回血+mobility+healing，适合半肉战士出装的吃过路兵。"
+        },
+        {
+          "name": "自然即是治愈",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "46.71%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的自然即是治愈。"
+        },
+        {
+          "name": "我们的治疗",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "45.88%",
+          "reason": "契合生存+回血+healing，适合半肉战士出装的我们的治疗。"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.51%",
+          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
+        },
+        {
+          "name": "生机迸发",
+          "tier": "黄金",
+          "priority": "核心",
+          "winRate": "49.08%",
+          "reason": "契合回血+healing，适合半肉战士出装的生机迸发。"
         },
         {
           "name": "战争交响乐",
           "tier": "棱彩",
-          "priority": "优先",
-          "synergyLevel": "S",
-          "reason": "致命节奏+征服者。xinzhao作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "47.99%",
+          "reason": "契合AD输出+attack_speed，适合半肉战士出装的战争交响乐。"
         },
         {
-          "name": "循环往复",
+          "name": "亮出你的剑",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "59.45%",
+          "reason": "契合AD输出+生存，适合半肉战士出装的亮出你的剑。"
+        },
+        {
+          "name": "双刀流",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "53.65%",
+          "reason": "契合attack_speed+onhit，适合半肉战士出装的双刀流。"
+        },
+        {
+          "name": "回归基本功",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "52.54%",
+          "reason": "契合回血+healing，适合半肉战士出装的回归基本功。"
+        },
+        {
+          "name": "风语者的祝福",
+          "tier": "棱彩",
+          "priority": "核心",
+          "winRate": "57.67%",
+          "reason": "契合回血+healing，适合半肉战士出装的风语者的祝福。"
+        },
+        {
+          "name": "喂呜喂呜",
           "tier": "黄金",
-          "priority": "可选",
-          "synergyLevel": "A",
-          "reason": "+60技能急速",
-          "synergyDetail": ""
+          "priority": "核心",
+          "winRate": "55.33%",
+          "reason": "契合回血+healing，适合半肉战士出装的喂呜喂呜。"
         }
       ],
-      "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
+      "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
       "tips": [
-        "雪球是最佳召唤师技能——可攻可守",
-        "注意观察敌方关键技能CD",
-        "配合队友的控制链"
-      ],
-      "strengths": [
-        "战士",
-        "坦克"
-      ],
-      "weaknesses": [
-        "根据敌方阵容变化"
-      ],
-      "summary": "标准玩法，适合大多数对局"
+        "不要第一个进场等控制交了再切入",
+        "找准时机切后排脆皮",
+        "活下来利用吸血/回复再战",
+        "根据对局情况灵活调整出装顺序",
+        "大乱斗不能回家，生存装备优先级高于纯输出"
+      ]
     }
   ],
   "matchup": {
