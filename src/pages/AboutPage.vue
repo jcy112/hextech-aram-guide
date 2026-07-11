@@ -7,15 +7,18 @@
     <el-card class="about-card" shadow="never">
       <template #header><span class="card-title">网站简介</span></template>
       <p>海克斯大乱斗攻略站，专注于《英雄联盟》「海克斯大乱斗」模式的攻略内容。</p>
-      <p>本站基于 <strong>26.12 版本（2026年6月）</strong>，即海克斯大乱斗 3.0 版本。</p>
+      <p>本站基于 <strong>16.13 版本（2026年7月）</strong>，即海克斯大乱斗 3.0 版本。</p>
+      <p>数据来源：ARAMKit（aramkit.com）和 Riot Games 官方 Data Dragon API。</p>
+      <p>本站提供 <strong>173个英雄</strong>的全部出装推荐和 <strong>211个海克斯强化</strong>的效果数据，以及英雄和海克斯胜率排行榜。</p>
     </el-card>
 
     <el-card class="about-card" shadow="never">
       <template #header><span class="card-title">版本变更</span></template>
       <ul class="version-list">
-        <li><strong>26.12（2026年6月）：</strong>羁绊系统正式移除，新增约50种技能强化符文，部分经典羁绊效果转为独立符文保留</li>
-        <li><strong>26.03（2026年2月）：</strong>引入羁绊/套装加成系统，新增通行证</li>
-        <li><strong>25.21（2025年10月）：</strong>海克斯大乱斗模式正式上线</li>
+        <li><strong>16.13（2026年7月）：</strong>英雄和海克斯胜率数据来自ARAMKit，已同步至最新版本</li>
+        <li><strong>16.12（2026年6月）：</strong>羁绊系统正式移除，新增约50种技能强化符文，部分经典羁绊效果转为独立符文保留</li>
+        <li><strong>16.03（2026年2月）：</strong>引入羁绊/套装加成系统，新增通行证</li>
+        <li><strong>15.21（2025年10月）：</strong>海克斯大乱斗模式正式上线</li>
       </ul>
     </el-card>
 

@@ -5,7 +5,7 @@
       <router-view />
     </main>
     <footer class="footer">
-      <p>海克斯大乱斗攻略站 · 版本 26.12（2026年6月）</p>
+      <p>海克斯大乱斗攻略站 · 版本 16.13（2026年7月） · 数据来源 ARAMKit & Riot Games</p>
     </footer>
   </div>
 </template>

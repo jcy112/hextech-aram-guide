@@ -6,7 +6,9 @@
       </router-link>
       <div class="nav-links">
         <router-link to="/" class="nav-link" active-class="active">首页</router-link>
+        <router-link to="/champions" class="nav-link" active-class="active">英雄排行</router-link>
         <router-link to="/augments" class="nav-link" active-class="active">海克斯强化</router-link>
+        <router-link to="/augments-ranking" class="nav-link" active-class="active">海克斯排行</router-link>
         <router-link to="/about" class="nav-link" active-class="active">关于</router-link>
       </div>
     </div>

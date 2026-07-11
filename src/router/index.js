@@ -17,9 +17,19 @@ const routes = [
         component: () => import('@/pages/ChampionDetailPage.vue')
       },
       {
+        path: 'champions',
+        name: 'champions',
+        component: () => import('@/pages/ChampionsPage.vue')
+      },
+      {
         path: 'augments',
         name: 'augments',
         component: () => import('@/pages/AugmentsPage.vue')
+      },
+      {
+        path: 'augments-ranking',
+        name: 'augments-ranking',
+        component: () => import('@/pages/AugmentsRankingPage.vue')
       },
       {
         path: 'about',
