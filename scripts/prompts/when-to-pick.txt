@@ -1,0 +1,12 @@
+英雄:{{name}}({{title}}),定位:{{tags}},技能机制摘要:{{skillSummary}}。
+
+给出该英雄的适用场景(whenToPick),四个字段:
+
+1. teamNeeds:团队缺什么时该拿他(20–40字)
+2. enemyComposition:敌方什么阵容适合/不适合(20–50字)
+3. synergies:和什么阵容/英雄配合好(20–40字)
+4. avoidWhen:什么情况慎选(20–40字)
+
+要求:具体到该英雄机制,不写"需要前排""需要输出"等通用话术。
+
+严格输出 JSON(whenToPick 对象)。

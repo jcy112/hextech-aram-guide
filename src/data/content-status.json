@@ -1,0 +1,1559 @@
+{
+  "aatrox": {
+    "name": "亚托克斯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ahri": {
+    "name": "阿狸",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "akali": {
+    "name": "阿卡丽",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "akshan": {
+    "name": "阿克尚",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "alistar": {
+    "name": "阿利斯塔",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ambessa": {
+    "name": "安蓓萨",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "amumu": {
+    "name": "阿木木",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "anivia": {
+    "name": "艾尼维亚",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "annie": {
+    "name": "安妮",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "aphelios": {
+    "name": "厄斐琉斯",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ashe": {
+    "name": "艾希",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "aurelionsol": {
+    "name": "奥瑞利安·索尔",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "aurora": {
+    "name": "阿萝拉",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "azir": {
+    "name": "阿兹尔",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "bard": {
+    "name": "巴德",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "belveth": {
+    "name": "卑尔维斯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "blitzcrank": {
+    "name": "布里茨",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "brand": {
+    "name": "布兰德",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "braum": {
+    "name": "布隆",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "briar": {
+    "name": "贝蕾亚",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "caitlyn": {
+    "name": "凯特琳",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "camille": {
+    "name": "卡蜜尔",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "cassiopeia": {
+    "name": "卡西奥佩娅",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "chogath": {
+    "name": "科加斯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "corki": {
+    "name": "库奇",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "darius": {
+    "name": "德莱厄斯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "diana": {
+    "name": "黛安娜",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "draven": {
+    "name": "德莱文",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "drmundo": {
+    "name": "蒙多医生",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ekko": {
+    "name": "艾克",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "elise": {
+    "name": "伊莉丝",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "evelynn": {
+    "name": "伊芙琳",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ezreal": {
+    "name": "伊泽瑞尔",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "fiddlesticks": {
+    "name": "费德提克",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "fiora": {
+    "name": "菲奥娜",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "fizz": {
+    "name": "菲兹",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "galio": {
+    "name": "加里奥",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "gangplank": {
+    "name": "普朗克",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "garen": {
+    "name": "盖伦",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "gnar": {
+    "name": "纳尔",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "gragas": {
+    "name": "古拉加斯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "graves": {
+    "name": "格雷福斯",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "gwen": {
+    "name": "格温",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "hecarim": {
+    "name": "赫卡里姆",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "heimerdinger": {
+    "name": "黑默丁格",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "hwei": {
+    "name": "彗",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "illaoi": {
+    "name": "俄洛伊",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "irelia": {
+    "name": "艾瑞莉娅",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ivern": {
+    "name": "艾翁",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "janna": {
+    "name": "迦娜",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "jarvaniv": {
+    "name": "嘉文四世",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "jax": {
+    "name": "贾克斯",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "jayce": {
+    "name": "杰斯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "jhin": {
+    "name": "烬",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "jinx": {
+    "name": "金克丝",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kaisa": {
+    "name": "卡莎",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kalista": {
+    "name": "卡莉丝塔",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "karma": {
+    "name": "卡尔玛",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "karthus": {
+    "name": "卡尔萨斯",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kassadin": {
+    "name": "卡萨丁",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "katarina": {
+    "name": "卡特琳娜",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kayle": {
+    "name": "凯尔",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kayn": {
+    "name": "凯隐",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kennen": {
+    "name": "凯南",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "khazix": {
+    "name": "卡兹克",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kindred": {
+    "name": "千珏",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kled": {
+    "name": "克烈",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "kogmaw": {
+    "name": "克格莫",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ksante": {
+    "name": "奎桑提",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "leblanc": {
+    "name": "乐芙兰",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "leesin": {
+    "name": "李青",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "leona": {
+    "name": "蕾欧娜",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "lillia": {
+    "name": "莉莉娅",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "lissandra": {
+    "name": "丽桑卓",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "locke": {
+    "name": "洛克",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "lucian": {
+    "name": "卢锡安",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "lulu": {
+    "name": "璐璐",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "lux": {
+    "name": "拉克丝",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "malphite": {
+    "name": "墨菲特",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "malzahar": {
+    "name": "玛尔扎哈",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "maokai": {
+    "name": "茂凯",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "masteryi": {
+    "name": "易",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "mel": {
+    "name": "梅尔",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "milio": {
+    "name": "米利欧",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "missfortune": {
+    "name": "厄运小姐",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "monkeyking": {
+    "name": "孙悟空",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "mordekaiser": {
+    "name": "莫德凯撒",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "morgana": {
+    "name": "莫甘娜",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "naafiri": {
+    "name": "纳亚菲利",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "nami": {
+    "name": "娜美",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "nasus": {
+    "name": "内瑟斯",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "nautilus": {
+    "name": "诺提勒斯",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "neeko": {
+    "name": "妮蔻",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "nidalee": {
+    "name": "奈德丽",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "nilah": {
+    "name": "尼菈",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "nocturne": {
+    "name": "魔腾",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "nunu": {
+    "name": "努努和威朗普",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "olaf": {
+    "name": "奥拉夫",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "orianna": {
+    "name": "奥莉安娜",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ornn": {
+    "name": "奥恩",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "pantheon": {
+    "name": "潘森",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "poppy": {
+    "name": "波比",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "pyke": {
+    "name": "派克",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "qiyana": {
+    "name": "奇亚娜",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "quinn": {
+    "name": "奎因",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "rakan": {
+    "name": "洛",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "rammus": {
+    "name": "拉莫斯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "reksai": {
+    "name": "雷克塞",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "rell": {
+    "name": "芮尔",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "renata": {
+    "name": "烈娜塔 · 戈拉斯克",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "renekton": {
+    "name": "雷克顿",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "rengar": {
+    "name": "雷恩加尔",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "riven": {
+    "name": "锐雯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "rumble": {
+    "name": "兰博",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ryze": {
+    "name": "瑞兹",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "samira": {
+    "name": "莎弥拉",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "sejuani": {
+    "name": "瑟庄妮",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "senna": {
+    "name": "赛娜",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "seraphine": {
+    "name": "萨勒芬妮",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "sett": {
+    "name": "瑟提",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "shaco": {
+    "name": "萨科",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "shen": {
+    "name": "慎",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "shyvana": {
+    "name": "希瓦娜",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "singed": {
+    "name": "辛吉德",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "sion": {
+    "name": "赛恩",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "sivir": {
+    "name": "希维尔",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "skarner": {
+    "name": "斯卡纳",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "smolder": {
+    "name": "斯莫德",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "sona": {
+    "name": "娑娜",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "soraka": {
+    "name": "索拉卡",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "swain": {
+    "name": "斯维因",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "sylas": {
+    "name": "塞拉斯",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "syndra": {
+    "name": "辛德拉",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "tahmkench": {
+    "name": "塔姆",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "taliyah": {
+    "name": "塔莉垭",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "talon": {
+    "name": "泰隆",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "taric": {
+    "name": "塔里克",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "teemo": {
+    "name": "提莫",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "thresh": {
+    "name": "锤石",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "tristana": {
+    "name": "崔丝塔娜",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "trundle": {
+    "name": "特朗德尔",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "tryndamere": {
+    "name": "泰达米尔",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "twistedfate": {
+    "name": "崔斯特",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "twitch": {
+    "name": "图奇",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "udyr": {
+    "name": "乌迪尔",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "urgot": {
+    "name": "厄加特",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "varus": {
+    "name": "韦鲁斯",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "vayne": {
+    "name": "薇恩",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "veigar": {
+    "name": "维迦",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "velkoz": {
+    "name": "维克兹",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "vex": {
+    "name": "薇古丝",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "vi": {
+    "name": "蔚",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "viego": {
+    "name": "佛耶戈",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "viktor": {
+    "name": "维克托",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "vladimir": {
+    "name": "弗拉基米尔",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "volibear": {
+    "name": "沃利贝尔",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "warwick": {
+    "name": "沃里克",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "xayah": {
+    "name": "霞",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "xerath": {
+    "name": "泽拉斯",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "xinzhao": {
+    "name": "赵信",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "yasuo": {
+    "name": "亚索",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "yone": {
+    "name": "永恩",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "yorick": {
+    "name": "约里克",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "yunara": {
+    "name": "芸阿娜",
+    "tier": "T0",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "yuumi": {
+    "name": "悠米",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "zaahen": {
+    "name": "亚恒",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "zac": {
+    "name": "扎克",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "zed": {
+    "name": "劫",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "zeri": {
+    "name": "泽丽",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "ziggs": {
+    "name": "吉格斯",
+    "tier": "T3",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "zilean": {
+    "name": "基兰",
+    "tier": "T1",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "zoe": {
+    "name": "佐伊",
+    "tier": "T4",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  },
+  "zyra": {
+    "name": "婕拉",
+    "tier": "T2",
+    "contentStatus": "pending",
+    "contentVersion": "",
+    "gameVersion": "16.13",
+    "reviewedBy": "",
+    "date": ""
+  }
+}

@@ -29,11 +29,17 @@ function onImgError(e) { e.target.style.display = 'none' }
 .augment-row { display: flex; gap: 10px; padding: 12px 16px; align-items: flex-start; border-radius: 8px; background: var(--bg-secondary); border-left: 3px solid var(--border-color); }
 .augment-row.priority-核心 { border-left-color: #f56c6c; background: rgba(245, 108, 108, 0.06); }
 .augment-row.priority-优先 { border-left-color: var(--accent); background: rgba(64, 158, 255, 0.05); }
+.augment-row.priority-核心必拿 { border-left-color: #f56c6c; background: rgba(245, 108, 108, 0.06); }
+.augment-row.priority-情境可选 { border-left-color: var(--accent); background: rgba(64, 158, 255, 0.05); }
+.augment-row.priority-慎选避开 { border-left-color: #e6a23c; background: rgba(230, 162, 60, 0.05); }
 .augment-thumb { width: 36px; height: 36px; border-radius: 6px; flex-shrink: 0; }
 .augment-priority { font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 3px; white-space: nowrap; height: fit-content; margin-top: 2px; }
 .priority-核心 .augment-priority { background: rgba(245, 108, 108, 0.2); color: #f89898; }
 .priority-优先 .augment-priority { background: rgba(64, 158, 255, 0.2); color: #66b1ff; }
 .priority-可选 .augment-priority { background: rgba(176, 172, 197, 0.15); color: var(--text-muted); }
+.priority-核心必拿 .augment-priority { background: rgba(245, 108, 108, 0.22); color: #f56c6c; }
+.priority-情境可选 .augment-priority { background: rgba(64, 158, 255, 0.2); color: #66b1ff; }
+.priority-慎选避开 .augment-priority { background: rgba(230, 162, 60, 0.18); color: #e6a23c; }
 .augment-tier-badge { font-size: 11px; padding: 2px 8px; border-radius: 3px; font-weight: 600; white-space: nowrap; height: fit-content; margin-top: 2px; }
 .tier-棱彩 { background: rgba(184, 120, 208, 0.2); color: #c898e0; }
 .tier-黄金 { background: rgba(200, 164, 78, 0.2); color: #d4b86a; }

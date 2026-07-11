@@ -1,0 +1,15 @@
+英雄:{{name}}({{title}}),定位:{{tags}},技能机制摘要:{{skillSummary}}。
+
+给出该英雄的对局思路(matchup),四类阵容各一条:
+
+1. againstTank(对阵坦克):strategy + items(出装建议) + augments(海克斯建议) + tips
+2. againstPoke(对阵消耗):strategy + items + augments + tips
+3. againstAssassin(对阵刺客):strategy + items + augments + tips
+4. againstHeal(对阵回复):strategy + items + augments + tips
+
+要求:
+- strategy 必须是针对该英雄机制的可执行建议(出装倾向、站位、节奏、规避点),1–2 句,禁止"利用自身优势"等空话
+- tips 具体到英雄,如"亚托克斯可用【冰寒】减攻速拖住对方poke节奏"
+- items/augments 真实存在
+
+严格输出 JSON(matchup 对象,含四个子对象)。

@@ -28,6 +28,23 @@
         </div>
       </div>
 
+      <WhenToPick v-if="champion.whenToPick" :whenToPick="champion.whenToPick" />
+
+      <el-card v-if="champion.summonerSpells" class="section-card summoner-card" shadow="never">
+        <template #header><span class="section-title">召唤师技能</span></template>
+        <div class="summoner-content">
+          <div class="summoner-main">
+            <span class="summoner-label">主选</span>
+            <span class="summoner-value primary">{{ champion.summonerSpells.primary }}</span>
+          </div>
+          <div class="summoner-main">
+            <span class="summoner-label">副选</span>
+            <span class="summoner-value secondary">{{ champion.summonerSpells.secondary }}</span>
+          </div>
+          <p v-if="champion.summonerSpells.notes" class="summoner-notes">{{ champion.summonerSpells.notes }}</p>
+        </div>
+      </el-card>
+
       <div v-for="(build, idx) in champion.builds" :key="idx" class="build-block">
         <div class="build-header">
           <h2 class="build-name">{{ build.name }}</h2>
@@ -111,6 +128,10 @@
           </ul>
         </el-card>
       </div>
+
+      <MatchupSection v-if="champion.matchup" :matchup="champion.matchup" :builds="champion.builds" />
+
+      <GeneralTips v-if="champion.generalTips && champion.generalTips.length" :tips="champion.generalTips" />
     </div>
 
     <div v-else-if="loading" class="loading-state">
@@ -134,6 +155,9 @@ import championStats from '@/data/champion-stats.json'
 import allAugments from '@/data/all-augments-aramkit.json'
 import augmentStats from '@/data/augment-stats.json'
 import itemImages from '@/data/item-images.json'
+import WhenToPick from '@/components/WhenToPick.vue'
+import MatchupSection from '@/components/MatchupSection.vue'
+import GeneralTips from '@/components/GeneralTips.vue'
 
 const augmentLookup = {}
 allAugments.forEach(a => { augmentLookup[a.name] = a.imageUrl })
@@ -499,6 +523,21 @@ watch(() => route.params.id, (id) => loadChampion(id), { immediate: true })
   border-left-color: var(--text-muted);
 }
 
+.augment-table-row.priority-核心必拿 {
+  border-left-color: #f56c6c;
+  background: rgba(245, 108, 108, 0.06);
+}
+
+.augment-table-row.priority-情境可选 {
+  border-left-color: var(--accent);
+  background: rgba(64, 158, 255, 0.04);
+}
+
+.augment-table-row.priority-慎选避开 {
+  border-left-color: #e6a23c;
+  background: rgba(230, 162, 60, 0.05);
+}
+
 .atd-priority { width: 54px; flex-shrink: 0; }
 .atd-tier { width: 50px; flex-shrink: 0; text-align: center; }
 .atd-name { flex: 1; min-width: 120px; display: flex; align-items: center; gap: 6px; }
@@ -516,6 +555,9 @@ watch(() => route.params.id, (id) => loadChampion(id), { immediate: true })
 .badge-核心 { background: rgba(245, 108, 108, 0.2); color: #f89898; }
 .badge-优先 { background: rgba(64, 158, 255, 0.2); color: #66b1ff; }
 .badge-可选 { background: rgba(176, 172, 197, 0.15); color: var(--text-muted); }
+.badge-核心必拿 { background: rgba(245, 108, 108, 0.22); color: #f56c6c; }
+.badge-情境可选 { background: rgba(64, 158, 255, 0.2); color: #66b1ff; }
+.badge-慎选避开 { background: rgba(230, 162, 60, 0.18); color: #e6a23c; }
 
 .tier-label {
   font-size: 11px;
@@ -596,6 +638,58 @@ watch(() => route.params.id, (id) => loadChampion(id), { immediate: true })
   text-align: center;
   padding: 80px 0;
   color: var(--text-muted);
+}
+
+/* Summoner Spells */
+.summoner-card {
+  margin-bottom: 16px;
+}
+
+.summoner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.summoner-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+}
+
+.summoner-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  min-width: 48px;
+}
+
+.summoner-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.summoner-value.primary {
+  color: #f56c6c;
+}
+
+.summoner-value.secondary {
+  color: #66b1ff;
+}
+
+.summoner-notes {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+  padding: 8px 14px;
+  background: var(--bg-secondary);
+  border-radius: 8px;
 }
 
 @media (max-width: 640px) {
