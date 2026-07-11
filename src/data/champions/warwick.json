@@ -47,164 +47,157 @@
       ],
       "augments": [
         {
-          "name": "升级：耀光",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.12%",
-          "reason": "契合AD输出+回血+healing，适合半肉战士出装的升级：耀光。"
-        },
-        {
-          "name": "贪欲束缚",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.06%",
-          "reason": "契合AD输出+回血+healing，适合半肉战士出装的贪欲束缚。"
-        },
-        {
-          "name": "飞身踢",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "50.75%",
-          "reason": "契合AD输出+回血+healing，适合半肉战士出装的飞身踢。"
-        },
-        {
-          "name": "灵魂虹吸",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.82%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的灵魂虹吸。"
-        },
-        {
-          "name": "踢踏舞",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "51.67%",
-          "reason": "契合attack_speed+onhit+mobility，适合半肉战士出装的踢踏舞。"
-        },
-        {
-          "name": "海洋龙魂",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.22%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的海洋龙魂。"
-        },
-        {
-          "name": "黎明使者的坚决",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "48.57%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的黎明使者的坚决。"
-        },
-        {
-          "name": "吃过路兵",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "48.36%",
-          "reason": "契合回血+healing+mobility，适合半肉战士出装的吃过路兵。"
-        },
-        {
-          "name": "自然即是治愈",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.71%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的自然即是治愈。"
-        },
-        {
-          "name": "虹吸",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "46.71%",
-          "reason": "契合回血+healing+spell_weaving，适合半肉战士出装的虹吸。"
-        },
-        {
-          "name": "我们的治疗",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "45.88%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的我们的治疗。"
-        },
-        {
-          "name": "活力焕发",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.08%",
-          "reason": "契合回血+healing+spell_weaving，适合半肉战士出装的活力焕发。"
-        },
-        {
-          "name": "歌利亚巨人",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "52.51%",
-          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
-        },
-        {
-          "name": "生机迸发",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.08%",
-          "reason": "契合回血+healing，适合半肉战士出装的生机迸发。"
-        },
-        {
-          "name": "战争交响乐",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "47.99%",
-          "reason": "契合AD输出+attack_speed，适合半肉战士出装的战争交响乐。"
-        },
-        {
           "name": "亮出你的剑",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "59.45%",
-          "reason": "契合AD输出+生存，适合半肉战士出装的亮出你的剑。"
+          "reason": "近战AD+吸血+攻速。沃里克Q+R全吃AD——亮剑让Q百分比伤害+R压制更高。59.45%胜率。"
         },
         {
           "name": "双刀流",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "53.65%",
-          "reason": "契合attack_speed+onhit，适合半肉战士出装的双刀流。"
+          "reason": "攻击特效翻倍触发，大幅提升on-hit伤害。但若出装不走特效流(如纯暴击)，收益打折。"
         },
         {
           "name": "回归基本功",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "52.54%",
-          "reason": "契合回血+healing，适合半肉战士出装的回归基本功。"
+          "reason": "回归基本功可拿但非必须。"
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "核心必拿",
+          "winRate": "52.51%",
+          "reason": "加最大HP+体型变大，血量就是一切——W护盾、心之钢伤害全部挂钩HP。对面有%真伤英雄(薇恩等)时优先级下降。"
+        },
+        {
+          "name": "踢踏舞",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "51.67%",
+          "reason": "平A加移速，沃里克走A拉扯的核心保障。机动性就是生存。对面全近战时价值略降——你不需要风筝坦克。 拿到更好但非必须，看其他选项决定。"
+        },
+        {
+          "name": "飞身踢",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "50.75%",
+          "reason": "飞身踢加移速/机动力，对于战士+坦克定位的沃里克，机动性属于锦上添花。50.75%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "吃过路兵",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "48.36%",
+          "reason": "吃过路兵可拿但非必须。"
+        },
+        {
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "47.99%",
+          "reason": "混伤AD+AP，一半属性对纯AP的沃里克等于浪费。47%胜率在棱彩中垫底——看到跳过。 胜率仅47.99%，拿了不如不拿。"
+        },
+        {
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "52.82%",
+          "reason": "附近死亡回血+被动低血回血+Q吸血=三重回血。53%胜率。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.12%",
+          "reason": "升级：耀光技能命中触发，沃里克的技能组触发频率一般。"
+        },
+        {
+          "name": "活力焕发",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.08%",
+          "reason": "活力焕发可拿但非必须。"
+        },
+        {
+          "name": "生机迸发",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.08%",
+          "reason": "生机迸发可拿但非必须。"
+        },
+        {
+          "name": "黎明使者的坚决",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "48.57%",
+          "reason": "黎明使者的坚决提供续航，长期团战中持续回血效果显著。"
+        },
+        {
+          "name": "贪欲束缚",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "47.06%",
+          "reason": "贪欲束缚胜率偏低慎选。47.06%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "自然即是治愈",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "46.71%",
+          "reason": "自然即是治愈胜率偏低慎选。46.71%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "我们的治疗",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "45.88%",
+          "reason": "我们的治疗胜率偏低慎选。45.88%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "海洋龙魂",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "50.22%",
+          "reason": "海洋龙魂提供续航，长期团战中持续回血效果显著。"
+        },
+        {
+          "name": "虹吸",
+          "tier": "白银",
+          "priority": "慎选避开",
+          "winRate": "46.71%",
+          "reason": "虹吸胜率偏低慎选。46.71%胜率说明拿了大概率亏。"
         }
       ],
       "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
       "tips": [
         "不要第一个进场等控制交了再切入",
         "找准时机切后排脆皮",
-        "活下来利用吸血/回复再战",
-        "根据对局情况灵活调整出装顺序",
-        "大乱斗不能回家，生存装备优先级高于纯输出"
+        "活下来利用吸血/回复再战"
       ]
     }
   ],
   "matchup": {
     "againstTank": {
-      "strategy": "利用自身优势应对坦克阵容",
       "buildRecommendation": "warwick-primary",
       "items": [],
       "augments": [
         "巨人杀手"
-      ],
-      "tips": "打坦=持久战。百分比伤害是关键"
+      ]
     },
     "againstPoke": {
-      "strategy": "保持距离不正面接消耗。对方丢技能后反打",
       "buildRecommendation": "warwick-primary",
       "items": [],
       "augments": [
         "逃跑计划",
         "冰寒"
-      ],
-      "tips": "不要在中路正面站立——站两侧等机会"
+      ]
     },
     "againstAssassin": {
-      "strategy": "脆皮出防御装。守护天使/中娅是关键",
       "buildRecommendation": "warwick-primary",
       "items": [
         "守护天使",
@@ -213,22 +206,22 @@
       "augments": [
         "退敌立场",
         "防护面纱"
-      ],
-      "tips": "刺客目标=脆皮。坦克挡住，脆皮躲好"
+      ]
     },
     "againstHeal": {
-      "strategy": "尽早出重伤装备",
       "buildRecommendation": "warwick-primary",
       "items": [
         "荆棘之甲"
       ],
-      "augments": [],
-      "tips": "大乱斗自己出重伤最保险"
+      "augments": []
     }
   },
-  "generalTips": [
-    "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
-    "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
-    "大乱斗兵线很重要——清兵=推线=视野=主动权"
-  ]
+  "summonerSpells": {
+    "primary": "雪球",
+    "secondary": "闪现",
+    "notes": "雪球→R压制→Q→E恐惧一套；对面控制多换净化。"
+  },
+  "whenToPick": {
+    "teamNeeds": "团队缺AD战士+吸血续航+R压制时首选。"
+  }
 }

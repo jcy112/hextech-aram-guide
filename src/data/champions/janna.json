@@ -49,137 +49,135 @@
         {
           "name": "风语者的祝福",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "57.67%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的风语者的祝福。"
-        },
-        {
-          "name": "喂呜喂呜",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "55.33%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的喂呜喂呜。"
-        },
-        {
-          "name": "咏叹奏鸣",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "53.19%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的咏叹奏鸣。"
+          "reason": "风语者的祝福的全局胜率优秀。57.67%胜率证明确实强。"
         },
         {
           "name": "灵魄炸弹",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "53.35%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的灵魄炸弹。"
-        },
-        {
-          "name": "急救用具",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "51.28%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的急救用具。"
-        },
-        {
-          "name": "天音爆",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "51.78%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的天音爆。"
-        },
-        {
-          "name": "全心为你",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "50.83%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的全心为你。"
-        },
-        {
-          "name": "信念者的强化",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "50.25%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的信念者的强化。"
-        },
-        {
-          "name": "至高天诺言",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "51.20%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的至高天诺言。"
-        },
-        {
-          "name": "蛋白粉奶昔",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "48.00%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的蛋白粉奶昔。"
-        },
-        {
-          "name": "会心治疗",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.56%",
-          "reason": "契合治疗+护盾+辅助，适合辅助出装的会心治疗。"
-        },
-        {
-          "name": "轻拍背部",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.04%",
-          "reason": "契合护盾+功能+shield，适合辅助出装的轻拍背部。"
+          "reason": "灵魄炸弹的全局胜率优秀。53.35%胜率证明确实强。"
         },
         {
           "name": "回归基本功",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "52.54%",
-          "reason": "契合治疗+护盾+shield，适合辅助出装的回归基本功。"
+          "reason": "回归基本功可拿但非必须。"
         },
         {
-          "name": "生机迸发",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.08%",
-          "reason": "契合治疗+功能+healing，适合辅助出装的生机迸发。"
+          "name": "至高天诺言",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "51.20%",
+          "reason": "至高天诺言可拿但非必须。"
         },
         {
-          "name": "主玩辅助",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "",
-          "reason": "契合治疗+辅助+support，适合辅助出装的主玩辅助。"
+          "name": "信念者的强化",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "50.25%",
+          "reason": "信念者的强化可拿但非必须。"
         },
         {
           "name": "吃过路兵",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "48.36%",
-          "reason": "契合治疗+healing+mobility，适合辅助出装的吃过路兵。"
+          "reason": "吃过路兵可拿但非必须。"
+        },
+        {
+          "name": "蛋白粉奶昔",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "48.00%",
+          "reason": "蛋白粉奶昔可拿但非必须。"
+        },
+        {
+          "name": "喂呜喂呜",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "55.33%",
+          "reason": "喂呜喂呜的全局胜率优秀。55.33%胜率证明确实强。"
+        },
+        {
+          "name": "咏叹奏鸣",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "53.19%",
+          "reason": "咏叹奏鸣的全局胜率优秀。53.19%胜率证明确实强。"
+        },
+        {
+          "name": "全心为你",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "50.83%",
+          "reason": "全心为你可拿但非必须。"
+        },
+        {
+          "name": "生机迸发",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.08%",
+          "reason": "生机迸发可拿但非必须。"
         },
         {
           "name": "贪欲束缚",
           "tier": "黄金",
-          "priority": "核心",
+          "priority": "慎选避开",
           "winRate": "47.06%",
-          "reason": "契合治疗+healing+cc，适合辅助出装的贪欲束缚。"
+          "reason": "贪欲束缚胜率偏低慎选。47.06%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "会心治疗",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "46.56%",
+          "reason": "会心治疗胜率偏低慎选。46.56%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "轻拍背部",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "46.04%",
+          "reason": "轻拍背部胜率偏低慎选。46.04%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "天音爆",
+          "tier": "白银",
+          "priority": "核心必拿",
+          "winRate": "51.78%",
+          "reason": "AOE回血+伤害。R复苏季风+天音爆双重回血。51.78%胜率。"
+        },
+        {
+          "name": "急救用具",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "51.28%",
+          "reason": "急救用具可拿但非必须。"
+        },
+        {
+          "name": "主玩辅助",
+          "tier": "白银",
+          "priority": "慎选避开",
+          "winRate": "",
+          "reason": "主玩辅助胜率偏低慎选。胜率说明拿了大概率亏。"
         },
         {
           "name": "快中求稳",
           "tier": "白银",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "50.09%",
-          "reason": "契合护盾+shield+mobility，适合辅助出装的快中求稳。"
+          "reason": "快中求稳可拿但非必须。"
         }
       ],
       "playstyle": "紧跟核心输出位提供治疗/护盾/控制保护。注意站位不要太靠前，活着才能持续为团队提供增益。",
       "tips": [
         "紧跟核心输出位",
         "注意站位不要太靠前",
-        "活着才能持续为团队提供增益",
-        "根据对局情况灵活调整出装顺序",
-        "大乱斗不能回家，生存装备优先级高于纯输出"
+        "活着才能持续为团队提供增益"
       ]
     }
   ],
@@ -193,21 +191,17 @@
       ],
       "augments": [
         "巨人杀手"
-      ],
-      "tips": "打坦=持久战。百分比伤害是关键"
+      ]
     },
     "againstPoke": {
-      "strategy": "保持距离不正面接消耗。对方丢技能后反打",
       "buildRecommendation": "janna-primary",
       "items": [],
       "augments": [
         "逃跑计划",
         "冰寒"
-      ],
-      "tips": "不要在中路正面站立——站两侧等机会"
+      ]
     },
     "againstAssassin": {
-      "strategy": "脆皮出防御装。守护天使/中娅是关键",
       "buildRecommendation": "janna-primary",
       "items": [
         "守护天使",
@@ -216,22 +210,22 @@
       "augments": [
         "退敌立场",
         "防护面纱"
-      ],
-      "tips": "刺客目标=脆皮。坦克挡住，脆皮躲好"
+      ]
     },
     "againstHeal": {
-      "strategy": "尽早出重伤装备",
       "buildRecommendation": "janna-primary",
       "items": [
         "莫雷洛秘典"
       ],
-      "augments": [],
-      "tips": "大乱斗自己出重伤最保险"
+      "augments": []
     }
   },
-  "generalTips": [
-    "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
-    "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
-    "大乱斗兵线很重要——清兵=推线=视野=主动权"
-  ]
+  "summonerSpells": {
+    "primary": "治疗",
+    "secondary": "虚弱",
+    "notes": "E护盾+R回血+治疗三重保命；虚弱防刺客。"
+  },
+  "whenToPick": {
+    "teamNeeds": "团队缺保护型辅助+R击退回血时首选。"
+  }
 }

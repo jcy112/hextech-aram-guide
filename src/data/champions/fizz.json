@@ -47,164 +47,157 @@
       ],
       "augments": [
         {
-          "name": "牙仙子",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.14%",
-          "reason": "契合AP爆发+法穿+burst_ap，适合AP出装的牙仙子。"
-        },
-        {
-          "name": "炽烈黎明",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.87%",
-          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的炽烈黎明。"
-        },
-        {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "50.66%",
-          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的珠光护手。"
-        },
-        {
-          "name": "沃格勒特的巫师帽",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "51.37%",
-          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的沃格勒特的巫师帽。"
-        },
-        {
-          "name": "巫师式思考",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "49.44%",
-          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的巫师式思考。"
-        },
-        {
-          "name": "邦！",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "51.03%",
-          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的邦！。"
-        },
-        {
-          "name": "升级：耀光",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.12%",
-          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的升级：耀光。"
-        },
-        {
-          "name": "旋转至胜",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "48.99%",
-          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的旋转至胜。"
-        },
-        {
-          "name": "不祥契约",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "49.16%",
-          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的不祥契约。"
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "49.47%",
-          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的回响施放。"
-        },
-        {
-          "name": "咒语裂变",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "47.73%",
-          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的咒语裂变。"
-        },
-        {
-          "name": "三重射击",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.89%",
-          "reason": "契合AP爆发+burst_ap+spell_weaving，适合AP出装的三重射击。"
-        },
-        {
           "name": "炼狱导管",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "52.78%",
-          "reason": "契合技能法师+持续伤害+spell_weaving，适合AP出装的炼狱导管。"
-        },
-        {
-          "name": "大师铸就",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.78%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的大师铸就。"
-        },
-        {
-          "name": "男爵之手",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "51.02%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的男爵之手。"
-        },
-        {
-          "name": "泰坦的坚决",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.17%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的泰坦的坚决。"
-        },
-        {
-          "name": "暴击飞弹",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "54.62%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的暴击飞弹。"
+          "reason": "炼狱导管可拿但非必须。"
         },
         {
           "name": "歌利亚巨人",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "慎选避开",
           "winRate": "52.51%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的歌利亚巨人。"
+          "reason": "加最大HP+体型变大，提升容错率的同时扩大技能范围。对面有%真伤英雄(薇恩等)时优先级下降。 胜率仅52.51%，拿了不如不拿。"
+        },
+        {
+          "name": "沃格勒特的巫师帽",
+          "tier": "棱彩",
+          "priority": "核心必拿",
+          "winRate": "51.37%",
+          "reason": "法强+技能附加伤害。Q+W+E+R全吃AP——一套连招3-4次巫帽触发。51%胜率。"
+        },
+        {
+          "name": "男爵之手",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "51.02%",
+          "reason": "男爵之手可拿但非必须。"
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "核心必拿",
+          "winRate": "50.66%",
+          "reason": "技能暴击+法强。R巨鲨强袭+Q+W+E——R暴击触发珠光伤害翻倍。51%胜率AP刺客质变。"
+        },
+        {
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "49.47%",
+          "reason": "回响施放技能命中触发，菲兹的技能组能频繁触发。"
+        },
+        {
+          "name": "不祥契约",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "49.16%",
+          "reason": "不祥契约可拿但非必须。"
+        },
+        {
+          "name": "咒语裂变",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "47.73%",
+          "reason": "咒语裂变胜率偏低慎选。47.73%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "三重射击",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "45.89%",
+          "reason": "三重射击技能命中触发，菲兹的技能组能频繁触发。45.89%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "45.17%",
+          "reason": "泰坦的坚决胜率偏低慎选。45.17%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "暴击飞弹",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "54.62%",
+          "reason": "暴击触发AOE飞弹，暴击流核心装备下触发频率极高。走廊地形溅射伤害翻倍。胜率顶尖，暴击流无脑拿。"
+        },
+        {
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "51.03%",
+          "reason": "技能命中附加额外伤害，菲兹的AOE技能多，团战中一次技能至少命中2-3人，触发稳定。适合技能型打法。"
+        },
+        {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.14%",
+          "reason": "牙仙子可拿但非必须。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.12%",
+          "reason": "升级：耀光技能命中触发，菲兹的技能组能频繁触发。"
+        },
+        {
+          "name": "炽烈黎明",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "47.87%",
+          "reason": "炽烈黎明胜率偏低慎选。47.87%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "大师铸就",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "50.78%",
+          "reason": "大师铸就可拿但非必须。"
+        },
+        {
+          "name": "巫师式思考",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "49.44%",
+          "reason": "巫师式思考可拿但非必须。"
+        },
+        {
+          "name": "旋转至胜",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "48.99%",
+          "reason": "旋转至胜技能命中触发，菲兹的技能组能频繁触发。"
         }
       ],
       "playstyle": "利用技能射程在后排消耗压制敌方血线，寻找合适的开团时机使用大招。注意蓝量管理。",
       "tips": [
         "技能不要全用来清兵，留技能打敌方英雄",
         "注意蓝量管理",
-        "利用草丛卡视野出其不意放技能",
-        "根据对局情况灵活调整出装顺序",
-        "大乱斗不能回家，生存装备优先级高于纯输出"
+        "利用草丛卡视野出其不意放技能"
       ]
     }
   ],
   "matchup": {
     "againstTank": {
-      "strategy": "利用自身优势应对坦克阵容",
       "buildRecommendation": "fizz-primary",
       "items": [],
       "augments": [
         "巨人杀手"
-      ],
-      "tips": "打坦=持久战。百分比伤害是关键"
+      ]
     },
     "againstPoke": {
-      "strategy": "保持距离不正面接消耗。对方丢技能后反打",
       "buildRecommendation": "fizz-primary",
       "items": [],
       "augments": [
         "逃跑计划",
         "冰寒"
-      ],
-      "tips": "不要在中路正面站立——站两侧等机会"
+      ]
     },
     "againstAssassin": {
-      "strategy": "脆皮出防御装。守护天使/中娅是关键",
       "buildRecommendation": "fizz-primary",
       "items": [
         "守护天使",
@@ -213,22 +206,25 @@
       "augments": [
         "退敌立场",
         "防护面纱"
-      ],
-      "tips": "刺客目标=脆皮。坦克挡住，脆皮躲好"
+      ]
     },
     "againstHeal": {
-      "strategy": "尽早出重伤装备",
       "buildRecommendation": "fizz-primary",
       "items": [
         "荆棘之甲"
       ],
-      "augments": [],
-      "tips": "大乱斗自己出重伤最保险"
+      "augments": []
     }
   },
-  "generalTips": [
-    "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
-    "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
-    "大乱斗兵线很重要——清兵=推线=视野=主动权"
-  ]
+  "summonerSpells": {
+    "primary": "雪球",
+    "secondary": "闪现",
+    "notes": "雪球→Q→R→W→E无敌一套；对面控制多换净化。"
+  },
+  "whenToPick": {
+    "teamNeeds": "团队缺AP刺客+无敌保命时首选。",
+    "enemyComposition": "敌方多脆皮时R+Q+W一套秒；怕硬控打断。",
+    "synergies": "配合有前排的队友在他吸收火力时进场。",
+    "avoidWhen": "对方多坦克时慎选——AP刺客打坦乏力。"
+  }
 }

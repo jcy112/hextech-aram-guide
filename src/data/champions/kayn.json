@@ -7,6 +7,17 @@
     "刺客"
   ],
   "hotHero": false,
+  "whenToPick": {
+    "teamNeeds": "团队缺灵活形态（蓝凯高爆发刺客/红凯吸血战士二选一）时首选，凯隐E穿墙+变身机制在ARAM中适应各种阵容。",
+    "enemyComposition": "敌方多脆皮时变蓝凯（高爆发秒后排）；敌方多前排时变红凯（%血吸血续航）。对方全近战阵容时凯隐体验最好。",
+    "synergies": "配合有群控的队友帮你在前期攒变身能量（Q穿越多人攒能量快）；搭配坦克让你有充足时间选择形态。",
+    "avoidWhen": "敌方有2+强控（莫甘娜Q+蕾欧娜R）且你还没攒满变身能量时慎选——没变身的凯隐是最废的英雄之一。"
+  },
+  "summonerSpells": {
+    "primary": "雪球",
+    "secondary": "净化",
+    "notes": "雪球飞过去→Q→W→R钻进敌人体内→爆出来一套秒；净化保证E穿墙+变身期间不被控住。"
+  },
   "builds": [
     {
       "name": "蓝凯刺客流",
@@ -47,343 +58,120 @@
       ],
       "augments": [
         {
+          "name": "亮出你的剑",
+          "tier": "棱彩",
+          "priority": "核心必拿",
+          "winRate": "59.45%",
+          "reason": "转近战AD+吸血+攻速——凯隐本身就是近战刺客，零惩罚纯加成。蓝凯E穿墙+W突袭后接Q+A的爆发伤害在亮剑加成下秒脆皮只需一个Q。59.45%胜率说明刺客型近战拿到即质变。"
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "50.66%",
+          "reason": "技能暴击+法强。蓝凯的被动（对英雄造成额外魔法伤害）不吃法强——珠光只加技能暴击。但蓝凯主要靠技能伤害（Q/W/R），技能暴击效果不错。不如亮剑直接加AD来得多。"
+        },
+        {
           "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "50.75%",
-          "reason": "契合AD爆发+斩杀+burst_ad，适合assassin出装的飞身踢。"
+          "reason": "移速+技能急速。蓝凯的定位是快速进场秒人→E穿墙撤退——移速让E穿墙速度更快（E期间移速加成），技能急速让Q冷却更短=更多次爆发。机动型刺客的核心棱彩。"
         },
         {
-          "name": "升级：耀光",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.12%",
-          "reason": "契合AD爆发+burst_ad+spell_weaving，适合assassin出装的升级：耀光。"
-        },
-        {
-          "name": "牙仙子",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.14%",
-          "reason": "契合AD爆发+穿甲+burst_ad，适合assassin出装的牙仙子。"
-        },
-        {
-          "name": "升级：收集者",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "47.90%",
-          "reason": "契合AD爆发+斩杀+burst_ad，适合assassin出装的升级：收集者。"
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "47.99%",
+          "reason": "AD/AP混伤——蓝凯不出AP装（被动是魔法伤害但0AP加成），AP半边浪费。47.99%胜率说明不适合纯物理刺客。"
         },
         {
           "name": "暴击飞弹",
           "tier": "黄金",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "54.62%",
-          "reason": "契合AD爆发+暴击+burst_ad，适合assassin出装的暴击飞弹。"
-        },
-        {
-          "name": "升级：无尽之刃",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.37%",
-          "reason": "契合AD爆发+暴击+burst_ad，适合assassin出装的升级：无尽之刃。"
+          "reason": "暴击触发AOE飞弹。蓝凯刺客流不出暴击装（穿甲装为主）——暴击率低导致飞弹触发少。但收集者+幽梦也有20%暴击率，配合54.62%胜率仍值得拿。红凯更适合这个——红凯出装偏攻速+暴击。"
         },
         {
           "name": "邦！",
           "tier": "黄金",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "51.03%",
-          "reason": "契合AD爆发+burst_ad+spell_weaving，适合assassin出装的邦！。"
+          "reason": "技能命中附加伤害。凯隐Q两段伤害+W+R钻进体内+爆出——一套连招触发5-6次邦！。蓝凯的技能型打法让邦！触发率极高。"
         },
         {
-          "name": "旋转至胜",
+          "name": "点亮他们！",
           "tier": "白银",
-          "priority": "核心",
-          "winRate": "48.99%",
-          "reason": "契合AD爆发+burst_ad+spell_weaving，适合assassin出装的旋转至胜。"
+          "priority": "情境可选",
+          "winRate": "52.13%",
+          "reason": "攻速突破上限。蓝凯不靠攻速（靠技能爆发），这个更适合红凯（出攻速装）。蓝凯拿了收益有限——你不是靠平A吃饭的。"
         },
         {
-          "name": "贪欲束缚",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.06%",
-          "reason": "契合AD爆发+burst_ad+healing，适合assassin出装的贪欲束缚。"
-        },
-        {
-          "name": "杀戮时间到了",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.15%",
-          "reason": "契合AD爆发+斩杀+burst_ad，适合assassin出装的杀戮时间到了。"
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "49.47%",
-          "reason": "契合AD爆发+burst_ad+spell_weaving，适合assassin出装的回响施放。"
-        },
-        {
-          "name": "利刃华尔兹",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.77%",
-          "reason": "契合AD爆发+burst_ad+mobility，适合assassin出装的利刃华尔兹。"
-        },
-        {
-          "name": "三重射击",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.89%",
-          "reason": "契合AD爆发+burst_ad+spell_weaving，适合assassin出装的三重射击。"
-        },
-        {
-          "name": "大师铸就",
+          "name": "重量级打击手",
           "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.78%",
-          "reason": "契合AD爆发+burst_ad，适合assassin出装的大师铸就。"
-        },
-        {
-          "name": "男爵之手",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "51.02%",
-          "reason": "契合AD爆发+burst_ad，适合assassin出装的男爵之手。"
-        },
-        {
-          "name": "过量延伸者",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "48.67%",
-          "reason": "契合AD爆发+burst_ad，适合assassin出装的过量延伸者。"
-        },
-        {
-          "name": "泰坦的坚决",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.17%",
-          "reason": "契合AD爆发+burst_ad，适合assassin出装的泰坦的坚决。"
-        },
-        {
-          "name": "亮出你的剑",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "59.45%",
-          "reason": "契合AD爆发+burst_ad，适合assassin出装的亮出你的剑。"
+          "priority": "情境可选",
+          "winRate": "51.81%",
+          "reason": "%血伤害。蓝凯目标不是打坦——你秒脆皮的伤害已经够了。只有变身红凯时才考虑这个——红凯%血被动+重量级%血双叠加打前排效率高。"
         }
       ],
-      "playstyle": "等待敌方交完关键控制和保命技能后再进场，优先切后排脆皮。打完一套后利用位移退场等待下一波。",
+      "playstyle": "凯隐的核心是变身选择。蓝凯（暗裔杀手）：高爆发、E冷却缩短、被动额外魔法伤害——秒脆皮专用。红凯（暗裔化身）：吸血+%血伤害+W击飞——打前排专用。ARAM中根据对方阵容决定：对方3+脆皮→蓝凯；对方3+坦克→红凯。E穿墙是凯隐在ARAM的灵魂——走廊两侧墙壁随时可穿，绕后或撤退都快人一步。",
       "tips": [
-        "等敌方关键技能交了再进场",
-        "优先切后排脆皮和法师",
-        "打完一套就撤，不要贪输出",
-        "根据对局情况灵活调整出装顺序",
-        "大乱斗不能回家，生存装备优先级高于纯输出"
-      ]
-    },
-    {
-      "name": "红凯战士流",
-      "buildType": "bruiser",
-      "coreItems": [
-        "渴血战斧",
-        "黑色切割者",
-        "死亡之舞"
-      ],
-      "fullItems": [
-        "渴血战斧",
-        "水银之靴",
-        "黑色切割者",
-        "死亡之舞",
-        "斯特拉克的挑战护手",
-        "振奋盔甲"
-      ],
-      "skillOrder": "主Q副W",
-      "skillDetail": [],
-      "augments": [
-        {
-          "name": "升级：耀光",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.12%",
-          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的升级：耀光。"
-        },
-        {
-          "name": "飞身踢",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "50.75%",
-          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的飞身踢。"
-        },
-        {
-          "name": "贪欲束缚",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.06%",
-          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的贪欲束缚。"
-        },
-        {
-          "name": "歌利亚巨人",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "52.51%",
-          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
-        },
-        {
-          "name": "亮出你的剑",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "59.45%",
-          "reason": "契合AD输出+生存+burst_ad，适合半肉战士出装的亮出你的剑。"
-        },
-        {
-          "name": "灵魂虹吸",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.82%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的灵魂虹吸。"
-        },
-        {
-          "name": "邦！",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "51.03%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的邦！。"
-        },
-        {
-          "name": "海洋龙魂",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.22%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的海洋龙魂。"
-        },
-        {
-          "name": "黎明使者的坚决",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "48.57%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的黎明使者的坚决。"
-        },
-        {
-          "name": "旋转至胜",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "48.99%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的旋转至胜。"
-        },
-        {
-          "name": "吃过路兵",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "48.36%",
-          "reason": "契合回血+mobility+healing，适合半肉战士出装的吃过路兵。"
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "49.47%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的回响施放。"
-        },
-        {
-          "name": "泰坦的坚决",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.17%",
-          "reason": "契合AD输出+坦度+burst_ad，适合半肉战士出装的泰坦的坚决。"
-        },
-        {
-          "name": "自然即是治愈",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.71%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的自然即是治愈。"
-        },
-        {
-          "name": "虹吸",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "46.71%",
-          "reason": "契合回血+spell_weaving+healing，适合半肉战士出装的虹吸。"
-        },
-        {
-          "name": "我们的治疗",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "45.88%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的我们的治疗。"
-        },
-        {
-          "name": "利刃华尔兹",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.77%",
-          "reason": "契合AD输出+burst_ad+mobility，适合半肉战士出装的利刃华尔兹。"
-        },
-        {
-          "name": "三重射击",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.89%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的三重射击。"
-        }
-      ],
-      "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
-      "tips": [
-        "不要第一个进场等控制交了再切入",
-        "找准时机切后排脆皮",
-        "活下来利用吸血/回复再战",
-        "根据对局情况灵活调整出装顺序",
-        "大乱斗不能回家，生存装备优先级高于纯输出"
+        "变身能量的积攒：攻击远程英雄积攒蓝凯能量，攻击近战英雄积攒红凯能量。ARAM中先确认对方阵容偏向（远程多还是近战多），再决定先攒哪种能量。",
+        "E穿墙期间加速+无视地形——在走廊两侧墙壁随时可E进去绕后或E穿过墙壁撤退。E期间回血一小口，残血时E穿墙=免费治疗。",
+        "R钻进敌人体内期间无法被选中——用R躲关键技能（泽拉斯Q、拉克丝R），在对方爆发技能出手的瞬间R钻进敌人=免疫那发伤害。"
       ]
     }
   ],
   "matchup": {
     "againstTank": {
-      "strategy": "利用自身优势应对坦克阵容",
-      "buildRecommendation": "kayn-primary",
-      "items": [],
-      "augments": [
-        "巨人杀手"
+      "strategy": "变成红凯！红凯R对坦克造成%最大生命值伤害+治疗自己，Q和W附带%血伤害。打坦时红凯是无敌的——你的全部技能都基于对方血量，对方越肉你伤害越高。",
+      "items": [
+        "黑色切割者",
+        "死亡之舞"
       ],
-      "tips": "打坦=持久战。百分比伤害是关键"
+      "augments": [
+        "重量级打击手",
+        "灵魂虹吸"
+      ],
+      "tips": "红凯R钻坦克体内——坦克血量多=R伤害高+你回血多。把坦克当血包用，钻进半血坦克体内出来就是满血。"
     },
     "againstPoke": {
-      "strategy": "保持距离不正面接消耗。对方丢技能后反打",
-      "buildRecommendation": "kayn-primary",
-      "items": [],
+      "strategy": "变蓝凯！E穿墙快速接近对方远程英雄——poke型英雄脆皮，蓝凯一套QWA直接秒。E穿墙绕后的速度让poke英雄来不及反应。躲在草丛里等E冷却再出手。",
+      "items": [
+        "幽梦之灵",
+        "夜之锋刃"
+      ],
       "augments": [
         "逃跑计划",
         "冰寒"
       ],
-      "tips": "不要在中路正面站立——站两侧等机会"
+      "tips": "E穿墙接近远程英雄时保持在墙壁另一侧——对方看不到墙后的你，突然从墙里冲出来打他一套让他来不及放技能。"
     },
     "againstAssassin": {
-      "strategy": "脆皮出防御装。守护天使/中娅是关键",
-      "buildRecommendation": "kayn-primary",
+      "strategy": "刺客对刺客——蓝凯对A、红凯反杀。蓝凯爆发更高（先手秒对面刺客）；红凯更肉（对面刺客秒不掉你，你R钻他回血）。选择哪个形态取决于你是否能先手。",
       "items": [
         "守护天使",
-        "中娅沙漏"
+        "夜之锋刃"
       ],
       "augments": [
         "退敌立场",
         "防护面纱"
       ],
-      "tips": "刺客目标=脆皮。坦克挡住，脆皮躲好"
+      "tips": "R钻进对面刺客体内=消耗他一套爆发的时间——他放完一套技能后发现你钻进他体内免疫伤害，出来时他技能在CD任你宰割。"
     },
     "againstHeal": {
-      "strategy": "尽早出重伤装备",
-      "buildRecommendation": "kayn-primary",
+      "strategy": "蓝凯爆发秒人——秒掉残血回血英雄不给他们回起来的机会。红凯出凡性的提醒——%血伤害+重伤双重压制回血。收集者斩杀线对回血英雄很有效。",
       "items": [
-        "荆棘之甲"
+        "收集者",
+        "凡性的提醒"
       ],
       "augments": [],
-      "tips": "大乱斗自己出重伤最保险"
+      "tips": "红凯R钻回血英雄体内——R期间他回血=你也跟着回血（R结束后治疗你），借他的回血给自己用。"
     }
   },
   "generalTips": [
-    "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
-    "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
-    "大乱斗兵线很重要——清兵=推线=视野=主动权"
+    "变身是凯隐最重要的决策——蓝凯=高爆发秒脆皮、红凯=吸血搅局。ARAM中根据对方阵容决定，不要固定走一个形态。",
+    "E穿墙是凯隐在ARAM最变态的技能——走廊两侧墙壁随时可用，绕后/撤退/躲技能/回复一手通用。E的冷却要心中有数。",
+    "变身前的凯隐是最弱的——0变身能量时你只能Q和W打伤害。前期猥琐攒能量是第一要务，能量没攒够前不要无脑上去送。"
   ]
 }

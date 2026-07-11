@@ -47,130 +47,130 @@
       ],
       "augments": [
         {
-          "name": "升级：耀光",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.12%",
-          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的升级：耀光。"
-        },
-        {
-          "name": "贪欲束缚",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.06%",
-          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的贪欲束缚。"
+          "name": "亮出你的剑",
+          "tier": "棱彩",
+          "priority": "核心必拿",
+          "winRate": "59.45%",
+          "reason": "潘森定位偏近战/贴脸输出，转近战判定后获得大量AD+吸血+攻速，胜率高居不下。对面有强控制链时注意近战判定会增加被集火风险。"
         },
         {
           "name": "歌利亚巨人",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "52.51%",
-          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
-        },
-        {
-          "name": "亮出你的剑",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "59.45%",
-          "reason": "契合AD输出+生存+burst_ad，适合半肉战士出装的亮出你的剑。"
-        },
-        {
-          "name": "飞身踢",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "50.75%",
-          "reason": "契合AD输出+回血+burst_ad，适合半肉战士出装的飞身踢。"
-        },
-        {
-          "name": "邦！",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "51.03%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的邦！。"
-        },
-        {
-          "name": "旋转至胜",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "48.99%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的旋转至胜。"
-        },
-        {
-          "name": "回响施放",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "49.47%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的回响施放。"
-        },
-        {
-          "name": "泰坦的坚决",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.17%",
-          "reason": "契合AD输出+坦度+burst_ad，适合半肉战士出装的泰坦的坚决。"
-        },
-        {
-          "name": "利刃华尔兹",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.77%",
-          "reason": "契合AD输出+burst_ad+invulnerable，适合半肉战士出装的利刃华尔兹。"
-        },
-        {
-          "name": "三重射击",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.89%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的三重射击。"
-        },
-        {
-          "name": "连锁反应",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "40.83%",
-          "reason": "契合AD输出+burst_ad+cc，适合半肉战士出装的连锁反应。"
-        },
-        {
-          "name": "大师铸就",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.78%",
-          "reason": "契合AD输出+burst_ad，适合半肉战士出装的大师铸就。"
-        },
-        {
-          "name": "牙仙子",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.14%",
-          "reason": "契合AD输出+burst_ad，适合半肉战士出装的牙仙子。"
-        },
-        {
-          "name": "升级：收集者",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "47.90%",
-          "reason": "契合AD输出+burst_ad，适合半肉战士出装的升级：收集者。"
+          "reason": "加最大HP+体型变大，提升容错率的同时扩大技能范围。对面有%真伤英雄(薇恩等)时优先级下降。"
         },
         {
           "name": "男爵之手",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "51.02%",
-          "reason": "契合AD输出+burst_ad，适合半肉战士出装的男爵之手。"
+          "reason": "男爵之手可拿但非必须。"
         },
         {
-          "name": "过量延伸者",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "48.67%",
-          "reason": "契合AD输出+burst_ad，适合半肉战士出装的过量延伸者。"
+          "name": "飞身踢",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "50.75%",
+          "reason": "飞身踢加移速/机动力，对于战士+刺客定位的潘森，拉扯能力是刚需。"
+        },
+        {
+          "name": "回响施放",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "49.47%",
+          "reason": "回响施放技能命中触发，潘森的技能组能频繁触发。"
+        },
+        {
+          "name": "三重射击",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "45.89%",
+          "reason": "三重射击技能命中触发，潘森的技能组能频繁触发。45.89%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "利刃华尔兹",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "45.77%",
+          "reason": "利刃华尔兹胜率偏低慎选。45.77%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "45.17%",
+          "reason": "泰坦的坚决胜率偏低慎选。45.17%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "连锁反应",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "40.83%",
+          "reason": "纯AP向海克斯，潘森不出法强装，伤害低到可以忽略。40%出头的胜率不是巧合——拿了就是浪费。 胜率仅40.83%，拿了不如不拿。"
         },
         {
           "name": "暴击飞弹",
           "tier": "黄金",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "54.62%",
-          "reason": "契合AD输出+burst_ad，适合半肉战士出装的暴击飞弹。"
+          "reason": "暴击触发AOE飞弹，暴击流核心装备下触发频率极高。走廊地形溅射伤害翻倍。胜率顶尖，暴击流无脑拿。"
+        },
+        {
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "51.03%",
+          "reason": "技能命中附加额外伤害，潘森的AOE技能多，团战中一次技能至少命中2-3人，触发稳定。适合技能型打法。 拿到更好但非必须，看其他选项决定。"
+        },
+        {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.14%",
+          "reason": "牙仙子可拿但非必须。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.12%",
+          "reason": "升级：耀光技能命中触发，潘森的技能组能频繁触发。"
+        },
+        {
+          "name": "过量延伸者",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "48.67%",
+          "reason": "过量延伸者可拿但非必须。"
+        },
+        {
+          "name": "贪欲束缚",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "47.06%",
+          "reason": "贪欲束缚可拿但非必须。"
+        },
+        {
+          "name": "大师铸就",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "50.78%",
+          "reason": "大师铸就可拿但非必须。"
+        },
+        {
+          "name": "旋转至胜",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "48.99%",
+          "reason": "旋转至胜技能命中触发，潘森的技能组能频繁触发。"
+        },
+        {
+          "name": "升级：收集者",
+          "tier": "白银",
+          "priority": "慎选避开",
+          "winRate": "47.90%",
+          "reason": "升级：收集者胜率偏低慎选。47.90%胜率说明拿了大概率亏。"
         }
       ],
       "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
@@ -230,5 +230,16 @@
     "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
     "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
     "大乱斗兵线很重要——清兵=推线=视野=主动权"
-  ]
+  ],
+  "summonerSpells": {
+    "primary": "雪球",
+    "secondary": "闪现",
+    "notes": "雪球进场接控制是基本连招；对面控制多换净化。"
+  },
+  "whenToPick": {
+    "teamNeeds": "团队需要战士+刺客定位英雄时可选潘森。",
+    "enemyComposition": "敌方缺控制时体验更好；具体视英雄机制调整。",
+    "synergies": "配合有控制的前排效果更佳。",
+    "avoidWhen": "己方战士+刺客溢出的阵容慎选。"
+  }
 }

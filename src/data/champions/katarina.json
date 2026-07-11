@@ -47,139 +47,137 @@
       ],
       "augments": [
         {
-          "name": "牙仙子",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.14%",
-          "reason": "契合AP爆发+法穿+burst_ap，适合AP出装的牙仙子。"
-        },
-        {
-          "name": "暴击飞弹",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "54.62%",
-          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的暴击飞弹。"
-        },
-        {
-          "name": "珠光护手",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "50.66%",
-          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的珠光护手。"
-        },
-        {
-          "name": "沃格勒特的巫师帽",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "51.37%",
-          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的沃格勒特的巫师帽。"
-        },
-        {
-          "name": "巫师式思考",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "49.44%",
-          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的巫师式思考。"
-        },
-        {
-          "name": "邦！",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "51.03%",
-          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的邦！。"
-        },
-        {
-          "name": "狙神飞星",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "48.68%",
-          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的狙神飞星。"
-        },
-        {
-          "name": "残忍",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "48.26%",
-          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的残忍。"
-        },
-        {
-          "name": "不祥契约",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "49.16%",
-          "reason": "契合AP爆发+技能法师+burst_ap，适合AP出装的不祥契约。"
-        },
-        {
-          "name": "咒语裂变",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "47.73%",
-          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的咒语裂变。"
-        },
-        {
-          "name": "三重射击",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.89%",
-          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的三重射击。"
-        },
-        {
-          "name": "连锁反应",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "40.83%",
-          "reason": "契合AP爆发+burst_ap+aoe，适合AP出装的连锁反应。"
-        },
-        {
-          "name": "大师铸就",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.78%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的大师铸就。"
-        },
-        {
-          "name": "男爵之手",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "51.02%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的男爵之手。"
-        },
-        {
-          "name": "炽烈黎明",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.87%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的炽烈黎明。"
-        },
-        {
-          "name": "泰坦的坚决",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.17%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的泰坦的坚决。"
-        },
-        {
           "name": "歌利亚巨人",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "慎选避开",
           "winRate": "52.51%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的歌利亚巨人。"
+          "reason": "加最大HP+体型变大，提升容错率的同时扩大技能范围。对面有%真伤英雄(薇恩等)时优先级下降。 胜率仅52.51%，拿了不如不拿。"
         },
         {
           "name": "巨人杀手",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "52.37%",
-          "reason": "契合AP爆发+burst_ap，适合AP出装的巨人杀手。"
+          "reason": "巨人杀手可拿但非必须。"
+        },
+        {
+          "name": "沃格勒特的巫师帽",
+          "tier": "棱彩",
+          "priority": "核心必拿",
+          "winRate": "51.37%",
+          "reason": "大幅法强+技能附加伤害。卡特被动重置让技能连放——每次Q和E都触发巫师帽，R每段都触发，累计伤害极高。"
+        },
+        {
+          "name": "男爵之手",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "51.02%",
+          "reason": "男爵之手可拿但非必须。"
+        },
+        {
+          "name": "珠光护手",
+          "tier": "棱彩",
+          "priority": "核心必拿",
+          "winRate": "50.66%",
+          "reason": "技能暴击+法强。卡特R死亡莲华15段每段独立判定暴击——R暴击触发珠光后伤害翻倍。51%胜率AP刺客质变点。"
+        },
+        {
+          "name": "不祥契约",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "49.16%",
+          "reason": "不祥契约可拿但非必须。"
+        },
+        {
+          "name": "残忍",
+          "tier": "棱彩",
+          "priority": "情境可选",
+          "winRate": "48.26%",
+          "reason": "残忍可拿但非必须。"
+        },
+        {
+          "name": "咒语裂变",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "47.73%",
+          "reason": "咒语裂变胜率偏低慎选。47.73%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "三重射击",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "45.89%",
+          "reason": "三重射击技能命中触发，卡特琳娜的技能组能频繁触发。45.89%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "45.17%",
+          "reason": "泰坦的坚决胜率偏低慎选。45.17%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "连锁反应",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "40.83%",
+          "reason": "纯AP向海克斯，卡特琳娜不出法强装，伤害低到可以忽略。40%出头的胜率不是巧合——拿了就是浪费。 胜率仅40.83%，拿了不如不拿。"
+        },
+        {
+          "name": "暴击飞弹",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "54.62%",
+          "reason": "暴击触发AOE飞弹，需要一定暴击率支撑。走廊地形溅射伤害翻倍。胜率顶尖，暴击流无脑拿。"
+        },
+        {
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "51.03%",
+          "reason": "R 15段=15次邦！+Q+E+被动=一场团战触发30+次。卡特触发邦！的频率比其他AP高3倍。51%胜率。"
+        },
+        {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.14%",
+          "reason": "牙仙子可拿但非必须。"
+        },
+        {
+          "name": "狙神飞星",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "48.68%",
+          "reason": "狙神飞星提供AD加成，卡特琳娜物理输出流完全吃满。"
+        },
+        {
+          "name": "炽烈黎明",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "47.87%",
+          "reason": "炽烈黎明胜率偏低慎选。47.87%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "大师铸就",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "50.78%",
+          "reason": "大师铸就可拿但非必须。"
+        },
+        {
+          "name": "巫师式思考",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "49.44%",
+          "reason": "巫师式思考可拿但非必须。"
         }
       ],
       "playstyle": "利用技能射程在后排消耗压制敌方血线，寻找合适的开团时机使用大招。注意蓝量管理。",
       "tips": [
         "技能不要全用来清兵，留技能打敌方英雄",
         "注意蓝量管理",
-        "利用草丛卡视野出其不意放技能",
-        "根据对局情况灵活调整出装顺序",
-        "大乱斗不能回家，生存装备优先级高于纯输出"
+        "利用草丛卡视野出其不意放技能"
       ]
     }
   ],
@@ -193,21 +191,17 @@
       ],
       "augments": [
         "巨人杀手"
-      ],
-      "tips": "打坦=持久战。百分比伤害是关键"
+      ]
     },
     "againstPoke": {
-      "strategy": "保持距离不正面接消耗。对方丢技能后反打",
       "buildRecommendation": "katarina-primary",
       "items": [],
       "augments": [
         "逃跑计划",
         "冰寒"
-      ],
-      "tips": "不要在中路正面站立——站两侧等机会"
+      ]
     },
     "againstAssassin": {
-      "strategy": "脆皮出防御装。守护天使/中娅是关键",
       "buildRecommendation": "katarina-primary",
       "items": [
         "守护天使",
@@ -216,22 +210,25 @@
       "augments": [
         "退敌立场",
         "防护面纱"
-      ],
-      "tips": "刺客目标=脆皮。坦克挡住，脆皮躲好"
+      ]
     },
     "againstHeal": {
-      "strategy": "尽早出重伤装备",
       "buildRecommendation": "katarina-primary",
       "items": [
         "莫雷洛秘典"
       ],
-      "augments": [],
-      "tips": "大乱斗自己出重伤最保险"
+      "augments": []
     }
   },
-  "generalTips": [
-    "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
-    "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
-    "大乱斗兵线很重要——清兵=推线=视野=主动权"
-  ]
+  "summonerSpells": {
+    "primary": "雪球",
+    "secondary": "闪现",
+    "notes": "雪球→E飞匕首→R收割；对面控制多换净化保证R不被打断。"
+  },
+  "whenToPick": {
+    "teamNeeds": "团队缺AP刺客收割机时首选，卡特被动重置全队收割五杀能力ARAM第一。",
+    "enemyComposition": "敌方多脆皮+缺硬控时R转满=团灭；怕硬控打断R。",
+    "synergies": "配合有群控的队友（阿木木R）可在对方被控时安全R。",
+    "avoidWhen": "对方多硬控时慎选——R被控住就废了。"
+  }
 }

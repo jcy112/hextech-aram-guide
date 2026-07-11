@@ -47,130 +47,130 @@
       ],
       "augments": [
         {
-          "name": "飞身踢",
+          "name": "回归基本功",
           "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "50.75%",
-          "reason": "契合AD爆发+斩杀+healing，适合AD出装的飞身踢。"
-        },
-        {
-          "name": "大师铸就",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.78%",
-          "reason": "契合AD爆发+utility，适合AD出装的大师铸就。"
-        },
-        {
-          "name": "牙仙子",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.14%",
-          "reason": "契合AD爆发+穿甲，适合AD出装的牙仙子。"
-        },
-        {
-          "name": "升级：收集者",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "47.90%",
-          "reason": "契合AD爆发+斩杀，适合AD出装的升级：收集者。"
+          "priority": "情境可选",
+          "winRate": "52.54%",
+          "reason": "回归基本功可拿但非必须。"
         },
         {
           "name": "男爵之手",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "51.02%",
-          "reason": "契合AD爆发+utility，适合AD出装的男爵之手。"
+          "reason": "男爵之手可拿但非必须。"
         },
         {
-          "name": "过量延伸者",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "48.67%",
-          "reason": "契合AD爆发+utility，适合AD出装的过量延伸者。"
-        },
-        {
-          "name": "暴击飞弹",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "54.62%",
-          "reason": "契合AD爆发+暴击，适合AD出装的暴击飞弹。"
-        },
-        {
-          "name": "升级：无尽之刃",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.37%",
-          "reason": "契合AD爆发+暴击，适合AD出装的升级：无尽之刃。"
-        },
-        {
-          "name": "侵蚀",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.58%",
-          "reason": "契合穿甲+utility，适合AD出装的侵蚀。"
-        },
-        {
-          "name": "升级：耀光",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.12%",
-          "reason": "契合AD爆发+healing，适合AD出装的升级：耀光。"
-        },
-        {
-          "name": "生机迸发",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.08%",
-          "reason": "契合healing+utility，适合AD出装的生机迸发。"
-        },
-        {
-          "name": "贪欲束缚",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.06%",
-          "reason": "契合AD爆发+healing，适合AD出装的贪欲束缚。"
-        },
-        {
-          "name": "杀戮时间到了",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.15%",
-          "reason": "契合AD爆发+斩杀，适合AD出装的杀戮时间到了。"
-        },
-        {
-          "name": "双发快射",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.72%",
-          "reason": "契合暴击+burst_crit，适合AD出装的双发快射。"
-        },
-        {
-          "name": "灵魂虹吸",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.82%",
-          "reason": "契合暴击+healing，适合AD出装的灵魂虹吸。"
-        },
-        {
-          "name": "回归基本功",
+          "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "52.54%",
-          "reason": "契合healing+ad_caster，适合AD出装的回归基本功。"
-        },
-        {
-          "name": "关键暴击",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "48.97%",
-          "reason": "契合暴击+burst_crit，适合AD出装的关键暴击。"
+          "priority": "情境可选",
+          "winRate": "50.75%",
+          "reason": "飞身踢加移速/机动力，对于辅助+射手定位的赛娜，机动性属于锦上添花。"
         },
         {
           "name": "泰坦的坚决",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "慎选避开",
           "winRate": "45.17%",
-          "reason": "契合AD爆发，适合AD出装的泰坦的坚决。"
+          "reason": "泰坦的坚决胜率偏低慎选。45.17%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "暴击飞弹",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "54.62%",
+          "reason": "暴击触发AOE飞弹，需要一定暴击率支撑。走廊地形溅射伤害翻倍。胜率顶尖，暴击流无脑拿。"
+        },
+        {
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "52.82%",
+          "reason": "灵魂虹吸提供续航，但身板脆可能来不及触发就被秒。"
+        },
+        {
+          "name": "双发快射",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "52.72%",
+          "reason": "双发快射的on-hit效果需要高攻速支撑，赛娜攻速不高时触发有限。"
+        },
+        {
+          "name": "升级：无尽之刃",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "52.37%",
+          "reason": "升级：无尽之刃强化暴击但赛娜不出暴击装，暴击率趋近于零——触发不了。"
+        },
+        {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.14%",
+          "reason": "牙仙子可拿但非必须。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.12%",
+          "reason": "升级：耀光技能命中触发，赛娜的技能组触发频率一般。"
+        },
+        {
+          "name": "生机迸发",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.08%",
+          "reason": "生机迸发可拿但非必须。"
+        },
+        {
+          "name": "关键暴击",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "48.97%",
+          "reason": "关键暴击强化暴击但赛娜不出暴击装，暴击率趋近于零——触发不了。"
+        },
+        {
+          "name": "过量延伸者",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "48.67%",
+          "reason": "过量延伸者可拿但非必须。"
+        },
+        {
+          "name": "贪欲束缚",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "47.06%",
+          "reason": "贪欲束缚可拿但非必须。"
+        },
+        {
+          "name": "杀戮时间到了",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "46.15%",
+          "reason": "杀戮时间到了胜率偏低慎选。46.15%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "大师铸就",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "50.78%",
+          "reason": "大师铸就可拿但非必须。"
+        },
+        {
+          "name": "侵蚀",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "50.58%",
+          "reason": "侵蚀可拿但非必须。"
+        },
+        {
+          "name": "升级：收集者",
+          "tier": "白银",
+          "priority": "慎选避开",
+          "winRate": "47.90%",
+          "reason": "升级：收集者胜率偏低慎选。47.90%胜率说明拿了大概率亏。"
         }
       ],
       "playstyle": "利用射程优势在后排持续输出，注意走位避开控制技能，优先攻击最近目标。活着才有输出。",
@@ -233,5 +233,16 @@
     "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
     "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
     "大乱斗兵线很重要——清兵=推线=视野=主动权"
-  ]
+  ],
+  "summonerSpells": {
+    "primary": "雪球",
+    "secondary": "净化",
+    "notes": "雪球攻守兼备；对面控制链多必带净化，缺治疗时换治疗。"
+  },
+  "whenToPick": {
+    "teamNeeds": "团队需要辅助+射手定位英雄时可选赛娜。",
+    "enemyComposition": "敌方缺控制时体验更好；具体视英雄机制调整。",
+    "synergies": "配合有控制的前排效果更佳。",
+    "avoidWhen": "己方辅助+射手溢出的阵容慎选。"
+  }
 }

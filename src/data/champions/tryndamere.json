@@ -47,164 +47,157 @@
       ],
       "augments": [
         {
-          "name": "暴击飞弹",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "54.62%",
-          "reason": "契合AD爆发+暴击+crit，适合AD出装的暴击飞弹。"
-        },
-        {
-          "name": "升级：无尽之刃",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.37%",
-          "reason": "契合AD爆发+暴击+crit，适合AD出装的升级：无尽之刃。"
+          "name": "踢踏舞",
+          "tier": "棱彩",
+          "priority": "核心必拿",
+          "winRate": "51.67%",
+          "reason": "平A加移速，泰达米尔走A拉扯的核心保障。机动性就是生存。对面全近战时价值略降——你不需要风筝坦克。"
         },
         {
           "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "50.75%",
-          "reason": "契合AD爆发+斩杀+healing，适合AD出装的飞身踢。"
-        },
-        {
-          "name": "暴击律动",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "50.65%",
-          "reason": "契合暴击+攻速+crit，适合AD出装的暴击律动。"
-        },
-        {
-          "name": "狂热者",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "49.92%",
-          "reason": "契合暴击+攻速+crit，适合AD出装的狂热者。"
-        },
-        {
-          "name": "战争交响乐",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "47.99%",
-          "reason": "契合AD爆发+攻速+attack_speed，适合AD出装的战争交响乐。"
-        },
-        {
-          "name": "灵魂虹吸",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.82%",
-          "reason": "契合暴击+crit+healing，适合AD出装的灵魂虹吸。"
-        },
-        {
-          "name": "牙仙子",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.14%",
-          "reason": "契合AD爆发+穿甲，适合AD出装的牙仙子。"
-        },
-        {
-          "name": "升级：收集者",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "47.90%",
-          "reason": "契合AD爆发+斩杀，适合AD出装的升级：收集者。"
+          "reason": "飞身踢加移速/机动力，对于战士+刺客定位的泰达米尔，拉扯能力是刚需。"
         },
         {
           "name": "物法皆修",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "49.67%",
-          "reason": "契合AD爆发+攻速+attack_speed，适合AD出装的物法皆修。"
+          "reason": "物法皆修的AD+AP混伤设计，泰达米尔只走单属性，一半加成浪费。"
         },
         {
-          "name": "会心治疗",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.56%",
-          "reason": "契合暴击+crit+healing，适合AD出装的会心治疗。"
-        },
-        {
-          "name": "踢踏舞",
+          "name": "战争交响乐",
           "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "51.67%",
-          "reason": "契合攻速+attack_speed+mobility，适合AD出装的踢踏舞。"
-        },
-        {
-          "name": "升级：耀光",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.12%",
-          "reason": "契合AD爆发+healing，适合AD出装的升级：耀光。"
-        },
-        {
-          "name": "罪恶快感",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.92%",
-          "reason": "契合攻速+attack_speed+mobility，适合AD出装的罪恶快感。"
-        },
-        {
-          "name": "贪欲束缚",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.06%",
-          "reason": "契合AD爆发+healing，适合AD出装的贪欲束缚。"
-        },
-        {
-          "name": "杀戮时间到了",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.15%",
-          "reason": "契合AD爆发+斩杀，适合AD出装的杀戮时间到了。"
+          "priority": "慎选避开",
+          "winRate": "47.99%",
+          "reason": "混伤AD+AP，一半属性对纯AP的泰达米尔等于浪费。47%胜率在棱彩中垫底——看到跳过。 胜率仅47.99%，拿了不如不拿。"
         },
         {
           "name": "利刃华尔兹",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "慎选避开",
           "winRate": "45.77%",
-          "reason": "契合AD爆发+mobility，适合AD出装的利刃华尔兹。"
+          "reason": "利刃华尔兹胜率偏低慎选。45.77%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "暴击飞弹",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "54.62%",
+          "reason": "暴击AOE。被动暴击率高——每发暴击都触发飞弹。55%胜率。"
+        },
+        {
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "52.82%",
+          "reason": "灵魂虹吸提供续航，长期团战中持续回血效果显著。"
         },
         {
           "name": "双发快射",
           "tier": "黄金",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "52.72%",
-          "reason": "契合暴击+crit，适合AD出装的双发快射。"
+          "reason": "双发快射的on-hit效果需要高攻速支撑，泰达米尔攻速不高时触发有限。"
+        },
+        {
+          "name": "升级：无尽之刃",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "52.37%",
+          "reason": "强化无尽暴击伤害。泰达米尔被动怒气暴击+无尽升级=每发暴击更痛。52.37%胜率。"
+        },
+        {
+          "name": "暴击律动",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "50.65%",
+          "reason": "暴击律动的暴击加成与泰达米尔的暴击流出装高度契合，值得考虑。对面有兰顿/冰心时暴击收益降低。"
+        },
+        {
+          "name": "牙仙子",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.14%",
+          "reason": "牙仙子可拿但非必须。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.12%",
+          "reason": "升级：耀光技能命中触发，泰达米尔的技能组能频繁触发。"
+        },
+        {
+          "name": "贪欲束缚",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "47.06%",
+          "reason": "贪欲束缚可拿但非必须。"
+        },
+        {
+          "name": "罪恶快感",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "46.92%",
+          "reason": "罪恶快感加移速/机动力，对于战士+刺客定位的泰达米尔，拉扯能力是刚需。46.92%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "会心治疗",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "46.56%",
+          "reason": "会心治疗胜率偏低慎选。46.56%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "杀戮时间到了",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "46.15%",
+          "reason": "杀戮时间到了胜率偏低慎选。46.15%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "狂热者",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "49.92%",
+          "reason": "狂热者可拿但非必须。"
+        },
+        {
+          "name": "升级：收集者",
+          "tier": "白银",
+          "priority": "慎选避开",
+          "winRate": "47.90%",
+          "reason": "升级：收集者胜率偏低慎选。47.90%胜率说明拿了大概率亏。"
         }
       ],
       "playstyle": "利用射程优势在后排持续输出，注意走位避开控制技能，优先攻击最近目标。活着才有输出。",
       "tips": [
         "注意走位不要站太靠前",
         "优先打能打到的目标而非越塔追残血",
-        "暴击装备成型后伤害质变",
-        "根据对局情况灵活调整出装顺序",
-        "大乱斗不能回家，生存装备优先级高于纯输出"
+        "暴击装备成型后伤害质变"
       ]
     }
   ],
   "matchup": {
     "againstTank": {
-      "strategy": "利用自身优势应对坦克阵容",
       "buildRecommendation": "tryndamere-primary",
       "items": [],
       "augments": [
         "巨人杀手"
-      ],
-      "tips": "打坦=持久战。百分比伤害是关键"
+      ]
     },
     "againstPoke": {
-      "strategy": "保持距离不正面接消耗。对方丢技能后反打",
       "buildRecommendation": "tryndamere-primary",
       "items": [],
       "augments": [
         "逃跑计划",
         "冰寒"
-      ],
-      "tips": "不要在中路正面站立——站两侧等机会"
+      ]
     },
     "againstAssassin": {
-      "strategy": "脆皮出防御装。守护天使/中娅是关键",
       "buildRecommendation": "tryndamere-primary",
       "items": [
         "守护天使",
@@ -213,22 +206,22 @@
       "augments": [
         "退敌立场",
         "防护面纱"
-      ],
-      "tips": "刺客目标=脆皮。坦克挡住，脆皮躲好"
+      ]
     },
     "againstHeal": {
-      "strategy": "尽早出重伤装备",
       "buildRecommendation": "tryndamere-primary",
       "items": [
         "荆棘之甲"
       ],
-      "augments": [],
-      "tips": "大乱斗自己出重伤最保险"
+      "augments": []
     }
   },
-  "generalTips": [
-    "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
-    "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
-    "大乱斗兵线很重要——清兵=推线=视野=主动权"
-  ]
+  "summonerSpells": {
+    "primary": "雪球",
+    "secondary": "闪现",
+    "notes": "雪球→E旋风斩→AA暴击→R不死→Q回血。"
+  },
+  "whenToPick": {
+    "teamNeeds": "团队缺AD战士+R 5秒不死时首选。"
+  }
 }

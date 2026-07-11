@@ -47,130 +47,130 @@
       ],
       "augments": [
         {
-          "name": "升级：耀光",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "49.12%",
-          "reason": "契合AD输出+回血+healing，适合半肉战士出装的升级：耀光。"
-        },
-        {
-          "name": "贪欲束缚",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "47.06%",
-          "reason": "契合AD输出+回血+healing，适合半肉战士出装的贪欲束缚。"
-        },
-        {
-          "name": "飞身踢",
+          "name": "亮出你的剑",
           "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "50.75%",
-          "reason": "契合AD输出+回血+healing，适合半肉战士出装的飞身踢。"
+          "priority": "核心必拿",
+          "winRate": "59.45%",
+          "reason": "贝蕾亚定位偏近战/贴脸输出，转近战判定后获得大量AD+吸血+攻速，胜率高居不下。对面有强控制链时注意近战判定会增加被集火风险。"
         },
         {
           "name": "歌利亚巨人",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "核心必拿",
           "winRate": "52.51%",
-          "reason": "契合AD输出+生存+坦度，适合半肉战士出装的歌利亚巨人。"
+          "reason": "加最大HP+体型变大，提升容错率的同时扩大技能范围。对面有%真伤英雄(薇恩等)时优先级下降。"
         },
         {
-          "name": "战争交响乐",
+          "name": "飞身踢",
           "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "47.99%",
-          "reason": "契合AD输出+attack_speed+burst_ad，适合半肉战士出装的战争交响乐。"
-        },
-        {
-          "name": "亮出你的剑",
-          "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "59.45%",
-          "reason": "契合AD输出+生存+burst_ad，适合半肉战士出装的亮出你的剑。"
-        },
-        {
-          "name": "灵魂虹吸",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "52.82%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的灵魂虹吸。"
-        },
-        {
-          "name": "邦！",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "51.03%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的邦！。"
-        },
-        {
-          "name": "海洋龙魂",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "50.22%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的海洋龙魂。"
-        },
-        {
-          "name": "黎明使者的坚决",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "48.57%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的黎明使者的坚决。"
-        },
-        {
-          "name": "旋转至胜",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "48.99%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的旋转至胜。"
+          "priority": "情境可选",
+          "winRate": "50.75%",
+          "reason": "飞身踢加移速/机动力，对于战士+刺客定位的贝蕾亚，拉扯能力是刚需。"
         },
         {
           "name": "物法皆修",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "49.67%",
-          "reason": "契合AD输出+attack_speed+burst_ad，适合半肉战士出装的物法皆修。"
+          "reason": "物法皆修的AD+AP混伤设计，贝蕾亚只走单属性，一半加成浪费。"
         },
         {
           "name": "回响施放",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "情境可选",
           "winRate": "49.47%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的回响施放。"
+          "reason": "回响施放技能命中触发，贝蕾亚的技能组能频繁触发。"
         },
         {
-          "name": "泰坦的坚决",
+          "name": "战争交响乐",
           "tier": "棱彩",
-          "priority": "核心",
-          "winRate": "45.17%",
-          "reason": "契合AD输出+坦度+burst_ad，适合半肉战士出装的泰坦的坚决。"
-        },
-        {
-          "name": "自然即是治愈",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "46.71%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的自然即是治愈。"
-        },
-        {
-          "name": "虹吸",
-          "tier": "白银",
-          "priority": "核心",
-          "winRate": "46.71%",
-          "reason": "契合回血+healing+spell_weaving，适合半肉战士出装的虹吸。"
-        },
-        {
-          "name": "我们的治疗",
-          "tier": "黄金",
-          "priority": "核心",
-          "winRate": "45.88%",
-          "reason": "契合生存+回血+healing，适合半肉战士出装的我们的治疗。"
+          "priority": "慎选避开",
+          "winRate": "47.99%",
+          "reason": "混伤AD+AP，一半属性对纯AP的贝蕾亚等于浪费。47%胜率在棱彩中垫底——看到跳过。 胜率仅47.99%，拿了不如不拿。"
         },
         {
           "name": "三重射击",
           "tier": "棱彩",
-          "priority": "核心",
+          "priority": "慎选避开",
           "winRate": "45.89%",
-          "reason": "契合AD输出+burst_ad+spell_weaving，适合半肉战士出装的三重射击。"
+          "reason": "三重射击技能命中触发，贝蕾亚的技能组能频繁触发。45.89%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "泰坦的坚决",
+          "tier": "棱彩",
+          "priority": "慎选避开",
+          "winRate": "45.17%",
+          "reason": "泰坦的坚决胜率偏低慎选。45.17%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "核心必拿",
+          "winRate": "52.82%",
+          "reason": "灵魂虹吸提供续航，长期团战中持续回血效果显著。"
+        },
+        {
+          "name": "邦！",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "51.03%",
+          "reason": "技能命中附加额外伤害，贝蕾亚的AOE技能多，团战中一次技能至少命中2-3人，触发稳定。适合技能型打法。 拿到更好但非必须，看其他选项决定。"
+        },
+        {
+          "name": "升级：耀光",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "49.12%",
+          "reason": "升级：耀光技能命中触发，贝蕾亚的技能组能频繁触发。"
+        },
+        {
+          "name": "黎明使者的坚决",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "48.57%",
+          "reason": "黎明使者的坚决提供续航，长期团战中持续回血效果显著。"
+        },
+        {
+          "name": "贪欲束缚",
+          "tier": "黄金",
+          "priority": "情境可选",
+          "winRate": "47.06%",
+          "reason": "贪欲束缚可拿但非必须。"
+        },
+        {
+          "name": "自然即是治愈",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "46.71%",
+          "reason": "自然即是治愈胜率偏低慎选。46.71%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "我们的治疗",
+          "tier": "黄金",
+          "priority": "慎选避开",
+          "winRate": "45.88%",
+          "reason": "我们的治疗胜率偏低慎选。45.88%胜率说明拿了大概率亏。"
+        },
+        {
+          "name": "海洋龙魂",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "50.22%",
+          "reason": "海洋龙魂提供续航，长期团战中持续回血效果显著。"
+        },
+        {
+          "name": "旋转至胜",
+          "tier": "白银",
+          "priority": "情境可选",
+          "winRate": "48.99%",
+          "reason": "旋转至胜技能命中触发，贝蕾亚的技能组能频繁触发。"
+        },
+        {
+          "name": "虹吸",
+          "tier": "白银",
+          "priority": "慎选避开",
+          "winRate": "46.71%",
+          "reason": "虹吸胜率偏低慎选。46.71%胜率说明拿了大概率亏。"
         }
       ],
       "playstyle": "半肉半输出定位，找时机进场打一套技能后评估是否继续。不要第一个进场，等控制交了再切入。",
@@ -230,5 +230,16 @@
     "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
     "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
     "大乱斗兵线很重要——清兵=推线=视野=主动权"
-  ]
+  ],
+  "summonerSpells": {
+    "primary": "雪球",
+    "secondary": "闪现",
+    "notes": "雪球进场接控制是基本连招；对面控制多换净化。"
+  },
+  "whenToPick": {
+    "teamNeeds": "团队需要战士+刺客定位英雄时可选贝蕾亚。",
+    "enemyComposition": "敌方缺控制时体验更好；具体视英雄机制调整。",
+    "synergies": "配合有控制的前排效果更佳。",
+    "avoidWhen": "己方战士+刺客溢出的阵容慎选。"
+  }
 }
