@@ -2,22 +2,254 @@
   "id": "sion",
   "name": "赛恩",
   "title": "亡灵战神",
-  "tags": ["坦克"],
-  "builds": [{
-    "name": "心之钢坦克出装",
-    "coreItems": ["心之钢", "璀璨回响", "千变者贾修"],
-    "fullItems": ["心之钢", "水银之靴", "璀璨回响", "千变者贾修", "荆棘之甲", "振奋盔甲"],
-    "skillOrder": "主Q副W，有R点R",
-    "skillDetail": ["Q","W","E","Q","Q","R","Q","W","Q","W","R","W","W","E","E","R","E","E"],
-    "augments": [
-      {"name":"钢化你心","tier":"黄金","priority":"核心","reason":"心之钢层数300+后触发额外效果。赛恩核心装备心之钢，层数堆叠快，触发后质变。"},
-      {"name":"歌利亚巨人","tier":"棱彩","priority":"核心","reason":"体型变大，+35%生命值和15%适应之力。赛恩心之钢血量高，35%加成巨额。"},
-      {"name":"叠角龙","tier":"白银","priority":"优先","reason":"永久层数获得量+100%。赛恩W被动叠加生命值翻倍，配合心之钢双倍叠层。"},
-      {"name":"坦克引擎","tier":"黄金","priority":"优先","reason":"参与击杀叠层增大体型和生命。赛恩进场开团击杀后越打越大。"},
-      {"name":"巨像的勇气","tier":"棱彩","priority":"可选","reason":"定身/缚地后获得巨量护盾。赛恩Q击飞和R冲撞触发频繁，护盾值极高。"},
-      {"name":"不动如山","tier":"黄金","priority":"可选","reason":"获得余震和冰川增幅基石。余震配合进场双抗暴涨，冰川增幅补充控制。"}
-    ],
-    "playstyle": "赛恩是大乱斗最强前排坦克之一。心之钢+W被动无限叠血，后期1万+血量。Q技能蓄力击飞控制，R开车开团或逃跑。海克斯优先「钢化你心」+「歌利亚巨人」，心之钢层数翻倍叠，血量膨胀到恐怖。配合「叠角龙」让W被动的生命值获取也翻倍。注意心之钢触发时机，每30秒一次。",
-    "tips": ["心之钢被动每30秒触发一次，有节奏地摸人叠层", "Q蓄力配合闪现可出其不意击飞多人", "死亡后被动继续输出，不要放弃尸体时的伤害", "棱彩「歌利亚巨人」+黄金「钢化你心」=赛恩完全体", "小心百分比伤害敌人（薇恩等），需要队友配合击杀"]
-  }]
+  "tags": [
+    "坦克",
+    "战士"
+  ],
+  "hotHero": false,
+  "builds": [
+    {
+      "id": "sion-primary",
+      "name": "坦克出装",
+      "type": "Tank",
+      "whenToPick": {
+        "teamNeeds": "根据己方阵容选择",
+        "enemyComposition": "常规阵容使用",
+        "synergies": "与大多数队友兼容",
+        "avoidWhen": "敌方针对性克制（参见下方对局思路）"
+      },
+      "coreItems": [
+        "心之钢",
+        "璀璨回响",
+        "千变者贾修"
+      ],
+      "fullItems": [
+        "心之钢",
+        "水银之靴",
+        "璀璨回响",
+        "千变者贾修",
+        "荆棘之甲",
+        "振奋盔甲"
+      ],
+      "skillOrder": "主W副E，有R点R",
+      "skillDetail": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "W",
+        "Q",
+        "W",
+        "R",
+        "W",
+        "W",
+        "E",
+        "E",
+        "R",
+        "E",
+        "E"
+      ],
+      "augments": [
+        {
+          "name": "叠角龙",
+          "tier": "白银",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "永久层数获取+100%",
+          "synergyDetail": "核心无限成长机制翻倍"
+        },
+        {
+          "name": "钢化你心",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "心之钢300层×3倍效果。W被动无限叠血。配合心之钢叠血=血量双重膨胀",
+          "synergyDetail": ""
+        },
+        {
+          "name": "歌利亚巨人",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "+35%生命+15%适应之力。大幅提升生存能力",
+          "synergyDetail": ""
+        },
+        {
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "核心",
+          "synergyLevel": "A",
+          "reason": "12%技能吸血。sion的技能伤害高=吸血量可观=团战持续续航。W被动无限叠血",
+          "synergyDetail": ""
+        },
+        {
+          "name": "战争交响乐",
+          "tier": "棱彩",
+          "priority": "优先",
+          "synergyLevel": "S",
+          "reason": "致命节奏+征服者。sion作为战士/ADC，两个最强攻击符文同时触发=持续战斗能力翻倍",
+          "synergyDetail": ""
+        },
+        {
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速",
+          "synergyDetail": ""
+        }
+      ],
+      "playstyle": "站最前排吸收伤害。控制先手开团。心之钢30秒CD节奏。",
+      "tips": [
+        "雪球是最佳召唤师技能——可攻可守",
+        "注意观察敌方关键技能CD",
+        "配合队友的控制链"
+      ],
+      "strengths": [
+        "坦克",
+        "战士"
+      ],
+      "weaknesses": [
+        "根据敌方阵容变化"
+      ],
+      "summary": "标准玩法，适合大多数对局"
+    },
+    {
+      "id": "sion-passive",
+      "name": "被动尸王流(特殊)",
+      "type": "Special",
+      "summary": "死后被动+穿甲装备=尸体输出爆炸。配合连拨击锤海克斯",
+      "coreItems": [
+        "幽梦之灵",
+        "收集者",
+        "赛瑞尔达的怨恨"
+      ],
+      "fullItems": [
+        "幽梦之灵",
+        "明朗之靴",
+        "收集者",
+        "赛瑞尔达的怨恨",
+        "夜之锋刃",
+        "死亡之舞"
+      ],
+      "skillOrder": "主Q副W，有R点R",
+      "skillDetail": [
+        "Q",
+        "W",
+        "E",
+        "Q",
+        "Q",
+        "R",
+        "Q",
+        "W",
+        "Q",
+        "W",
+        "R",
+        "W",
+        "W",
+        "E",
+        "E",
+        "R",
+        "E",
+        "E"
+      ],
+      "playstyle": "赛恩特殊玩法。穿甲出装+被动的100%生命偷取=死后尸体输出爆炸。配合连拨击锤海克斯=1.75固定攻速x6倍攻击触发=5秒内疯狂输出。在正确的位置死亡是关键。",
+      "tips": [
+        "连拨击锤是此玩法核心海克斯——尸体每次普攻=6发攻击",
+        "被动100%生命偷取+穿甲=吸血量爆炸",
+        "死亡之舞延迟伤害=更容易在正确时机死亡"
+      ],
+      "strengths": [
+        "死后输出爆炸",
+        "0死亡成本"
+      ],
+      "weaknesses": [
+        "活着时坦度低",
+        "被控制风筝"
+      ],
+      "augments": [
+        {
+          "name": "连拨击锤",
+          "tier": "棱彩",
+          "priority": "核心",
+          "synergyLevel": "S",
+          "reason": "被动尸体固定1.75攻速+6倍攻击触发。5秒内理论输出=6x5x1.75=52.5次攻击特效触发。配合穿甲装=死后秒天秒地",
+          "synergyDetail": "赛恩被动尸体攻速不受装备影响(固定1.75)，但连拨击锤每次普攻=6发=每秒10.5次攻击判定"
+        },
+        {
+          "name": "灵魂虹吸",
+          "tier": "黄金",
+          "priority": "优先",
+          "synergyLevel": "A",
+          "reason": "12%技能吸血+被动100%吸血=112%吸血。尸体阶段Q技能伤害回血=永动机",
+          "synergyDetail": ""
+        },
+        {
+          "name": "循环往复",
+          "tier": "黄金",
+          "priority": "可选",
+          "synergyLevel": "A",
+          "reason": "+60技能急速。活着时Q技能更快=更多伤害=更快进入被动",
+          "synergyDetail": ""
+        }
+      ],
+      "whenToPick": {
+        "teamNeeds": "己方已有前排，需要死后也能输出",
+        "enemyComposition": "敌方脆皮多时尸体更容易收割",
+        "synergies": "有护盾/治疗的辅助让你死前多吃伤害",
+        "avoidWhen": "敌方控制多时尸体追不上人"
+      }
+    }
+  ],
+  "matchup": {
+    "againstTank": {
+      "strategy": "利用自身优势应对坦克阵容",
+      "buildRecommendation": "sion-primary",
+      "items": [],
+      "augments": [
+        "巨人杀手"
+      ],
+      "tips": "打坦=持久战。百分比伤害是关键"
+    },
+    "againstPoke": {
+      "strategy": "保持距离不正面接消耗。对方丢技能后反打",
+      "buildRecommendation": "sion-primary",
+      "items": [],
+      "augments": [
+        "逃跑计划",
+        "冰寒"
+      ],
+      "tips": "不要在中路正面站立——站两侧等机会"
+    },
+    "againstAssassin": {
+      "strategy": "脆皮出防御装。守护天使/中娅是关键",
+      "buildRecommendation": "sion-primary",
+      "items": [
+        "守护天使",
+        "中娅沙漏"
+      ],
+      "augments": [
+        "退敌立场",
+        "防护面纱"
+      ],
+      "tips": "刺客目标=脆皮。坦克挡住，脆皮躲好"
+    },
+    "againstHeal": {
+      "strategy": "尽早出重伤装备",
+      "buildRecommendation": "sion-primary",
+      "items": [
+        "荆棘之甲"
+      ],
+      "augments": [],
+      "tips": "大乱斗自己出重伤最保险"
+    }
+  },
+  "generalTips": [
+    "雪球是最佳召唤师技能——可攻(进场)可守(撤退)",
+    "走廊地形中AOE技能价值极高——利用狭窄地形打出最大范围",
+    "大乱斗兵线很重要——清兵=推线=视野=主动权"
+  ]
 }
