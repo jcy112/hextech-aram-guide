@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://jcy112.github.io/hextech-aram-guide/sitemap.xml
+Sitemap: https://hextech-aram-guide.vercel.app/sitemap.xml
