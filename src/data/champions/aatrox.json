@@ -13,9 +13,9 @@
     "avoidWhen": "对方有2+重伤来源时慎选——亚托克斯靠回血活着，被重伤克制后生存能力骤降。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球飞过去→Q蓄力击飞→W拉回→Q2Q3满伤害；对面控制多换净化保证Q蓄力不被打断。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

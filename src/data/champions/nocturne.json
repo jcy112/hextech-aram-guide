@@ -217,9 +217,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球→R关灯→Q→E恐惧→W挡技能一套秒。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺AD刺客+R全图关灯时首选。"

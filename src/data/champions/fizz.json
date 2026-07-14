@@ -217,9 +217,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球→Q→R→W→E无敌一套；对面控制多换净化。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺AP刺客+无敌保命时首选。",

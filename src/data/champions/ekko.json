@@ -14,9 +14,9 @@
     "avoidWhen": "对方多硬控+多坦克时慎选——R时光倒流回去的位置被预判到=白给。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球飞过去→E贴脸→Q→被动三环引爆→R撤场；对面控制多换净化保证R能放出来。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

@@ -14,9 +14,9 @@
     "avoidWhen": "对方多坦克时慎选——钩坦克过来=引狼入室，帮对方开团。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球+Q双钩确保至少一个命中；闪现用于Q闪（出钩后闪现加长钩距或改变钩的角度）。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

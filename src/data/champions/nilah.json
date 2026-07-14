@@ -217,9 +217,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球→E突进→Q→W水幕→R拉人一套。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺近战ADC+水幕挡技能时首选。"

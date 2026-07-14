@@ -14,9 +14,9 @@
     "avoidWhen": "对方全远程+多硬控时慎选——瑞兹EQ需要站桩施法，被控制打断后输出骤降。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "瑞兹站位靠前容易被切——雪球逃生；闪现用于EQ闪（E→Q→闪现改变Q方向或EQ→闪现调整扩散范围）。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "builds": [
     {

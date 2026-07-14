@@ -14,9 +14,9 @@
     "avoidWhen": "对方全远程+多位移时慎选——钩子难中，R飞行太慢容易被金身/女妖挡掉。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球+Q双钩确保至少一个命中；闪现用于Q闪（出钩后闪现调整钩的角度）。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

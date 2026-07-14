@@ -14,9 +14,9 @@
     "avoidWhen": "对方多硬控+多坦克时慎选——E灵魂出窍后回不来，R进场被控就蒸发。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "雪球飞过去→E出窍→QAR爆发→E回体一套秒人；对面控制多换净化保证E回体不被打断。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

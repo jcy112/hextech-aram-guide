@@ -235,9 +235,9 @@
     "大乱斗兵线很重要——清兵=推线=视野=主动权"
   ],
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "雪球攻守兼备；对面控制链多必带净化，缺治疗时换治疗。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队需要辅助+射手定位英雄时可选赛娜。",

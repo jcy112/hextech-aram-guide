@@ -13,9 +13,9 @@
     "avoidWhen": "对方全远程poke且己方缺开团时慎选——500射程摸不到人，E滑步进去就出不来。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "雪球飞过去→E滑步调整角度→被动双发+Q穿透一套；对面控制多换净化保证E滑步+被动双发的节奏不被打断。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "builds": [
     {

@@ -14,9 +14,9 @@
     "avoidWhen": "对方全坦克+多控制时慎选——Q雨被坦克分摊后伤害不够，R进去被控住就死。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "雪球飞过去→A叠电浆→Q雨→R贴脸→W收尾；对面控制多换净化保证R进场后能打完一套。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "builds": [
     {

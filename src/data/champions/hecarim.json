@@ -232,9 +232,9 @@
     "大乱斗兵线很重要——清兵=推线=视野=主动权"
   ],
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球进场接控制是基本连招；对面控制多换净化。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队需要战士+坦克定位英雄时可选赫卡里姆。",

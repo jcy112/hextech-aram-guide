@@ -41,6 +41,7 @@
             <th class="col-winrate sortable" @click="toggleSort('winRate')">
               胜率 <span v-if="sortKey === 'winRate'" class="sort-arrow">{{ sortAsc ? '▲' : '▼' }}</span>
             </th>
+            <th class="col-heroes">适合英雄</th>
             <th class="col-pick sortable" @click="toggleSort('pickCount')">
               选取数 <span v-if="sortKey === 'pickCount'" class="sort-arrow">{{ sortAsc ? '▲' : '▼' }}</span>
             </th>
@@ -57,15 +58,19 @@
             </td>
             <td class="col-name">
               <div class="augment-cell">
-                <img
-                  v-if="a.imageUrl"
-                  :src="a.imageUrl"
-                  :alt="a.name"
-                  class="augment-img"
-                  :class="'rarity-' + a.tier"
-                  loading="lazy"
-                  @error="onImgError"
-                />
+                <div class="augment-img-wrap">
+                  <template v-if="a.imageUrl && !failedImgs.has(a.slug)">
+                    <img
+                      :src="a.imageUrl"
+                      :alt="a.name"
+                      class="augment-img"
+                      :class="'rarity-' + tierClass(a.tier)"
+                      loading="lazy"
+                      @error="failedImgs.add(a.slug)"
+                    />
+                  </template>
+                  <span v-else class="augment-img-placeholder rarity-fallback" :class="'fallback-' + tierClass(a.tier)">{{ a.name[0] }}</span>
+                </div>
                 <div class="augment-info">
                   <span class="augment-name">{{ a.name }}</span>
                   <span class="augment-effect" v-if="a.effect">{{ truncateEffect(a.effect) }}</span>
@@ -73,15 +78,27 @@
               </div>
             </td>
             <td class="col-tier">
-              <span class="tier-badge" :class="'tier-' + a.tier">{{ a.tier }}</span>
+              <span class="tier-badge" :class="'tier-' + tierClass(a.tier)">{{ a.tier }}</span>
             </td>
             <td class="col-winrate">
               <div class="winrate-cell">
                 <span class="winrate-value">{{ a.winRate }}</span>
                 <div class="winrate-bar">
-                  <div class="winrate-fill" :class="'bar-' + a.tier" :style="{ width: a.winRate }"></div>
+                  <div class="winrate-fill" :class="'bar-' + tierClass(a.tier)" :style="{ width: a.winRate }"></div>
                 </div>
               </div>
+            </td>
+            <td class="col-heroes">
+              <div class="heroes-cell" v-if="getHeroes(a.name).length">
+                <div v-for="(h, i) in getHeroes(a.name)" :key="i" class="hero-entry">
+                  <span class="hero-star" v-if="augmentHeroes[a.name]?.bestFit?.some(b => b.hero === h.hero)">★</span>
+                  <span class="hero-name">{{ h.hero }}</span>
+                  <el-tooltip v-if="h.reason" :content="h.reason" placement="top" effect="dark" :show-after="400">
+                    <span class="hero-reason">{{ truncateEffect(h.reason, 18) }}</span>
+                  </el-tooltip>
+                </div>
+              </div>
+              <span v-else class="no-data">-</span>
             </td>
             <td class="col-pick">
               <span class="pick-count">{{ formatNumber(a.pickCount) }}</span>
@@ -99,11 +116,22 @@
 import { ref, computed } from 'vue'
 import { Search } from '@element-plus/icons-vue'
 import augmentStats from '@/data/augment-stats.json'
+import augmentHeroes from '@/data/augment-heroes.json'
+import { TIER_MAP } from '@/config.js'
+
+function tierClass(tier) {
+  return TIER_MAP[tier] || tier
+}
 
 const searchText = ref('')
 const filterTier = ref('')
 const sortKey = ref('rank')
 const sortAsc = ref(true)
+const failedImgs = ref(new Set())
+
+function getHeroes(name) {
+  return augmentHeroes[name]?.top3 || []
+}
 
 const filteredAugments = computed(() => {
   let result = [...augmentStats]
@@ -138,10 +166,6 @@ function toggleSort(key) {
     sortKey.value = key
     sortAsc.value = false
   }
-}
-
-function onImgError(e) {
-  e.target.style.display = 'none'
 }
 
 function truncateEffect(text) {
@@ -271,22 +295,65 @@ function formatNumber(n) {
   gap: 10px;
 }
 
-.augment-img {
+.augment-img-wrap {
   width: 38px;
   height: 38px;
   border-radius: 8px;
   flex-shrink: 0;
+  background: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.augment-img.rarity-棱彩 {
+.augment-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.augment-img-placeholder {
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rarity-fallback {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.fallback-prismatic {
+  background: linear-gradient(135deg, #7b3fa3, #b878d0);
   box-shadow: 0 0 10px rgba(184, 120, 208, 0.4);
 }
 
-.augment-img.rarity-黄金 {
+.fallback-gold {
+  background: linear-gradient(135deg, #8b6914, #d4b86a);
   box-shadow: 0 0 8px rgba(200, 164, 78, 0.3);
 }
 
-.augment-img.rarity-白银 {
+.fallback-silver {
+  background: linear-gradient(135deg, #6b7b8d, #b0c0d0);
+  box-shadow: 0 0 6px rgba(160, 176, 192, 0.3);
+}
+
+.augment-img.rarity-prismatic {
+  box-shadow: 0 0 10px rgba(184, 120, 208, 0.4);
+}
+
+.augment-img.rarity-gold {
+  box-shadow: 0 0 8px rgba(200, 164, 78, 0.3);
+}
+
+.augment-img.rarity-silver {
   box-shadow: 0 0 6px rgba(160, 176, 192, 0.3);
 }
 
@@ -322,17 +389,17 @@ function formatNumber(n) {
   font-weight: 600;
 }
 
-.tier-badge.tier-棱彩 {
+.tier-badge.tier-prismatic {
   background: rgba(184, 120, 208, 0.2);
   color: #c898e0;
 }
 
-.tier-badge.tier-黄金 {
+.tier-badge.tier-gold {
   background: rgba(200, 164, 78, 0.2);
   color: #d4b86a;
 }
 
-.tier-badge.tier-白银 {
+.tier-badge.tier-silver {
   background: rgba(160, 176, 192, 0.2);
   color: #b0c0d0;
 }
@@ -370,16 +437,55 @@ function formatNumber(n) {
   transition: width 0.3s ease;
 }
 
-.winrate-fill.bar-棱彩 {
+.winrate-fill.bar-prismatic {
   background: linear-gradient(90deg, #b878d0, #d0a0e8);
 }
 
-.winrate-fill.bar-黄金 {
+.winrate-fill.bar-gold {
   background: linear-gradient(90deg, #c8a44e, #e0c870);
 }
 
-.winrate-fill.bar-白银 {
+.winrate-fill.bar-silver {
   background: linear-gradient(90deg, #a0b0c0, #c0d0e0);
+}
+
+.col-heroes {
+  width: 170px;
+}
+
+.heroes-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.hero-entry {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.hero-star {
+  color: #e6b422;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+.hero-name {
+  color: var(--accent);
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.hero-reason {
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
 }
 
 .col-pick {
@@ -392,13 +498,19 @@ function formatNumber(n) {
   color: var(--text-secondary);
 }
 
+.no-data {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
 @media (max-width: 640px) {
   .page-title {
     font-size: 24px;
   }
 
   .col-pick,
-  .col-tier {
+  .col-tier,
+  .col-heroes {
     display: none;
   }
 

@@ -221,9 +221,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球→人形态Q标枪→豹形态W扑→Q→E斩杀。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺AP远程poke+近战斩杀时首选。"

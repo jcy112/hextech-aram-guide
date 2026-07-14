@@ -221,9 +221,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "W火箭跳跃逃生——崔丝塔娜自带位移；对面控制多换净化。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺AD推塔+自保射手时首选。",

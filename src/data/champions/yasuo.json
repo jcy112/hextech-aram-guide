@@ -14,9 +14,9 @@
     "avoidWhen": "己方全AP且没有击飞英雄时慎选——亚索需要队友帮忙触发R，孤军作战进去就是送。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "雪球标记小兵或英雄=免费E的目标；对面控制链多换净化，被控住E不出来就是暴毙。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

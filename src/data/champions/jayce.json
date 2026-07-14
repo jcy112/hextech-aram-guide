@@ -221,9 +221,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球→锤形态Q→E击退→炮形态QE加速炮一套。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺AD远程poke+近战爆发时首选。",

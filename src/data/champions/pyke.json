@@ -217,9 +217,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球→Q蓄力钩→E突进眩晕→R斩杀；对面控制多换净化。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺AD刺客+斩杀型辅助时首选，派克R斩杀+赏金机制独一无二。",

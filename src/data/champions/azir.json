@@ -235,9 +235,9 @@
     "大乱斗兵线很重要——清兵=推线=视野=主动权"
   ],
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "雪球攻守兼备；对面控制链多必带净化，缺治疗时换治疗。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "whenToPick": {
     "teamNeeds": "团队需要法师+射手定位英雄时可选阿兹尔。",

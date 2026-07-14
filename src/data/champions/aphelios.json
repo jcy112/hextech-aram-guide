@@ -220,9 +220,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "雪球保命；对面控制多换净化保证能打出武器连招。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺全能型ADC时首选。",

@@ -221,9 +221,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "治疗",
-    "secondary": "虚弱",
-    "notes": "悠米不需要雪球（附身队友移动）。治疗+E双重奶；虚弱防刺客。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺附身型治疗辅助时首选。",

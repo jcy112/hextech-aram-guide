@@ -221,9 +221,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球→R跳大进场→Q恐惧→W吸血；对面控制多换净化保证R不被打断。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺AP范围恐惧+吸血续航时首选。",

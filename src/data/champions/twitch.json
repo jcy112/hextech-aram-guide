@@ -221,9 +221,9 @@
     }
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球→Q隐身→R火力全开→AA叠毒→E毒爆。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "whenToPick": {
     "teamNeeds": "团队缺AD射手+R穿透AOE时首选。"

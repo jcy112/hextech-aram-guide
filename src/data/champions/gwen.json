@@ -14,9 +14,9 @@
     "avoidWhen": "对方全远程+poke+控制时慎选——格温只有一个E位移，摸不到人就是废的。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球标记飞过去→E→Q蓄力真伤→R三段爆发一套秒脆皮；对面控制多换净化保证W免疫圈+Q蓄力不被打断。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

@@ -14,9 +14,9 @@
     "avoidWhen": "对方多坦克+多魔抗时慎选——Q真伤打不动高魔抗坦克，R三段突进后没打死人就是送。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球飞过去→E魅惑→Q真伤→W狐火→R追击/撤退；对面控制多换净化保证R突进不被打断。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "builds": [
     {

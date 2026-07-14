@@ -14,9 +14,9 @@
     "avoidWhen": "对方多硬控+多坦克时慎选——E钩锁被打断后输出和逃生手段全失。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "净化",
-    "notes": "雪球飞过去→E钩锁绕后→QAR一套秒脆皮；对面控制多换净化保证E钩锁不被打断。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "builds": [
     {

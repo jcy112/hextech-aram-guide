@@ -1,7 +1,8 @@
 <template>
-  <div class="augment-card" :class="`tier-${augment.tier}`">
+  <div class="augment-card" :class="`tier-${tierClass(augment.tier)}`">
     <div class="augment-top">
-      <img v-if="augment.imageUrl" :src="augment.imageUrl" :alt="augment.name" class="augment-img" :class="`rarity-${augment.tier}`" />
+      <img v-if="augment.imageUrl && !imgFailed" :src="augment.imageUrl" :alt="augment.name" class="augment-img" :class="`rarity-${tierClass(augment.tier)}`" @error="imgFailed = true" />
+      <span v-else-if="augment.imageUrl" class="augment-img-placeholder" :class="`placeholder-${tierClass(augment.tier)}`">{{ augment.name[0] }}</span>
       <div class="augment-header">
         <span class="augment-name">{{ augment.name }}</span>
         <span class="augment-tier">{{ augment.tier }}</span>
@@ -23,7 +24,11 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+import { TIER_MAP } from '@/config.js'
 defineProps({ augment: { type: Object, required: true } })
+function tierClass(tier) { return TIER_MAP[tier] || tier }
+const imgFailed = ref(false)
 </script>
 
 <style scoped>
@@ -39,12 +44,12 @@ defineProps({ augment: { type: Object, required: true } })
   transform: translateY(-1px);
 }
 
-.augment-card.tier-棱彩 {
+.augment-card.tier-prismatic {
   border-color: rgba(184, 120, 208, 0.5);
   box-shadow: 0 0 16px rgba(184, 120, 208, 0.08);
 }
 
-.augment-card.tier-黄金 {
+.augment-card.tier-gold {
   border-color: rgba(200, 164, 78, 0.4);
 }
 
@@ -62,15 +67,43 @@ defineProps({ augment: { type: Object, required: true } })
   flex-shrink: 0;
 }
 
-.augment-img.rarity-棱彩 {
+.augment-img.rarity-prismatic {
   box-shadow: 0 0 10px rgba(184, 120, 208, 0.4);
 }
 
-.augment-img.rarity-黄金 {
+.augment-img.rarity-gold {
   box-shadow: 0 0 8px rgba(200, 164, 78, 0.3);
 }
 
-.augment-img.rarity-白银 {
+.augment-img.rarity-silver {
+  box-shadow: 0 0 6px rgba(160, 176, 192, 0.3);
+}
+
+.augment-img-placeholder {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.placeholder-prismatic {
+  background: linear-gradient(135deg, #7b3fa3, #b878d0);
+  box-shadow: 0 0 10px rgba(184, 120, 208, 0.4);
+}
+
+.placeholder-gold {
+  background: linear-gradient(135deg, #8b6914, #d4b86a);
+  box-shadow: 0 0 8px rgba(200, 164, 78, 0.3);
+}
+
+.placeholder-silver {
+  background: linear-gradient(135deg, #6b7b8d, #b0c0d0);
   box-shadow: 0 0 6px rgba(160, 176, 192, 0.3);
 }
 
@@ -97,17 +130,17 @@ defineProps({ augment: { type: Object, required: true } })
   white-space: nowrap;
 }
 
-.tier-棱彩 .augment-tier {
+.tier-prismatic .augment-tier {
   background: rgba(184, 120, 208, 0.2);
   color: #c898e0;
 }
 
-.tier-黄金 .augment-tier {
+.tier-gold .augment-tier {
   background: rgba(200, 164, 78, 0.2);
   color: #d4b86a;
 }
 
-.tier-白银 .augment-tier {
+.tier-silver .augment-tier {
   background: rgba(160, 176, 192, 0.2);
   color: #b0c0d0;
 }

@@ -14,9 +14,9 @@
     "avoidWhen": "对方全远程+多位移时慎选——E钩不到人=你啥也做不了。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球飞过去→E→Q→R一套控死；闪现用于调整R日炎耀斑的落点或E闪加长钩距。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

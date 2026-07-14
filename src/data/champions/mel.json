@@ -235,9 +235,9 @@
     "大乱斗兵线很重要——清兵=推线=视野=主动权"
   ],
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "虚弱",
-    "notes": "法师雪球用于逃生/追击；对面刺客多换虚弱保命。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "whenToPick": {
     "teamNeeds": "团队需要法师+辅助定位英雄时可选梅尔。",

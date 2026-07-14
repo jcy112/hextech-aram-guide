@@ -13,9 +13,9 @@
     "avoidWhen": "对方全远程poke且己方缺开团时慎选——摸不到人就叠不了被动，后期也没伤害。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球保命/追击；闪现用于E闪（先放E圈→闪现调整E圈位置锁住人）——维迦的高级技巧。"
+    "primary": "闪现",
+    "secondary": "疾跑",
+    "notes": "闪现保命，疾跑拉扯风筝打持续输出。"
   },
   "builds": [
     {

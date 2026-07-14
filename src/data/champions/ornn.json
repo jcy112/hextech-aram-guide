@@ -14,9 +14,9 @@
     "avoidWhen": "对方全远程+%真伤时慎选——摸不到人+再多血也扛不住%真伤。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球飞过去→W喷火→E撞墙击飞→R羊灵二段；闪现用于R一段调整羊灵召回角度。"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {

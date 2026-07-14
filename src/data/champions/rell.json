@@ -14,9 +14,9 @@
     "avoidWhen": "对方全远程+poke+控制时慎选——芮尔唯一的接近手段是雪球，雪球不中就是活靶子。"
   },
   "summonerSpells": {
-    "primary": "雪球",
-    "secondary": "闪现",
-    "notes": "雪球飞过去→W击飞→R聚拢是芮尔的标准开团连招；闪现用于W闪（下马击飞+闪现改变落点）"
+    "primary": "闪现",
+    "secondary": "雪球",
+    "notes": "闪现保命/拉扯，雪球快速进场开团切后排。"
   },
   "builds": [
     {
